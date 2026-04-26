@@ -1,0 +1,530 @@
+[
+  {
+    "visaService": {
+      "id": 1011,
+      "image": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a",
+      "title": "Thailand Tourist Visa",
+      "subtitle": "Fast-track visa processing for Thailand",
+      "processingFee": 89,
+      "currency": "$",
+      "shortDescription": "Get your Thailand tourist visa processed quickly and efficiently. Valid for 60 days with multiple entry option. Our experienced team handles all documentation and ensures smooth approval. Perfect for travelers planning extended stays or frequent visits to Thailand. Includes 24/7 support and express delivery.",
+      "whatIncluded": [
+        "60-day tourist visa",
+        "Multiple entry option",
+        "Document verification",
+        "Embassy submission",
+        "Tracking support"
+      ],
+      "processingTimeline": {
+        "Application": "1 day",
+        "Processing": "3-5 days",
+        "Delivery": "1-2 days",
+        "Total": "5-8 days",
+        "Guarantee": "Guaranteed approval"
+      },
+      "sessionBestDeal": {
+        "title": "Session Best Deal",
+        "details": [
+          "15% discount on processing",
+          "Free travel insurance included",
+          "Express processing (+1 day faster)",
+          "24/7 priority support"
+        ]
+      },
+      "cardSummary": {
+        "title": "Thailand Visa",
+        "shortDescription": "Tourist visa valid for 60 days",
+        "features": [
+          "Fast processing (3-5 days)",
+          "Multiple entry option"
+        ],
+        "buttonText": "Apply Now",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2913/2913461.png"
+      }
+    }
+  },
+  {
+    "visaService": {
+      "id": 1012,
+      "image": "https://cdn.pixabay.com/photo/2023/07/04/10/15/boat-8105949_1280.jpg",
+      "title": "Vietnam E-Visa",
+      "subtitle": "Online visa approval in just 3 days",
+      "processingFee": 45,
+      "currency": "$",
+      "shortDescription": "Vietnam now offers a convenient electronic visa for citizens of eligible countries. Our service simplifies the online application, checking every detail to avoid rejection. The e‑visa allows a 30‑day stay with single entry. We also provide a letter of approval for visa on arrival if you prefer. With us, you get document scanning, form filling, and fast submission. Typical processing takes 3 business days. We also offer emergency 1‑day processing for last‑minute travelers. Your approved visa is sent via email, ready to print. Perfect for backpackers, digital nomads, and anyone exploring Vietnam's rich culture, from Hanoi's old quarter to Ha Long Bay's limestone islands.",
+      "whatIncluded": [
+        "30-day single entry e-visa",
+        "Online form assistance",
+        "Photo cropping & resizing",
+        "Government fee included",
+        "PDF delivery by email"
+      ],
+      "processingTimeline": {
+        "Application": "30 minutes (online)",
+        "Processing": "2-3 business days",
+        "Delivery": "Instant (email)",
+        "Total": "2-3 days",
+        "Guarantee": "100% money-back if rejected"
+      },
+      "sessionBestDeal": {
+        "title": "Early Bird Special",
+        "details": [
+          "10% off for applications 7+ days ahead",
+          "Free visa validity check",
+          "Free flight itinerary template",
+          "Priority email support"
+        ]
+      },
+      "cardSummary": {
+        "title": "Vietnam E-Visa",
+        "shortDescription": "30-day single entry",
+        "features": [
+          "Online – no embassy visit",
+          "Approval in 2-3 days"
+        ],
+        "buttonText": "Apply Now",
+        "icon": "https://cdn-icons-png.flaticon.com/512/197/197571.png"
+      }
+    }
+  },
+  {
+    "visaService": {
+      "id": 1013,
+      "image": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200",
+      "title": "Japan Tourist Visa",
+      "subtitle": "Reliable visa support for your dream Japan trip",
+      "processingFee": 75,
+      "currency": "$",
+      "shortDescription": "Japan requires a tourist visa for many nationalities. Our service provides complete assistance: invitation letter from a registered travel agency, detailed itinerary, flight and hotel bookings, and financial document review. We ensure your application meets the strict Japanese embassy standards. The visa is typically granted for 15, 30, or 90 days (single entry). Processing takes 7‑10 business days. We also offer an express option (5 days) for urgent travel. Our success rate is 97%. You get a dedicated case manager who will answer all your questions. From cherry blossom season to autumn foliage, let us handle the paperwork so you can focus on enjoying Tokyo's neon lights, Kyoto's temples, and Osaka's street food. We also assist with multiple entry visas for business travelers.",
+      "whatIncluded": [
+        "Tourist visa (15/30/90 days)",
+        "Invitation letter from partner agency",
+        "Flight & hotel booking proofs",
+        "Document translation (if needed)",
+        "Embassy appointment scheduling"
+      ],
+      "processingTimeline": {
+        "Application": "2 days (document prep)",
+        "Processing": "7-10 business days",
+        "Delivery": "2-3 days (passport return)",
+        "Total": "11-15 days",
+        "Guarantee": "Reapplication free if rejected"
+      },
+      "sessionBestDeal": {
+        "title": "Group Discount",
+        "details": [
+          "10% off for 2+ applicants",
+          "Free passport photos (digital)",
+          "Priority processing (5 days) at no extra cost",
+          "Travel insurance voucher ($20 value)"
+        ]
+      },
+      "cardSummary": {
+        "title": "Japan Visa",
+        "shortDescription": "Single entry up to 90 days",
+        "features": [
+          "Invitation letter included",
+          "High success rate (97%)"
+        ],
+        "buttonText": "Apply Now",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2990/2990945.png"
+      }
+    }
+  },
+  {
+    "visaService": {
+      "id": 1014,
+      "image": "https://cdn.pixabay.com/photo/2014/03/03/16/15/mosque-279015_1280.jpg",
+      "title": "Turkey E-Visa",
+      "subtitle": "Instant online visa for Turkey",
+      "processingFee": 50,
+      "currency": "$",
+      "shortDescription": "Turkey's e‑Visa is one of the easiest to obtain. Citizens of over 100 countries can apply online without visiting an embassy. Our service guides you through the simple 5‑minute application, checks for common errors, and submits directly to the Turkish government. Approval is often within 24 hours, sometimes instantly. The e‑Visa allows a 30‑day or 90‑day stay (depending on nationality) with multiple entries. You receive the visa by email; just print or keep a digital copy. We also provide travel health declaration assistance. Perfect for exploring Istanbul's bazaars, Cappadocia's hot air balloons, or the Mediterranean coast. If your application is rejected (rare), we refund the service fee. We also offer a premium same‑day service for last‑minute travelers. No hidden fees – government charges are included.",
+      "whatIncluded": [
+        "e-Visa (30 or 90 days, multiple entry)",
+        "Application form assistance",
+        "Error check before submission",
+        "Government fee included",
+        "Email delivery within 24h"
+      ],
+      "processingTimeline": {
+        "Application": "5 minutes",
+        "Processing": "1-24 hours",
+        "Delivery": "Instant (email)",
+        "Total": "1 day",
+        "Guarantee": "Full refund if not approved"
+      },
+      "sessionBestDeal": {
+        "title": "Double Destination Deal",
+        "details": [
+          "15% off when you also book our Greece visa",
+          "Free airport pickup guide (Istanbul)",
+          "Discounted travel insurance",
+          "24/7 WhatsApp support"
+        ]
+      },
+      "cardSummary": {
+        "title": "Turkey E-Visa",
+        "shortDescription": "Multiple entry e-Visa",
+        "features": [
+          "Approval in 1-24 hours",
+          "No embassy visit"
+        ],
+        "buttonText": "Apply Now",
+        "icon": "https://cdn-icons-png.flaticon.com/512/3075/3075536.png"
+      }
+    }
+  },
+  {
+    "visaService": {
+      "id": 1015,
+      "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1",
+      "title": "Schengen Visa (France)",
+      "subtitle": "Short-stay visa for 27 European countries",
+      "processingFee": 89,
+      "currency": "$",
+      "shortDescription": "The Schengen visa allows you to travel to any of the 27 Schengen Area countries for up to 90 days within any 180‑day period. Our service specializes in French visa applications (Paris is often the port of entry). We help you compile the required documents: flight itinerary, hotel bookings, travel insurance (minimum €30,000 coverage), bank statements, employment letter, and a detailed day‑by‑day itinerary. Our experts review everything to avoid common pitfalls like insufficient funds or weak travel history. We also book your embassy appointment (many locations have long waiting times; we find earliest slots). Visa processing takes 5‑15 business days. We offer a premium service for business travelers and those with past Schengen visas. Our success rate is over 95%. Get ready to explore the Eiffel Tower, Swiss Alps, Italian canals, and Spanish beaches with one single visa.",
+      "whatIncluded": [
+        "90-day Schengen visa",
+        "Document checklist & review",
+        "Itinerary & hotel booking assistance",
+        "Travel insurance (minimum coverage)",
+        "Embassy appointment booking"
+      ],
+      "processingTimeline": {
+        "Application": "3-5 days (doc prep)",
+        "Processing": "5-15 business days",
+        "Delivery": "2-5 days (courier)",
+        "Total": "15-25 days",
+        "Guarantee": "Reimbursement of service fee if rejected (conditions apply)"
+      },
+      "sessionBestDeal": {
+        "title": "Family Package",
+        "details": [
+          "20% off for families (3+ members)",
+          "Free priority processing (5-7 days)",
+          "Personalized cover letter",
+          "Free visa photos"
+        ]
+      },
+      "cardSummary": {
+        "title": "Schengen Visa",
+        "shortDescription": "90 days across 27 countries",
+        "features": [
+          "Europe's most popular visa",
+          "Document & appointment help"
+        ],
+        "buttonText": "Apply Now",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2875/2875335.png"
+      }
+    }
+  },
+  {
+    "visaService": {
+      "id": 1016,
+      "image": "https://cdn.pixabay.com/photo/2019/04/07/07/52/taj-mahal-4109110_1280.jpg",
+      "title": "India E-Visa",
+      "subtitle": "Electronic visa for tourism, business, or medical visits",
+      "processingFee": 35,
+      "currency": "$",
+      "shortDescription": "India offers an easy online e‑Visa for citizens of over 160 countries. Our service simplifies the process, ensuring your passport scan and photo meet strict Indian government standards. The e‑Tourist visa comes in three durations: 30 days (double entry), 1 year (multiple entry), or 5 years (multiple entry). Processing usually takes 2‑4 business days, but we also have an urgent option (24 hours). Once approved, you receive an electronic travel authorization that you must carry when arriving at one of 28 designated airports or 5 seaports. Our service includes form filling, payment of the government fee, and email support. We also provide a sample cover letter and flight booking proof. Perfect for exploring the Taj Mahal, Jaipur's palaces, Kerala's backwaters, or the Himalayas. Business and medical e‑Visas are also available. Avoid common mistakes like blurred photos or incorrect passport number – let our experts handle it.",
+      "whatIncluded": [
+        "e-Tourist visa (30 days/1 year/5 years)",
+        "Application form review",
+        "Photo & passport scanning guide",
+        "Government fee included",
+        "Visa delivered by email"
+      ],
+      "processingTimeline": {
+        "Application": "20 minutes",
+        "Processing": "2-4 business days (standard)",
+        "Delivery": "Instant email",
+        "Total": "2-4 days",
+        "Guarantee": "Full refund if e-Visa not granted"
+      },
+      "sessionBestDeal": {
+        "title": "Golden Triangle Special",
+        "details": [
+          "10% off against booking our India tour package",
+          "Free e-Visa validity extension assistance",
+          "24/7 India helpline",
+          "Welcome e‑guide (Delhi-Agra-Jaipur)"
+        ]
+      },
+      "cardSummary": {
+        "title": "India E-Visa",
+        "shortDescription": "30 days to 5 years validity",
+        "features": [
+          "Online – no embassy visit",
+          "Approval in 2-4 days"
+        ],
+        "buttonText": "Apply Now",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2721/2721269.png"
+      }
+    }
+  },
+  {
+    "visaService": {
+      "id": 1017,
+      "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a",
+      "title": "UK Visitor Visa",
+      "subtitle": "Standard visitor visa for tourism, family visits, or short study",
+      "processingFee": 130,
+      "currency": "$",
+      "shortDescription": "The UK visitor visa (formerly called general visa) allows stays of up to 6 months. It is required for citizens of many non‑EU countries. Our service provides comprehensive support: we help you fill out the online application form correctly, book biometrics appointment at a Visa Application Centre, and prepare a robust document package including bank statements, payslips, a detailed itinerary, and a letter of invitation (if visiting family). We also review your sponsor documents. UK visa decisions can take 3‑4 weeks (priority service available for an extra fee). Our team highlights strong ties to your home country to overcome refusal risks. We also assist with the new Electronic Travel Authorization (ETA) for eligible nationalities. Whether you want to see London's Big Ben, Edinburgh Castle, or the Lake District, let us maximise your chances. Post‑Brexit rules apply – we stay updated. Our success rate is 93%.",
+      "whatIncluded": [
+        "6-month visitor visa",
+        "Online form filling",
+        "Document checklist & review",
+        "Biometrics appointment booking",
+        "Return courier of passport"
+      ],
+      "processingTimeline": {
+        "Application": "2-3 days (preparation)",
+        "Processing": "3-4 weeks (standard)",
+        "Delivery": "2-5 days (courier)",
+        "Total": "4-5 weeks",
+        "Guarantee": "Re‑apply assistance at 50% fee if refused"
+      },
+      "sessionBestDeal": {
+        "title": "Priority Service Upgrade",
+        "details": [
+          "£200 extra for 5‑day processing (not included, but we arrange)",
+          "Free document translation (up to 5 pages)",
+          "Free travel health insurance (7 days)",
+          "24/7 helpline during application"
+        ]
+      },
+      "cardSummary": {
+        "title": "UK Visitor Visa",
+        "shortDescription": "6 months, multi‑entry",
+        "features": [
+          "Expert document preparation",
+          "Biometrics appointment help"
+        ],
+        "buttonText": "Apply Now",
+        "icon": "https://cdn-icons-png.flaticon.com/512/330/330512.png"
+      }
+    }
+  },
+  {
+    "visaService": {
+      "id": 1018,
+      "image": "https://cdn.pixabay.com/photo/2017/09/29/23/54/america-2800896_1280.jpg",
+      "title": "USA B1/B2 Visa",
+      "subtitle": "Business / Tourist visa for the United States",
+      "processingFee": 185,
+      "currency": "$",
+      "shortDescription": "The US B1/B2 visa is a combined business and tourist visa, typically valid for 10 years with multiple entries (each stay up to 6 months). Our service guides you through the complex DS‑160 form, collecting all necessary details to avoid errors. We then help you schedule the visa interview at the US embassy (wait times vary by country from a few days to several months). We provide a customized interview preparation package: common questions, tips on demonstrating strong ties, and a mock interview session (online). We also review supporting documents: employment letter, bank statements, property deeds, travel history, and an itinerary. After approval, we assist with the visa issuance process. Our experienced team has a high success rate, even for first‑time applicants. Whether you're visiting Times Square, the Grand Canyon, or attending a conference, we make the daunting US visa process manageable and less stressful.",
+      "whatIncluded": [
+        "DS-160 form assistance",
+        "Interview appointment booking",
+        "Mock interview & preparation",
+        "Document review & organization",
+        "Post‑approval delivery guidance"
+      ],
+      "processingTimeline": {
+        "Application": "3-5 days (form & docs)",
+        "Processing": "Wait for interview (varies, 2 weeks – 6 months)",
+        "Delivery": "5-10 days after interview",
+        "Total": "Varies widely",
+        "Guarantee": "Interview guidance; service fee partially refundable if not used"
+      },
+      "sessionBestDeal": {
+        "title": "Fast‑Track Appointment",
+        "details": [
+          "Priority appointment search (we find earliest slot)",
+          "Free 1‑hour consultation with former visa officer",
+          "Expedited passport return",
+          "No‑win, no‑fee option for business travelers"
+        ]
+      },
+      "cardSummary": {
+        "title": "USA B1/B2 Visa",
+        "shortDescription": "10 years, multiple entry",
+        "features": [
+          "Full DS-160 & interview prep",
+          "High success rate"
+        ],
+        "buttonText": "Apply Now",
+        "icon": "https://cdn-icons-png.flaticon.com/512/1142/1142862.png"
+      }
+    }
+  },
+  {
+    "visaService": {
+      "id": 1019,
+      "image": "https://cdn.pixabay.com/photo/2024/12/28/05/28/sydney-9295243_1280.jpg",
+      "title": "Australia ETA (Subclass 601)",
+      "subtitle": "Electronic Travel Authority for tourism or business",
+      "processingFee": 20,
+      "currency": "$",
+      "shortDescription": "Australia offers an ETA to passport holders of many countries (e.g., USA, Canada, Japan, South Korea, most of Europe). It's a digital visa linked to your passport, valid for 12 months with multiple entries, and each stay up to 3 months. Our service helps you complete the mobile app (Australian ETA app) or web form correctly. We check your passport expiry, nationality, and health declarations. The ETA is usually approved within minutes to a few hours. We also offer a service for non‑ETA eligible nationalities who need a Visitor Visa (subclass 600). Our fee includes the government charge and our assistance fee. Perfect for last‑minute trips to Sydney, the Great Barrier Reef, or Uluru. Note: You must be outside Australia to apply. We also provide tips on travel insurance and customs. If your ETA is refused (rare), we help reapply or switch to a different visa category.",
+      "whatIncluded": [
+        "ETA (12 months validity)",
+        "Application form completion",
+        "Passport scan verification",
+        "Government fee included",
+        "Online delivery within 24h"
+      ],
+      "processingTimeline": {
+        "Application": "15 minutes",
+        "Processing": "1-24 hours (usually minutes)",
+        "Delivery": "Email confirmation",
+        "Total": "Same day",
+        "Guarantee": "Refund if ETA not issued"
+      },
+      "sessionBestDeal": {
+        "title": "Australia + New Zealand Combo",
+        "details": [
+          "20% off when you also get NZeTA (New Zealand)",
+          "Free Australian SIM card discount code",
+          "Travel checklist for Australia",
+          "24/7 emergency contact for visa issues"
+        ]
+      },
+      "cardSummary": {
+        "title": "Australia ETA",
+        "shortDescription": "12 months, 3 months per stay",
+        "features": [
+          "Instant digital approval",
+          "No embassy visit"
+        ],
+        "buttonText": "Apply Now",
+        "icon": "https://cdn-icons-png.flaticon.com/512/1024/1024961.png"
+      }
+    }
+  },
+  {
+    "visaService": {
+      "id": 1020,
+      "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2",
+      "title": "Brazil eVisa",
+      "subtitle": "Online visa for tourism and business",
+      "processingFee": 55,
+      "currency": "$",
+      "shortDescription": "Brazil has reintroduced tourist visa requirements for citizens of the USA, Canada, Australia, and Japan (as of 2024). Our service helps you apply for the Brazilian eVisa online, avoiding the need to visit a consulate. The eVisa allows a stay of up to 90 days per year (usually multiple entries). Processing takes 5‑10 business days. We assist with the application form on the Brazilian government portal, ensuring all fields are correct, uploading your passport scan and photo, and paying the consular fee. We also provide a step‑by‑step guide for the additional health form (DSV). Our team reviews your documents for common mistakes like low‑resolution photos or incomplete travel dates. Once approved, you'll receive a PDF that you must print and carry with your passport. Perfect for Rio de Janeiro's beaches, Iguazu Falls, the Amazon rainforest, or São Paulo's cultural scene. We also offer an express service (3 business days) for an additional fee.",
+      "whatIncluded": [
+        "Brazil eVisa (up to 90 days)",
+        "Online application assistance",
+        "Photo & document uploading guidance",
+        "Government fee included",
+        "Priority email support"
+      ],
+      "processingTimeline": {
+        "Application": "1 day",
+        "Processing": "5-10 business days",
+        "Delivery": "Instant PDF email",
+        "Total": "6-11 days",
+        "Guarantee": "Re‑application support if rejected"
+      },
+      "sessionBestDeal": {
+        "title": "Carnival Special",
+        "details": [
+          "12% off for bookings 30+ days before travel",
+          "Free Portuguese survival phrasebook",
+          "Discounted airport transfer in Rio",
+          "Free visa validity reminder"
+        ]
+      },
+      "cardSummary": {
+        "title": "Brazil eVisa",
+        "shortDescription": "Up to 90 days tourism",
+        "features": [
+          "Online application",
+          "Approval in 5-10 days"
+        ],
+        "buttonText": "Apply Now",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2936/2936666.png"
+      }
+    }
+  },
+  {
+    "visaService": {
+      "id": 1021,
+      "image": "https://cdn.pixabay.com/photo/2019/12/15/16/03/lake-4697441_1280.jpg",
+      "title": "Canada Visitor Visa",
+      "subtitle": "Temporary Resident Visa for tourism",
+      "processingFee": 100,
+      "currency": "$",
+      "shortDescription": "Canada requires a visitor visa for many nationalities. The visa is usually valid for up to 10 years (or until passport expiry) and allows multiple entries, each stay up to 6 months. We assist with the online application through the IRCC portal, including the IMM 5257 form. Our services extend to document preparation: we help you write a comprehensive travel history, proof of funds, employment letter, and an itinerary. We also advise on biometrics collection and medical exams if required. Current processing times vary: 15‑60 days depending on the country. Priority service (for a fee) can reduce it to 30 days. Canada is known for strict scrutiny, so our experts ensure your application demonstrates strong ties to your home country. We also offer a family discount and can help with the Electronic Travel Authorization (eTA) for visa‑exempt nationalities (e.g., UK, Australia, Japan). Let us help you see Niagara Falls, Banff National Park, Vancouver, or the Northern Lights in Yellowknife.",
+      "whatIncluded": [
+        "Visitor visa (up to 10 years)",
+        "IRCC online form completion",
+        "Document checklist & review",
+        "Biometrics appointment assistance",
+        "Letter of explanation template"
+      ],
+      "processingTimeline": {
+        "Application": "3-5 days (preparation)",
+        "Processing": "15-60 days",
+        "Delivery": "Passport stamping (2-3 weeks)",
+        "Total": "30-90 days",
+        "Guarantee": "Free re‑application review if refused"
+      },
+      "sessionBestDeal": {
+        "title": "Family Application Bundle",
+        "details": [
+          "15% off for 2+ family members",
+          "Free travel insurance (7 days)",
+          "Priority processing support (we expedite where possible)",
+          "Free post‑arrival guide (SIM, transport, etc.)"
+        ]
+      },
+      "cardSummary": {
+        "title": "Canada Visitor Visa",
+        "shortDescription": "Multiple entry, up to 6 months/stay",
+        "features": [
+          "Full online application help",
+          "Biometrics support"
+        ],
+        "buttonText": "Apply Now",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2944/2944869.png"
+      }
+    }
+  },
+  {
+    "visaService": {
+      "id": 1022,
+      "image": "https://cdn.pixabay.com/photo/2020/08/16/19/29/surf-5493649_1280.jpg",
+      "title": "Indonesia Visa on Arrival (VoA)",
+      "subtitle": "Quick entry for Bali, Jakarta, and beyond",
+      "processingFee": 35,
+      "currency": "$",
+      "shortDescription": "Indonesia offers a Visa on Arrival (VoA) for citizens of over 90 countries. It is valid for 30 days and can be extended once for another 30 days (totaling 60 days). Since 2022, you can also apply for an eVOA online before travel to avoid queues. Our service helps with both: we provide step‑by‑step guidance for the online eVOA application (submit passport scan, photo, and pay the fee online, approval in 1‑2 days) or we prepare a document pack for those who prefer to get it upon arrival at the airport (including proof of onward ticket and enough cash). The VoA costs IDR 500,000 (approx. USD 35). Our fee covers application support, document verification, and 24/7 chat for any issues at immigration. We also assist with the extension process (which requires a visit to an immigration office) by providing forms and appointment help. Perfect for Bali surfers, Jakarta business travelers, or Komodo Island adventurers. Note: Some nationalities require a full visa (we can assist with that too).",
+      "whatIncluded": [
+        "30-day Visa on Arrival / eVOA",
+        "Online application support (eVOA)",
+        "Document verification (passport, photo)",
+        "Extension assistance (forms & guidance)",
+        "On‑arrival protocol instructions"
+      ],
+      "processingTimeline": {
+        "Application": "15 minutes (online eVOA)",
+        "Processing": "1-2 business days (eVOA) / Instant (on arrival)",
+        "Delivery": "Email (eVOA) or stamp (airport)",
+        "Total": "1-2 days (online) / same day (airport)",
+        "Guarantee": "Refund of service fee if eVOA rejected (rare)"
+      },
+      "sessionBestDeal": {
+        "title": "Bali Explorer Pack",
+        "details": [
+          "10% off when booking hotel + visa",
+          "Free e‑guide to Bali's best spots",
+          "Discounted travel insurance (covers volcano disruptions)",
+          "Free reschedule of eVOA if flight changes"
+        ]
+      },
+      "cardSummary": {
+        "title": "Indonesia VoA",
+        "shortDescription": "30 days, extendable to 60",
+        "features": [
+          "eVOA available online",
+          "Extension assistance"
+        ],
+        "buttonText": "Apply Now",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2702/2702559.png"
+      }
+    }
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "category": "City",
+    "city": "Paris",
+    "tagline": "The City of Light with iconic landmarks, world-class museums, romantic cafes, and exquisite cuisine.",
+    "climate": "5-15°C average",
+    "bestFor": "Romantic travelers, art lovers",
+    "bestSeason": "Apr-Oct",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+    "details": {
+      "description": "Paris, France's capital, is a timeless destination for culture and romance. Wander along the Seine River, marvel at the Eiffel Tower sparkling at night, and explore the Louvre's masterpieces like the Mona Lisa. The city's charming neighborhoods – Montmartre, Le Marais, and Saint-Germain-des-Prés – offer cozy cafes, boutique shopping, and historic architecture. Indulge in buttery croissants, rich escargot, and world-class wine. For art enthusiasts, the Musée d'Orsay and Centre Pompidou are must-visits. A cruise on the Seine at sunset reveals Notre-Dame Cathedral, the Conciergerie, and the ornate Pont Alexandre III. Paris also boasts grand boulevards, hidden gardens like Palais-Royal, and lively markets such as Rue Cler. Whether you're sipping coffee at a sidewalk bistro or climbing the Arc de Triomphe for panoramic views, Paris promises elegance, history, and unforgettable moments at every turn.",
+      "climate": {
+        "averageTemp": "5-15°C",
+        "bestFor": "Romantic travelers",
+        "bestSeason": "Apr-Oct"
+      },
+      "topActivities": [
+        "Eiffel Tower visit",
+        "Louvre Museum tour",
+        "Seine river cruise",
+        "Montmartre walking tour",
+        "French cooking class"
+      ],
+      "highlights": [
+        "Iconic landmarks",
+        "World-class art",
+        "Romantic ambiance",
+        "Gourmet dining"
+      ],
+      "reviews": 412
+    },
+    "visaService": {
+      "title": "France Schengen Visa",
+      "processingFee": 89,
+      "currency": "$",
+      "shortDescription": "Get your Schengen visa for France, valid for 90 days within 180 days. Includes document verification, embassy appointment scheduling, and travel insurance.",
+      "processingTimeline": "5-10 business days"
+    }
+  },
+  {
+    "id": 2,
+    "category": "City",
+    "city": "Tokyo",
+    "tagline": "A dazzling blend of futuristic neon, ancient temples, sushi bars, and serene gardens.",
+    "climate": "8-25°C average",
+    "bestFor": "Tech enthusiasts, foodies, culture seekers",
+    "bestSeason": "Mar-May, Oct-Nov",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
+    "details": {
+      "description": "Tokyo, Japan's bustling capital, seamlessly merges ultramodern skyscrapers with traditional shrines. Start in Shibuya, crossing the famous scramble while surrounded by giant video screens. Visit the Meiji Shrine, a peaceful oasis dedicated to the emperor and empress. In Asakusa, the Senso-ji Temple draws millions with its thunder gate and bustling Nakamise-dori market. For pop culture, Akihabara Electric Town offers anime, manga, and gaming heaven. Shinjuku's neon-lit streets hide tiny izakayas and the iconic Godzilla head. Savor fresh sushi at Toyosu Market, or try ramen, okonomiyaki, and tempura. Escape to Shinjuku Gyoen National Garden for cherry blossoms in spring. The teamLab Borderless digital art museum provides a futuristic, immersive experience. Don't miss the view from Tokyo Skytree or the imperial palace grounds. With efficient trains and endless shopping districts like Ginza and Harajuku, Tokyo energizes every traveler with its vibrant contrasts.",
+      "climate": {
+        "averageTemp": "8-25°C",
+        "bestFor": "All types",
+        "bestSeason": "Spring & autumn"
+      },
+      "topActivities": [
+        "Shibuya Crossing",
+        "Senso-ji Temple",
+        "Tsukiji outer market",
+        "Akihabara shopping",
+        "Shinjuku nightlife"
+      ],
+      "highlights": [
+        "Futuristic cityscape",
+        "Traditional temples",
+        "World-class sushi",
+        "Pop culture hub"
+      ],
+      "reviews": 823
+    },
+    "visaService": {
+      "title": "Japan Tourist Visa",
+      "processingFee": 75,
+      "currency": "$",
+      "shortDescription": "Single or multiple entry visa for Japan, valid for 90 days. Includes invitation letter support, flight itinerary, and hotel booking assistance.",
+      "processingTimeline": "7-14 business days"
+    }
+  },
+  {
+    "id": 3,
+    "category": "City",
+    "city": "New York",
+    "tagline": "The Big Apple that never sleeps – Broadway, skyscrapers, Central Park, and diverse neighborhoods.",
+    "climate": "0-30°C average",
+    "bestFor": "Urban explorers, theater lovers, foodies",
+    "bestSeason": "Apr-Jun, Sep-Nov",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9",
+    "details": {
+      "description": "New York City is a vibrant epicenter of culture, finance, and entertainment. Gaze at the Statue of Liberty, then walk the High Line, an elevated park built on old railway tracks. Times Square dazzles with giant screens and Broadway marquees – catch a musical or play. Central Park offers 843 acres of meadows, lakes, and walking paths; rent a bike or row a boat at the Loeb Boathouse. The Metropolitan Museum of Art and Museum of Modern Art (MoMA) house priceless works. For skyline views, choose the Empire State Building, Top of the Rock, or One World Observatory. Explore diverse neighborhoods: Greenwich Village for jazz clubs, Chinatown for dumplings, and Williamsburg for hipster cafes. Indulge in a classic New York slice, a bagel with lox, or a pastrami sandwich from Katz's Delicatessen. The energy is contagious, whether you're shopping on Fifth Avenue, ice skating at Rockefeller Center, or simply people-watching in Bryant Park.",
+      "climate": {
+        "averageTemp": "0-30°C",
+        "bestFor": "Active travelers",
+        "bestSeason": "Spring & fall"
+      },
+      "topActivities": [
+        "Statue of Liberty cruise",
+        "Broadway show",
+        "Central Park bike ride",
+        "MET museum visit",
+        "Times Square at night"
+      ],
+      "highlights": [
+        "Iconic skyline",
+        "Theater district",
+        "World museums",
+        "24/7 energy"
+      ],
+      "reviews": 1056
+    },
+    "visaService": {
+      "title": "USA B1/B2 Visa",
+      "processingFee": 185,
+      "currency": "$",
+      "shortDescription": "Tourist/Business visa for USA, valid for 10 years with multiple entries. Includes DS-160 assistance, interview preparation, and document review.",
+      "processingTimeline": "2-4 weeks (varies by embassy)"
+    }
+  },
+  {
+    "id": 4,
+    "category": "City",
+    "city": "Rome",
+    "tagline": "The Eternal City – ancient ruins, Vatican treasures, pasta, and piazzas.",
+    "climate": "8-28°C average",
+    "bestFor": "History buffs, art lovers, foodies",
+    "bestSeason": "Apr-Oct",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5",
+    "details": {
+      "description": "Rome is an open-air museum where every alley reveals centuries of history. Stand in awe of the Colosseum, where gladiators once fought, and explore the Roman Forum, the heart of ancient politics. Throw a coin into the Trevi Fountain to ensure your return. The Pantheon's perfect dome and oculus still inspire architects today. Vatican City, an independent state within Rome, holds St. Peter's Basilica, the Sistine Chapel with Michelangelo's ceiling, and the Vatican Museums. Piazza Navona with its Bernini fountains is perfect for an evening gelato. Toss a coin in the Trevi Fountain, then climb the Spanish Steps for a city view. Roman cuisine is simple and delicious: cacio e pepe pasta, carbonara, supplì (fried rice balls), and pizza al taglio. Don't miss the catacombs or a walk along the Appian Way. With its warm, bustling piazzas and ancient layers, Rome captures the heart of every visitor.",
+      "climate": {
+        "averageTemp": "8-28°C",
+        "bestFor": "History lovers",
+        "bestSeason": "Spring & fall"
+      },
+      "topActivities": [
+        "Colosseum & Forum",
+        "Vatican museums",
+        "Trevi Fountain coin toss",
+        "Trastevere food tour",
+        "Pantheon visit"
+      ],
+      "highlights": [
+        "Ancient ruins",
+        "Renaissance art",
+        "Authentic pasta",
+        "Famous piazzas"
+      ],
+      "reviews": 689
+    },
+    "visaService": {
+      "title": "Italy Schengen Visa",
+      "processingFee": 89,
+      "currency": "$",
+      "shortDescription": "Schengen visa for Italy, valid for 90 days. Includes appointment booking, document translation, and travel itinerary support.",
+      "processingTimeline": "5-10 business days"
+    }
+  },
+  {
+    "id": 5,
+    "category": "Beach",
+    "city": "Bali",
+    "tagline": "Island of the Gods – volcanic mountains, rice terraces, coral reefs, and spiritual retreats.",
+    "climate": "26-30°C average",
+    "bestFor": "Wellness seekers, surfers, couples",
+    "bestSeason": "Apr-Oct",
+    "rating": 4.9,
+    "image": "https://cdn.pixabay.com/photo/2020/04/30/02/14/bali-5111131_1280.jpg",
+    "details": {
+      "description": "Bali, Indonesia's most famous island, offers a unique blend of lush nature, vibrant culture, and laid-back beaches. Ubud is the cultural heart, surrounded by emerald rice terraces (Tegalalang) and the sacred Monkey Forest. Watch a traditional Kecak fire dance at Uluwatu Temple, perched on a cliff. For surfers, Kuta and Canggu provide consistent waves; for relaxation, the white sands of Nusa Dua or the quieter Lovina (where you can see dolphins). Visit the 'Gates of Heaven' at Lempuyang Temple for a stunning photo. Hike Mount Batur at sunrise for panoramic views. Balinese cuisine includes nasi goreng, satay, and babi guling (suckling pig). Indulge in a yoga retreat, a traditional massage, or a purification ceremony at Tirta Empul. With friendly locals, affordable luxury, and breathtaking scenery, Bali rejuvenates the mind and body.",
+      "climate": {
+        "averageTemp": "26-30°C",
+        "bestFor": "Relaxation & adventure",
+        "bestSeason": "Dry season"
+      },
+      "topActivities": [
+        "Ubud rice terrace walk",
+        "Sunrise at Mount Batur",
+        "Surfing in Canggu",
+        "Temple hopping",
+        "Balinese spa treatment"
+      ],
+      "highlights": [
+        "Lush landscapes",
+        "Spiritual culture",
+        "World-class surfing",
+        "Affordable luxury"
+      ],
+      "reviews": 945
+    },
+    "visaService": {
+      "title": "Indonesia Visa on Arrival",
+      "processingFee": 35,
+      "currency": "$",
+      "shortDescription": "30-day visa on arrival for Indonesia, extendable once. Easy online application support and travel health insurance included.",
+      "processingTimeline": "Same day (on arrival) or 2-3 days e-VOA"
+    }
+  },
+  {
+    "id": 6,
+    "category": "City",
+    "city": "London",
+    "tagline": "Where history meets modernity – royal palaces, double-decker buses, theater, and pubs.",
+    "climate": "5-20°C average",
+    "bestFor": "Museum lovers, theater fans, shoppers",
+    "bestSeason": "May-Sep",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad",
+    "details": {
+      "description": "London, the UK's capital, is a dynamic blend of ancient and new. Witness the Changing of the Guard at Buckingham Palace, then explore the Tower of London to see the Crown Jewels. The British Museum houses the Rosetta Stone and Egyptian mummies. For art, the National Gallery and Tate Modern are essential. Walk along the South Bank for views of the London Eye, Shakespeare's Globe, and the Shard. In Westminster, marvel at Big Ben (Elizabeth Tower) and Westminster Abbey, where monarchs are crowned. Cross the Tower Bridge for classic photo ops. London's theater district, the West End, offers top musicals and plays. Enjoy a pint in a historic pub, fish and chips, or a curry on Brick Lane. Hyde Park and Regent's Park provide green escapes. From the buzzing markets of Camden to the elegant shops of Mayfair, London always surprises with its energy and diversity.",
+      "climate": {
+        "averageTemp": "5-20°C",
+        "bestFor": "All travelers",
+        "bestSeason": "Summer"
+      },
+      "topActivities": [
+        "London Eye ride",
+        "British Museum tour",
+        "West End show",
+        "Tower of London",
+        "Camden Market"
+      ],
+      "highlights": [
+        "Royal heritage",
+        "World museums",
+        "Theatre district",
+        "Historic pubs"
+      ],
+      "reviews": 734
+    },
+    "visaService": {
+      "title": "UK Standard Visitor Visa",
+      "processingFee": 130,
+      "currency": "$",
+      "shortDescription": "6-month tourist visa for UK. Includes application form filling, biometric appointment booking, and document packaging.",
+      "processingTimeline": "3-4 weeks"
+    }
+  },
+  {
+    "id": 7,
+    "category": "City",
+    "city": "Dubai",
+    "tagline": "Desert metropolis of superlatives – tallest tower, luxury malls, artificial islands, and souks.",
+    "climate": "20-40°C average",
+    "bestFor": "Luxury travelers, families, shoppers",
+    "bestSeason": "Nov-Mar",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    "details": {
+      "description": "Dubai is a futuristic wonderland in the Arabian desert. Ascend the Burj Khalifa, the world's tallest building, for sweeping views. Visit the Dubai Mall, a shopping and entertainment complex with an aquarium, ice rink, and dancing fountains. Experience a desert safari: dune bashing, camel rides, and a BBQ dinner under the stars. The Palm Jumeirah, an artificial island, houses luxury resorts like Atlantis. For culture, explore Al Fahidi Historical District, Dubai Creek, and the gold and spice souks. Take an abra (water taxi) across the creek. Ski indoors at Ski Dubai, or relax at JBR Beach. At night, watch the Dubai Fountain show. The city also offers fine dining, from street-side shawarma to celebrity chef restaurants. With its flashy architecture, warm hospitality, and tax-free shopping, Dubai dazzles.",
+      "climate": {
+        "averageTemp": "20-40°C",
+        "bestFor": "Luxury seekers",
+        "bestSeason": "Winter"
+      },
+      "topActivities": [
+        "Burj Khalifa observation deck",
+        "Desert safari",
+        "Dubai Mall aquarium",
+        "Palm Jumeirah",
+        "Abra ride in Old Dubai"
+      ],
+      "highlights": [
+        "Record-breaking architecture",
+        "Desert adventure",
+        "Luxury shopping",
+        "Cultural souks"
+      ],
+      "reviews": 598
+    },
+    "visaService": {
+      "title": "UAE Tourist Visa",
+      "processingFee": 110,
+      "currency": "$",
+      "shortDescription": "30-day or 60-day tourist visa for UAE. Fast processing, no embassy visit required. Includes visa tracking and hotel booking proof.",
+      "processingTimeline": "3-5 business days"
+    }
+  },
+  {
+    "id": 8,
+    "category": "City",
+    "city": "Bangkok",
+    "tagline": "Chaotic, colorful, and delicious – ornate temples, floating markets, tuk-tuks, and vibrant nightlife.",
+    "climate": "25-35°C average",
+    "bestFor": "Budget travelers, food lovers, culture enthusiasts",
+    "bestSeason": "Nov-Feb",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365",
+    "details": {
+      "description": "Bangkok, Thailand's capital, is a sensory overload in the best way. Visit the Grand Palace, home to the Emerald Buddha, and Wat Pho with its reclining Buddha. Wat Arun, the Temple of Dawn, offers stunning riverside views. Take a long-tail boat through the famous floating markets or along the Chao Phraya River. Explore Chatuchak Weekend Market, one of the world's largest, or the trendy malls of Siam Square. Street food is king: try pad thai, tom yum goong, mango sticky rice, and grilled skewers. For nightlife, Khao San Road is a backpacker haven, while rooftop bars like Sky Bar offer chic cocktails. Chinatown (Yaowarat) buzzes with hawkers and seafood stalls. Escape to Lumphini Park for a quiet stroll. The city's energy, warm smiles, and incredible value make Bangkok irresistible. Don't miss a traditional Thai massage or a river dinner cruise.",
+      "climate": {
+        "averageTemp": "25-35°C",
+        "bestFor": "All budgets",
+        "bestSeason": "Cool season"
+      },
+      "topActivities": [
+        "Grand Palace tour",
+        "Floating market visit",
+        "Street food crawl",
+        "Chao Phraya river cruise",
+        "Rooftop bar at sunset"
+      ],
+      "highlights": [
+        "Ornate temples",
+        "Incredible street food",
+        "Vibrant markets",
+        "Exciting nightlife"
+      ],
+      "reviews": 871
+    },
+    "visaService": {
+      "title": "Thailand Tourist Visa",
+      "processingFee": 65,
+      "currency": "$",
+      "shortDescription": "60-day tourist visa or 15-day visa on arrival (eligible countries). Includes application assistance, document check, and travel insurance.",
+      "processingTimeline": "3-5 business days (e-visa) or same day (VOA)"
+    }
+  },
+  {
+    "id": 9,
+    "category": "City",
+    "city": "Istanbul",
+    "tagline": "Where East meets West – mosques, bazaars, Bosphorus strait, and Ottoman history.",
+    "climate": "5-28°C average",
+    "bestFor": "History enthusiasts, shopaholics, foodies",
+    "bestSeason": "Apr-Oct",
+    "rating": 4.8,
+    "image": "https://cdn.pixabay.com/photo/2015/08/31/07/30/istanbul-915076_1280.jpg",
+    "details": {
+      "description": "Istanbul, Turkey's cultural heart, straddles two continents. Marvel at the Hagia Sophia, a masterpiece of Byzantine and Ottoman architecture, and the Blue Mosque with its six minarets and blue tiles. Explore Topkapi Palace, former home of sultans, with its harem and treasury. The Grand Bazaar is a vast labyrinth of shops selling carpets, jewelry, spices, and ceramics. The Spice Bazaar (Egyptian Bazaar) offers aromatic teas and lokum (Turkish delight). Take a Bosphorus cruise to see palaces, fortresses, and mansions lining the strait. Walk across the Galata Bridge, where fishermen cast lines, and climb the Galata Tower for panoramic views. In the trendy Beyoğlu district, Istiklal Avenue buzzes with shops, cafes, and a nostalgic tram. Savor kebabs, mezes, baklava, and Turkish tea. A visit to a hammam (Turkish bath) is a must. With its rich layers of history, Istanbul captivates every traveler.",
+      "climate": {
+        "averageTemp": "5-28°C",
+        "bestFor": "Culture lovers",
+        "bestSeason": "Spring & fall"
+      },
+      "topActivities": [
+        "Hagia Sophia & Blue Mosque",
+        "Grand Bazaar shopping",
+        "Bosphorus cruise",
+        "Topkapi Palace",
+        "Turkish bath experience"
+      ],
+      "highlights": [
+        "Unique transcontinental city",
+        "Stunning mosques",
+        "Vibrant bazaars",
+        "Delicious cuisine"
+      ],
+      "reviews": 623
+    },
+    "visaService": {
+      "title": "Turkey e-Visa",
+      "processingFee": 50,
+      "currency": "$",
+      "shortDescription": "30-day, multiple entry e-visa for Turkey. Online application, approval within 24 hours. Includes travel health declaration.",
+      "processingTimeline": "1-2 business days"
+    }
+  },
+  {
+    "id": 10,
+    "category": "City",
+    "city": "Sydney",
+    "tagline": "Harbor city with surf beaches, opera house, and outdoor lifestyle.",
+    "climate": "12-26°C average",
+    "bestFor": "Beach lovers, outdoor adventurers, families",
+    "bestSeason": "Sep-Nov, Mar-May",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9",
+    "details": {
+      "description": "Sydney, Australia's iconic harbor city, blends urban energy with natural beauty. The Sydney Opera House and Harbour Bridge dominate the skyline – climb the bridge for spectacular views or take a ferry to Manly for a different angle. Bondi Beach is famous for surfing and the coastal walk to Coogee, passing cliffs and rock pools. The Royal Botanic Garden offers a peaceful retreat with native flora. Explore The Rocks historic district, with its weekend markets and convict-era pubs. Darling Harbour houses the Sea Life Aquarium and the Australian National Maritime Museum. For a day trip, visit the Blue Mountains for hiking and the Three Sisters rock formation. Taronga Zoo lets you see kangaroos and koalas with a city backdrop. Sydney’s food scene includes fresh seafood at the Fish Market, brunch culture, and multicultural eateries. With mild weather and friendly locals, Sydney invites you to live the outdoor dream.",
+      "climate": {
+        "averageTemp": "12-26°C",
+        "bestFor": "Beach & outdoor",
+        "bestSeason": "Spring & fall"
+      },
+      "topActivities": [
+        "Opera House tour",
+        "Bondi to Coogee walk",
+        "Harbour Bridge climb",
+        "Taronga Zoo visit",
+        "Ferry to Manly"
+      ],
+      "highlights": [
+        "Iconic harbor",
+        "World-famous beaches",
+        "Outdoor lifestyle",
+        "Modern landmarks"
+      ],
+      "reviews": 507
+    },
+    "visaService": {
+      "title": "Australia ETA (subclass 601)",
+      "processingFee": 20,
+      "currency": "$",
+      "shortDescription": "Electronic Travel Authority for tourism or business, valid for 12 months with multiple entries (90 days each). Includes application assistance.",
+      "processingTimeline": "1-3 days (usually instant)"
+    }
+  },
+  {
+    "id": 11,
+    "category": "City",
+    "city": "Cape Town",
+    "tagline": "Where mountain meets ocean – Table Mountain, penguin colonies, vineyards, and dramatic coastlines.",
+    "climate": "10-25°C average",
+    "bestFor": "Adventure seekers, nature lovers, wine enthusiasts",
+    "bestSeason": "Nov-Mar",
+    "rating": 4.8,
+    "image": "https://cdn.pixabay.com/photo/2017/02/17/23/15/duiker-island-2076042_1280.jpg",
+    "details": {
+      "description": "Cape Town, South Africa's Mother City, is framed by Table Mountain, a flat-topped peak you can ascend by cable car or hike. The views from the top are breathtaking. Visit the V&A Waterfront for shops, restaurants, and a working harbor. Take a boat to Robben Island, where Nelson Mandela was imprisoned. Boulders Beach is home to a colony of African penguins – you can swim nearby. Drive the Chapman's Peak toll road for dramatic ocean vistas, then continue to the Cape of Good Hope, the southwestern tip of Africa. For wine lovers, the nearby Stellenbosch and Franschhoek valleys offer tastings amid beautiful vineyards. Signal Hill gives panoramic sunset views. The Bo-Kaap neighborhood is famous for its colorful houses and Cape Malay culture. Explore Kirstenbosch Botanical Garden, set against the mountain. Cape Town's cuisine blends African, Malay, and European influences. With its dramatic landscapes and diverse wildlife, Cape Town is an adventurer's paradise.",
+      "climate": {
+        "averageTemp": "10-25°C",
+        "bestFor": "Nature & adventure",
+        "bestSeason": "Summer (Nov-Mar)"
+      },
+      "topActivities": [
+        "Table Mountain cableway",
+        "Cape of Good Hope drive",
+        "Boulders Beach penguins",
+        "Robben Island tour",
+        "Wine tasting in Stellenbosch"
+      ],
+      "highlights": [
+        "Iconic mountain",
+        "Unique wildlife",
+        "Scenic drives",
+        "World-class vineyards"
+      ],
+      "reviews": 489
+    },
+    "visaService": {
+      "title": "South Africa Tourist Visa",
+      "processingFee": 85,
+      "currency": "$",
+      "shortDescription": "90-day tourist visa for South Africa. Includes document verification, flight and hotel booking assistance, and travel insurance.",
+      "processingTimeline": "10-15 business days"
+    }
+  },
+  {
+    "id": 12,
+    "category": "City",
+    "city": "Barcelona",
+    "tagline": "Art, architecture, and beaches – Gaudí masterpieces, Gothic Quarter, and tapas culture.",
+    "climate": "10-28°C average",
+    "bestFor": "Art lovers, beachgoers, foodies",
+    "bestSeason": "May-Oct",
+    "rating": 4.7,
+    "image": "https://cdn.pixabay.com/photo/2014/08/26/14/11/street-427998_1280.jpg",
+    "details": {
+      "description": "Barcelona, the capital of Catalonia, is famous for the surreal architecture of Antoni Gaudí. The Sagrada Família, his unfinished basilica, is a masterpiece of light and nature-inspired forms. Park Güell offers whimsical mosaics and city views. Casa Batlló and La Pedrera showcase organic shapes. Stroll down La Rambla, a bustling tree-lined boulevard with street performers and markets. The Gothic Quarter (Barri Gòtic) hides medieval palaces and the Barcelona Cathedral. For beach time, Barceloneta offers sand and seafood restaurants. Montjuïc hill features a castle, botanical gardens, and the Magic Fountain show. Explore the El Born district for trendy shops and tapas bars. Try patatas bravas, jamón ibérico, paella, and local cava. The Picasso Museum and Joan Miró Foundation celebrate Catalan art. Camp Nou, FC Barcelona's stadium, is a pilgrimage for football fans. With Mediterranean charm and creative energy, Barcelona captivates.",
+      "climate": {
+        "averageTemp": "10-28°C",
+        "bestFor": "Art & architecture",
+        "bestSeason": "Spring & summer"
+      },
+      "topActivities": [
+        "Sagrada Família tour",
+        "Park Güell visit",
+        "La Rambla stroll",
+        "Gothic Quarter walking",
+        "Tapas crawl in El Born"
+      ],
+      "highlights": [
+        "Gaudí architecture",
+        "Mediterranean beaches",
+        "Vibrant street life",
+        "Delicious tapas"
+      ],
+      "reviews": 712
+    },
+    "visaService": {
+      "title": "Spain Schengen Visa",
+      "processingFee": 89,
+      "currency": "$",
+      "shortDescription": "Schengen visa for Spain, valid for 90 days within 180 days. Includes appointment booking, travel itinerary, and document verification.",
+      "processingTimeline": "5-10 business days"
+    }
+  }
+]

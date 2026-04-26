@@ -1,0 +1,410 @@
+[
+  {
+    "id": 101,
+    "title": "Maldives Paradise",
+    "location": "Maldives",
+    "duration": "5 Days & 4 Nights",
+    "shortDescription": "5 days & 4 nights in luxury",
+    "price": 899,
+    "perPerson": true,
+    "image": "https://cdn.pixabay.com/photo/2018/12/17/08/20/sea-island-3879938_1280.jpg",
+    "description": "Experience the ultimate tropical paradise with pristine white-sand beaches, crystal-clear turquoise waters, and world-class resorts. This Maldives getaway is designed for those seeking pure relaxation and luxury. Your days begin with sunrise over the Indian Ocean, followed by a private breakfast on your overwater villa’s deck. Snorkel among vibrant coral reefs teeming with exotic fish, or simply unwind with a good book on powder‑soft sand. Each evening, enjoy a gourmet dinner under the stars, with fresh seafood and local flavors. The resort offers a world‑class spa, infinity pools, and attentive staff dedicated to making your stay unforgettable. Whether you celebrate a honeymoon, anniversary, or simply escape the daily grind, this package delivers serenity and indulgence in equal measure. With airport transfers and water sports included, every detail is taken care of, so you can focus on creating memories that will last a lifetime.",
+    "includes": [
+      "4 nights luxury resort",
+      "Breakfast & dinner daily",
+      "Water sports activities",
+      "Island hopping tour",
+      "Airport transfers"
+    ],
+    "availableDates": [
+      "Dec - Mar",
+      "Best weather",
+      "Max 2 per room",
+      "Early booking discount",
+      "Free cancellation"
+    ],
+    "specialDeals": {
+      "title": "Session Best Deal",
+      "offers": [
+        "25% discount for couples",
+        "Free spa treatment included",
+        "Welcome champagne dinner",
+        "Sunset cruise complimentary"
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "title": "Swiss Alpine Escape",
+    "location": "Switzerland",
+    "duration": "6 Days & 5 Nights",
+    "shortDescription": "Snow-capped peaks & charming villages",
+    "price": 1299,
+    "perPerson": true,
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+    "description": "Discover the breathtaking Swiss Alps with scenic train rides, cosy mountain huts, and picturesque lakeside towns. This six‑day journey takes you through some of Switzerland’s most iconic landscapes, from the majestic Matterhorn to the serene shores of Lake Geneva. Ride the Glacier Express, a panoramic train that winds through deep valleys and over lofty bridges. Hike alpine trails carpeted with wildflowers in summer, or enjoy snowshoeing and skiing in winter. Stay in traditional chalets where you can savour fondue and raclette by a crackling fire. Visit charming villages like Zermatt and Grindelwald, where car‑free streets invite peaceful strolls. For adrenaline seekers, try paragliding over Interlaken or a thrilling toboggan run. Cultural highlights include the Château de Chillon and the historic old town of Bern. With the included Swiss Travel Pass, you have flexible access to trains, buses, and boats, making exploration effortless. This escape promises both adventure and tranquillity amidst Europe’s finest mountain scenery.",
+    "includes": [
+      "5 nights alpine hotel",
+      "Swiss Travel Pass (3 days)",
+      "Jungfraujoch excursion",
+      "Cheese fondue dinner",
+      "Interlaken paragliding"
+    ],
+    "availableDates": [
+      "Jun - Sep",
+      "Snow guaranteed",
+      "Family friendly",
+      "Flexible booking",
+      "No hidden fees"
+    ],
+    "specialDeals": {
+      "title": "Winter Wonderland",
+      "offers": [
+        "10% off for groups of 4+",
+        "Free ski pass for 2 days",
+        "Hot chocolate welcome",
+        "Mountain souvenir gift"
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "title": "Santorini Sunset",
+    "location": "Greece",
+    "duration": "4 Days & 3 Nights",
+    "shortDescription": "Whitewashed walls & blue domes",
+    "price": 749,
+    "perPerson": true,
+    "image": "https://cdn.pixabay.com/photo/2022/10/05/05/40/sunset-7499759_1280.jpg",
+    "description": "Experience the magic of Santorini with caldera views, sunset catamaran cruises, and authentic Greek cuisine. This four‑day romantic escape is perfect for couples seeking postcard‑perfect moments. Stay in a charming cliffside hotel with private balconies overlooking the Aegean Sea. Each morning, enjoy a traditional Greek breakfast of fresh bread, olives, and feta cheese. Spend your day exploring the whitewashed villages of Oia and Fira, with their blue‑domed churches and winding cobblestone lanes. Take a catamaran tour around the caldera, swimming in volcanic hot springs and snorkeling in crystal waters. As evening falls, witness the world‑famous sunset from the castle of Oia – a spectacle of orange, pink, and purple that draws visitors from everywhere. Savour a seafood dinner at a seaside taverna, accompanied by Assyrtiko wine. The package also includes a wine tasting at a local vineyard, where you can sample volcanic wines. With airport transfers and a volcano hike included, every moment is crafted for indulgence and wonder.",
+    "includes": [
+      "3 nights cliffside hotel",
+      "Sunset catamaran tour",
+      "Wine tasting experience",
+      "Volcano hot springs visit",
+      "Airport transfers"
+    ],
+    "availableDates": [
+      "Apr - Oct",
+      "Best sunsets",
+      "Couples only",
+      "Limited availability",
+      "Free reschedule"
+    ],
+    "specialDeals": {
+      "title": "Honeymoon Special",
+      "offers": [
+        "20% off for honeymooners",
+        "Complimentary private dinner",
+        "Bottle of local wine",
+        "Professional photoshoot"
+      ]
+    }
+  },
+  {
+    "id": 104,
+    "title": "Bali Spiritual Retreat",
+    "location": "Indonesia",
+    "duration": "7 Days & 6 Nights",
+    "shortDescription": "Rice terraces & temple tours",
+    "price": 599,
+    "perPerson": true,
+    "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4",
+    "description": "Immerse yourself in Balinese culture with yoga sessions, traditional ceremonies, and lush jungle landscapes. This week‑long retreat in Ubud is designed to nourish your mind, body, and soul. Wake up to the sound of tropical birds and the scent of frangipani flowers. Each morning begins with a guided yoga and meditation session overlooking the Tegalalang rice terraces. After a healthy plant‑based breakfast, join a local healer for a purification ceremony at Tirta Empul temple, where holy spring water cleanses your spirit. Explore the Sacred Monkey Forest, where long‑tailed macaques play among ancient banyan trees. In the afternoon, learn to prepare authentic Balinese dishes in a cooking class, using fresh ingredients from a local market. Trek through lush jungles to hidden waterfalls, where you can swim in cool, clear pools. The package also includes visits to three iconic temples: Tanah Lot, Ulun Danu, and Besakih. Evenings are spent watching traditional Kecak fire dances or enjoying a relaxing massage. With daily wellness activities and cultural experiences, this retreat offers deep restoration and self‑discovery.",
+    "includes": [
+      "6 nights eco-resort",
+      "Daily yoga & meditation",
+      "Rice field trekking",
+      "Temple visits (3 sites)",
+      "Balinese cooking class"
+    ],
+    "availableDates": [
+      "May - Aug",
+      "Dry season",
+      "Solo traveler friendly",
+      "Wellness focus",
+      "Plant-based meals"
+    ],
+    "specialDeals": {
+      "title": "Wellness Week",
+      "offers": [
+        "15% off on 7+ nights",
+        "Free massage (2 sessions)",
+        "Detox juice daily",
+        "Yoga mat included"
+      ]
+    }
+  },
+  {
+    "id": 105,
+    "title": "Kyoto Cultural Immersion",
+    "location": "Japan",
+    "duration": "5 Days & 4 Nights",
+    "shortDescription": "Geishas, temples & cherry blossoms",
+    "price": 1099,
+    "perPerson": true,
+    "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e",
+    "description": "Walk through ancient temples, participate in a tea ceremony, and witness the beauty of traditional Japan. This five‑day cultural immersion takes you deep into Kyoto, the heart of Japanese heritage. Stay in a traditional ryokan with tatami mats, sliding paper doors, and an onsen (hot spring) bath. Begin your journey at Kinkaku‑ji, the Golden Pavilion, shimmering above a mirror pond. Stroll through the iconic torii gates of Fushimi Inari Shrine, where thousands of vermilion gates form a tunnel up the sacred Mount Inari. Attend an authentic tea ceremony, where a kimono‑clad master prepares matcha with graceful precision. In Gion district, you might spot geiko or maiko (apprentice geisha) hurrying to appointments. For nature lovers, the Arashiyama Bamboo Grove offers a surreal experience as light filters through towering green stalks. The package includes a kimono rental and photoshoot, allowing you to become part of Kyoto’s timeless streetscape. Enjoy a kaiseki dinner – a multi‑course feast that is a work of art. With a guided tour of Zen gardens and a calligraphy workshop, you’ll leave with a deeper appreciation for Japanese aesthetics and spirituality.",
+    "includes": [
+      "4 nights ryokan (traditional inn)",
+      "Kaiseki dinner experience",
+      "Kimono rental & photoshoot",
+      "Arashiyama bamboo forest tour",
+      "Zen meditation session"
+    ],
+    "availableDates": [
+      "Mar - May",
+      "Cherry blossom",
+      "Nov - Dec",
+      "Autumn foliage",
+      "English guide included"
+    ],
+    "specialDeals": {
+      "title": "Early Bird Sakura",
+      "offers": [
+        "12% off for bookings 90 days ahead",
+        "Free pocket Wi-Fi",
+        "Welcome gift set",
+        "One free sake tasting"
+      ]
+    }
+  },
+  {
+    "id": 106,
+    "title": "Kenyan Safari Adventure",
+    "location": "Kenya",
+    "duration": "6 Days & 5 Nights",
+    "shortDescription": "Big Five & savannah sunsets",
+    "price": 1599,
+    "perPerson": true,
+    "image": "https://images.unsplash.com/photo-1516426122078-c23e76319801",
+    "description": "Witness the Great Migration, spot lions and elephants, and stay at eco‑friendly lodges in the Maasai Mara. This six‑day safari offers an authentic African wilderness experience. After landing in Nairobi, you’ll travel to the Maasai Mara National Reserve, home to the highest concentration of wildlife on the continent. Early morning game drives offer the best chance to see predators like lions, leopards, and cheetahs on the hunt. During July to October, you can witness the Great Migration – thousands of wildebeest and zebras crossing the Mara River, braving crocodiles and rapids. Your expert guide will share deep knowledge about animal behaviour and conservation. Stay in comfortable tented camps, where you can hear hyenas whooping at night and wake up to a sunrise over the savannah. A visit to a Maasai village allows you to learn about their traditional semi‑nomadic life, dancing, and beadwork. Evenings are spent around a campfire, sharing stories under a canopy of stars. A bush dinner with a sundowner drink adds a touch of romance. With park fees, four game drives, and all meals included, this safari is a seamless adventure into the wild.",
+    "includes": [
+      "5 nights tented camp",
+      "Game drives (x4)",
+      "Maasai village visit",
+      "Bush dinner & sundowner",
+      "Park entry fees"
+    ],
+    "availableDates": [
+      "Jul - Oct",
+      "Migration season",
+      "Jan - Feb",
+      "Calving season",
+      "Group discount available"
+    ],
+    "specialDeals": {
+      "title": "Photographer's Dream",
+      "offers": [
+        "Free telephoto lens rental",
+        "10% off for returning customers",
+        "Complimentary night safari",
+        "Memory stick with highlights"
+      ]
+    }
+  },
+  {
+    "id": 107,
+    "title": "Icelandic Aurora Borealis",
+    "location": "Iceland",
+    "duration": "4 Days & 3 Nights",
+    "shortDescription": "Northern lights & blue lagoon",
+    "price": 1399,
+    "perPerson": true,
+    "image": "https://cdn.pixabay.com/photo/2025/06/05/06/50/waterfall-9642279_1280.jpg",
+    "description": "Chase the magical Northern Lights, soak in geothermal hot springs, and explore volcanic landscapes. This four‑day winter adventure takes you to the land of ice and fire. Based in Reykjavik, you’ll have expert guides ready to maximize your chances of seeing the aurora borealis. On clear nights, they will drive you away from city lights to dark viewpoints where green, pink, and purple curtains dance across the Arctic sky. During daylight, discover the Golden Circle: the powerful Gullfoss waterfall, the Geysir geothermal area with erupting hot springs, and the Silfra fissure where you can snorkel between two continents. Relax in the milky blue waters of the Blue Lagoon, a geothermal spa known for its healing silica mud. For the adventurous, visit a volcanic lava tube or go ice caving on a glacier. Each night, warm up with traditional Icelandic lamb stew or fresh seafood. The package includes thermal underwear, a detailed aurora forecast alert system, and small group sizes for a personal experience. With its otherworldly landscapes and celestial displays, Iceland leaves every traveller in awe.",
+    "includes": [
+      "3 nights Reykjavik hotel",
+      "Northern lights tour (guided)",
+      "Blue Lagoon admission",
+      "Golden Circle day trip",
+      "Ice caving equipment"
+    ],
+    "availableDates": [
+      "Sep - Mar",
+      "Aurora peak",
+      "Warm clothing rental",
+      "Small groups only",
+      "Weather guarantee"
+    ],
+    "specialDeals": {
+      "title": "Winter Magic",
+      "offers": [
+        "Buy 2, get 1 free (2+1)",
+        "Free thermal underwear",
+        "Hot chocolate station",
+        "Aurora alarm call"
+      ]
+    }
+  },
+  {
+    "id": 108,
+    "title": "New York City Lights",
+    "location": "USA",
+    "duration": "5 Days & 4 Nights",
+    "shortDescription": "Broadway, skyscrapers & pizza",
+    "price": 999,
+    "perPerson": true,
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9",
+    "description": "Experience the energy of NYC with Times Square, Central Park, and world‑class museums. This five‑day city break is perfect for first‑time visitors and returning fans alike. Stay in a well‑located Manhattan hotel, putting you steps away from iconic landmarks. Start your adventure with a hop‑on‑hop‑off bus pass that covers uptown, downtown, and Brooklyn. See the Statue of Liberty from the ferry, then visit Ellis Island to trace immigrant history. Walk across the Brooklyn Bridge for stunning skyline photos. Spend an afternoon at the Metropolitan Museum of Art, or choose the Museum of Modern Art for contemporary works. Catch a Broadway show – from long‑running hits like The Lion King to new sensations. For a bird’s‑eye view, ascend the Empire State Building or the newer Summit One Vanderbilt. Enjoy a slice of classic New York pizza on a guided food tour, followed by a bagel tasting. In Central Park, you can rent a bike, row a boat, or simply people‑watch. Evenings come alive in Times Square’s neon glow and the jazz clubs of Greenwich Village. With included metro card and flexible scheduling, you control the pace of your ultimate urban adventure.",
+    "includes": [
+      "4 nights Manhattan hotel",
+      "Hop-on-hop-off bus pass (2 days)",
+      "One Broadway show ticket",
+      "Empire State Building entry",
+      "Pizza & bagel food tour"
+    ],
+    "availableDates": [
+      "All year",
+      "Christmas special",
+      "Summer in the city",
+      "Last minute deals",
+      "Family packages"
+    ],
+    "specialDeals": {
+      "title": "Big Apple Saver",
+      "offers": [
+        "15% off on 5+ nights",
+        "Free metro card ($30 value)",
+        "Complimentary drink at rooftop bar",
+        "Souvenir T-shirt"
+      ]
+    }
+  },
+  {
+    "id": 109,
+    "title": "Paris Romance",
+    "location": "France",
+    "duration": "4 Days & 3 Nights",
+    "shortDescription": "Eiffel Tower & Seine cruises",
+    "price": 849,
+    "perPerson": true,
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+    "description": "Fall in love with the City of Light: Louvre, Montmartre, gourmet pastries, and moonlit strolls along the Seine. This four‑day romantic itinerary is crafted for couples seeking enchantment. Your base is a charming boutique hotel in Le Marais, filled with history and modern comfort. On day one, take a sunset Seine river cruise, passing under illuminated bridges with the Eiffel Tower sparkling in the distance. Ascend the Eiffel Tower to the second floor for breathtaking views; pre‑booked tickets skip the long lines. Visit the Louvre on a guided tour that highlights the Mona Lisa, Venus de Milo, and other masterpieces without feeling rushed. Wander the cobblestone streets of Montmartre, where artists still paint in Place du Tertre, and see the Sacré‑Cœur basilica. A French patisserie workshop lets you learn the secrets of croissants, macarons, and éclairs. Enjoy a picnic with cheese, baguette, and wine along the Canal Saint‑Martin. For a truly Parisian evening, attend a cabaret show at the legendary Moulin Rouge. With a personalized metro pass and a romantic dinner at a traditional bistro included, this getaway promises passion, culture, and unforgettable flavour.",
+    "includes": [
+      "3 nights boutique hotel",
+      "Seine river cruise (evening)",
+      "Eiffel Tower 2nd floor access",
+      "Louvre museum ticket",
+      "French patisserie workshop"
+    ],
+    "availableDates": [
+      "Feb - Mar",
+      "Low season deals",
+      "Jun - Aug",
+      "Summer vibes",
+      "Weekend escapes"
+    ],
+    "specialDeals": {
+      "title": "Love Lock",
+      "offers": [
+        "20% off for couples (code: LOVE)",
+        "Free bottle of champagne",
+        "Personalised lock for bridge",
+        "Late checkout (2pm)"
+      ]
+    }
+  },
+  {
+    "id": 110,
+    "title": "Dubai Luxury Escape",
+    "location": "UAE",
+    "duration": "5 Days & 4 Nights",
+    "shortDescription": "Burj Khalifa & desert safari",
+    "price": 1199,
+    "perPerson": true,
+    "image": "https://cdn.pixabay.com/photo/2022/01/20/21/34/dubai-6953420_1280.jpg",
+    "description": "Enjoy opulent shopping, desert dune bashing, and the world's tallest building with gold‑infused experiences. This five‑day luxury package showcases the best of Dubai, from futuristic skylines to ancient Bedouin traditions. Stay in a 5‑star hotel with stunning views of the city or the Arabian Gulf. Your first highlight is the Burj Khalifa: ascend to the 124th and 125th floors for a 360‑degree panorama. Then visit the Dubai Mall for world‑class shopping, an indoor aquarium, and the spectacular fountain show choreographed to music. A 4x4 desert safari takes you into the rolling red dunes of the Lahbab desert. Experience dune bashing, sandboarding, camel riding, and henna painting. The evening includes a BBQ dinner under the stars, with belly dancing and tanoura performances. Explore the historic Al Fahidi district, take an abra (water taxi) across Dubai Creek, and bargain for gold and spices in the souks. For a touch of extravagance, upgrade to a helicopter tour over Palm Jumeirah. With airport transfers, daily breakfast, and a luxurious spa credit included, this escape balances modern marvels with cultural soul.",
+    "includes": [
+      "4 nights 5-star hotel",
+      "Burj Khalifa 'At the Top'",
+      "Desert safari with BBQ dinner",
+      "Dubai Mall fountain show",
+      "Abra boat ride in Creek"
+    ],
+    "availableDates": [
+      "Nov - Mar",
+      "Cool weather",
+      "Ramadan special",
+      "Family offers",
+      "Private tours extra"
+    ],
+    "specialDeals": {
+      "title": "Ultimate Glam",
+      "offers": [
+        "Free upgrade to suite (subject to availability)",
+        "10% off at hotel spa",
+        "Complimentary valet parking",
+        "Welcome dates & coffee"
+      ]
+    }
+  },
+  {
+    "id": 111,
+    "title": "Peruvian Andes Trek",
+    "location": "Peru",
+    "duration": "7 Days & 6 Nights",
+    "shortDescription": "Machu Picchu & rainbow mountain",
+    "price": 1049,
+    "perPerson": true,
+    "image": "https://images.unsplash.com/photo-1587595431973-160d0d94add1",
+    "description": "Hike the Inca Trail, explore the Sacred Valley, and witness the breathtaking sunrise over Machu Picchu. This seven‑day adventure is designed for active travelers with a sense of wonder. The journey begins in Cusco, the ancient Inca capital, where you acclimatize to the altitude with coca tea and a tour of nearby ruins. Then set out on the 4‑day Inca Trail, a 26‑mile trek through cloud forests, past Inca tunnels, and up stone stairways to Dead Woman’s Pass (4,215m). A professional guide, chef, and porters support you, carrying most of the gear. You’ll sleep in comfortable tents and enjoy hearty Peruvian meals. The trail’s highlight is arriving at the Sun Gate (Inti Punku) just as dawn breaks over Machu Picchu – a view that has moved trekkers to tears. Spend two hours exploring the citadel with an expert guide, learning about its astronomical and spiritual significance. After descending, relax in the hot springs of Aguas Calientes. An optional extension takes you to Rainbow Mountain (Vinicunca), with its striped mineral colors. With permits, train tickets, and all logistics included, this trek is a once‑in‑a‑lifetime achievement.",
+    "includes": [
+      "6 nights varied accommodation",
+      "4-day Inca Trail permit",
+      "Professional guide & porters",
+      "Train to/from Aguas Calientes",
+      "Coca tea & altitude tips"
+    ],
+    "availableDates": [
+      "Apr - Oct",
+      "Dry season",
+      "Limited permits",
+      "Fitness level required",
+      "Early booking necessary"
+    ],
+    "specialDeals": {
+      "title": "Adventure Pack",
+      "offers": [
+        "5% off for students",
+        "Free walking poles rental",
+        "T-shirt 'I conquered Inca Trail'",
+        "Group photo at Sun Gate"
+      ]
+    }
+  },
+  {
+    "id": 112,
+    "title": "Australian Great Ocean Road",
+    "location": "Australia",
+    "duration": "4 Days & 3 Nights",
+    "shortDescription": "Coastal cliffs & koalas",
+    "price": 799,
+    "perPerson": true,
+    "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9",
+    "description": "Drive one of the world's most scenic routes, see the Twelve Apostles, and spot wild koalas and kangaroos. This four‑day self‑drive package gives you the freedom to explore Victoria’s spectacular southern coastline at your own pace. Start in Melbourne, where you’ll pick up a compact rental car with GPS and a suggested itinerary. The Great Ocean Road stretches 243 kilometres from Torquay to Allansford. Your first stop is Torquay, home of Australian surfing culture – take a beginner’s surf lesson included in the package. Then wind through rainforests, past sheer cliffs, and across the iconic Bells Beach. Stop at the charming towns of Lorne and Apollo Bay for fresh fish and chips. The highlight is the Twelve Apostles: limestone stacks rising from the Southern Ocean, particularly dramatic at sunset. Walk the Gibson Steps to touch the sand at their base. Further east, see London Bridge and the Grotto, sculpted by waves. Spot koalas dozing in eucalyptus trees at Kennett River, and watch little penguins return to shore at Phillip Island (evening tour included). With national park passes, a cooler box, and a curated road trip playlist, this adventure celebrates nature, wildlife, and the open road.",
+    "includes": [
+      "3 nights coastal motels",
+      "Compact car rental (4 days)",
+      "National park passes",
+      "Phillip Island penguin parade",
+      "Surf lesson at Torquay"
+    ],
+    "availableDates": [
+      "Oct - Apr",
+      "Summer season",
+      "May - Sep",
+      "Whale watching",
+      "Self-drive flexible"
+    ],
+    "specialDeals": {
+      "title": "Road Trip Saver",
+      "offers": [
+        "Free additional driver",
+        "25% off fuel (via partner card)",
+        "Complimentary cooler box",
+        "Road trip playlist provided"
+      ]
+    }
+  }
+]

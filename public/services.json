@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "title": "Flight Tracking",
+    "image": "https://cdn-icons-png.flaticon.com/512/684/684908.png",
+    "description": "Stay informed about your flight from departure to arrival. Our real‑time tracking provides live status updates, gate changes, delay alerts, seat maps, and even baggage location. Whether you are a frequent flyer or picking someone up, you will never miss a change. Works with over 320 airlines worldwide, including code‑shares. Push notifications and offline mode keep you prepared for any disruption, ensuring a stress‑free travel experience from check‑in to baggage claim.",
+    "features": [
+      "Live status",
+      "Gate info",
+      "Delay alerts",
+      "Seat details",
+      "Baggage tracking"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "PNR Check",
+    "image": "https://cdn-icons-png.flaticon.com/512/3079/3079065.png",
+    "description": "Retrieve your complete booking details instantly using your 6‑character PNR code. Our universal tool works with Amadeus, Galileo, Sabre, and other major GDS systems. You will see flight segments, seat assignments, meal preferences, special requests, and ticket validity. No login or app installation needed. All data is read‑only and encrypted, ensuring privacy. Perfect for travel agents and passengers who want a quick, secure snapshot of their itinerary before check‑in.",
+    "features": [
+      "Instant lookup",
+      "Booking details",
+      "History access",
+      "Cancellation",
+      "Secure system"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Visa Processing",
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    "description": "Get expert help for tourist, business, student, or transit visas to 85+ countries including Schengen, USA, UK, and UAE. We review your documents, fill out applications correctly, schedule appointments, and track your case from submission to approval. Our 98% success rate comes from strict pre‑assessment – we only proceed if you are likely to be approved. Fast processing: e‑visas in 3 days, regular visas in 10‑15 business days. Translation and courier services included.",
+    "features": [
+      "Expert help",
+      "Fast approval",
+      "Documentation",
+      "Tracking",
+      "High success"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Hotel Booking",
+    "image": "https://cdn-icons-png.flaticon.com/512/139/139899.png",
+    "description": "Book from over 2.5 million properties worldwide – from budget hostels to luxury resorts. Our engine compares 500+ travel sites to bring you the lowest price, guaranteed. Each listing includes verified guest reviews, high‑resolution photos, and 360° virtual tours. Free cancellation on most rooms up to 24 hours before check‑in. Members earn 10% cashback on every stay. Instant confirmation and 24/7 customer support ensure a smooth booking experience, whether you are planning a weekend getaway or a long vacation.",
+    "features": [
+      "Best deals",
+      "Luxury hotels",
+      "Instant booking",
+      "Free cancellation",
+      "Ratings"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Tour Packages",
+    "image": "https://cdn-icons-png.flaticon.com/512/854/854878.png",
+    "description": "Discover hand‑crafted tour packages for 120+ destinations, designed by local experts. Choose from group tours (2‑15 people), private flexible itineraries, or self‑guided adventures. Each package includes accommodation, daily breakfast, select meals, attraction entry fees, and private transfers. Popular themes: adventure treks, wildlife safaris, cultural festivals, and beach escapes. We offset carbon emissions for every tour. Customized trips are also available – just share your budget and interests. Free cancellation up to 30 days before departure.",
+    "features": [
+      "Custom tours",
+      "Budget friendly",
+      "Guided trips",
+      "All inclusive",
+      "Flexible plans"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Airport Transfer",
+    "image": "https://cdn-icons-png.flaticon.com/512/743/743131.png",
+    "description": "Reliable airport pickup and drop‑off at 450+ airports worldwide. Choose from economy shared shuttles, private sedans, SUVs, or luxury cars with meet‑and‑greet. Drivers track your flight in real time and wait up to 90 minutes for free if your flight is delayed. Fixed pricing – no surge, no hidden fees. Child seats, wheelchair‑accessible vehicles, and extra luggage options are available. Free cancellation up to 2 hours before pickup. Safe, comfortable, and affordable travel to your hotel or cruise port.",
+    "features": [
+      "Private cars",
+      "On-time pickup",
+      "Affordable",
+      "Safe ride",
+      "24/7 service"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Travel Insurance",
+    "image": "https://cdn-icons-png.flaticon.com/512/2645/2645900.png",
+    "description": "Protect your trip with comprehensive travel insurance covering medical emergencies, trip cancellation, lost baggage, flight delays, and COVID‑19 related expenses. Choose from Basic (medical & evacuation), Standard (+ cancellation & baggage), or Premium (+ adventure sports & 'cancel for any reason'). Pre‑existing conditions can be included. 24/7 global assistance hotline helps with hospital admission, passport replacement, or bail bonds. Claims processed online within 5‑7 days. Annual multi‑trip plans available for frequent travelers.",
+    "features": [
+      "Medical coverage",
+      "Trip cancellation",
+      "Lost baggage",
+      "24/7 assistance",
+      "COVID-19 cover"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Car Rental",
+    "image": "https://cdn-icons-png.flaticon.com/512/3063/3063087.png",
+    "description": "Rent a car from trusted providers like Hertz, Avis, Enterprise, and local agencies at 300+ cities worldwide. All rentals include unlimited mileage, full collision damage waiver, theft protection, and third‑party liability. Choose from economy cars, SUVs, luxury sedans, or electric vehicles. Extras like GPS, child seats, ski racks, and additional drivers are available at low cost. Free cancellation up to 48 hours before pickup. No hidden fees – the price you see is final. Long‑term discounts (28+ days) up to 40%.",
+    "features": [
+      "No hidden fees",
+      "Free cancellation",
+      "Full insurance",
+      "GPS included",
+      "Child seats available"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Cruise Booking",
+    "image": "https://cdn-icons-png.flaticon.com/512/2965/2965309.png",
+    "description": "Book luxury cruises with 25+ major lines including Royal Caribbean, MSC, Norwegian, and Viking. Destinations: Caribbean, Mediterranean, Alaska, Asia, and more. Our all‑inclusive pricing covers port fees, taxes, meals (main dining rooms), basic drinks (water, coffee, tea), Wi‑Fi (social package), and gratuities on select sailings. Choose your exact cabin – not a guarantee. Add excursions, drink packages, and spa treatments. Price drop protection: if the fare falls after booking, we refund the difference. Group bookings (8+ cabins) get one free berth.",
+    "features": [
+      "Cabin selection",
+      "Excursions included",
+      "Fine dining",
+      "Live entertainment",
+      "Spa access"
+    ]
+  }
+]
