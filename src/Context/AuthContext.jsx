@@ -12,7 +12,7 @@ const AuthContext = ({children}) => {
 
 
     useEffect(()=>{
-        setTimeout(()=>{
+
 
         fetch('../../public/hotels.json')
         .then(res=> res.json())
@@ -24,7 +24,7 @@ const AuthContext = ({children}) => {
 
         .catch(err=> console.log(err))
         
-        },2000)
+        
 
     },[])
 
