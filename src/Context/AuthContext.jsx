@@ -1,44 +1,38 @@
 /* eslint-disable react-refresh/only-export-components */
-import { createContext, useEffect, useState } from "react"
+import { createContext, useEffect, useState } from "react";
 
-export const AuthProvider = createContext()
+export const AuthProvider = createContext();
 
-const AuthContext = ({children}) => {
+const AuthContext = ({ children }) => {
+  const [loading, setLoading] = useState(true);
+  const [hotels, setHotels] = useState([]);
+
+ useEffect(() => {
+ fetch("/hotels.json")
+   .then(res => res.json())
+   .then(data => {
+      setHotels(data);
+      setLoading(false);
+   })
+   .catch(err => {
+      console.error(err);
+      setLoading(false); 
+   });
+}, []);
 
 
 
-    const [loading,setLoading] = useState(true)
-    const [hotels,setHotesls] = useState([])
+
+  const authInfo = {
+    hotels,
+    loading,
+  };
 
 
-    useEffect(()=>{
-
-
-        fetch('../../public/hotels.json')
-        .then(res=> res.json())
-        .then(data=>{
-             setHotesls(data),
-             setLoading(false)}
-    
-    )
-
-        .catch(err=> console.log(err))
-        
-        
-
-    },[])
-
-    const authInfo = {
-        hotels,
-        loading
-    }
+  
   return (
-    <AuthProvider.Provider value={authInfo}>
+    <AuthProvider.Provider value={authInfo}>{children}</AuthProvider.Provider>
+  );
+};
 
-
-         {children}
-    </AuthProvider.Provider>
-  )
-}
-
-export default AuthContext
+export default AuthContext;
