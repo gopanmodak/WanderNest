@@ -9,10 +9,10 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <div className="bg-[#F5F5F5] shadow-md backdrop-blur-xl fixed top-0 left-0 w-full z-50">
-      <div className="max-w-7xl mx-auto flex items-center justify-between py-3 px-4">
+    <div className="bg-white shadow-md backdrop-blur-xl fixed top-0 left-0 w-full z-50">
+      <div className="max-w-7xl mx-auto flex items-center justify-between  px-4">
         <div>
-          <img src={logo} alt="" className="h-25 object-cover" />
+          <img src={logo} alt="" className="h-25 object-cover rounded-2xl" />
         </div>
 
         <div className="hidden md:flex items-center gap-10">
@@ -38,7 +38,7 @@ const Navbar = () => {
 
           <NavLink to = "/" onClick={()=>setMenuOpen(false)}>Home</NavLink>
           <NavLink to = "/flights" onClick={()=>setMenuOpen(false)}>Flights</NavLink>
-          <NavLink to = "/hotes" onClick={()=>setMenuOpen(false)}>Hotels</NavLink>
+          <NavLink to = "/hotels" onClick={()=>setMenuOpen(false)}>Hotels</NavLink>
           <NavLink to = "/visa" onClick={()=>setMenuOpen(false)}>Visa</NavLink>
           <NavLink to = "/tours" onClick={()=>setMenuOpen(false)}>Tours</NavLink>
           <NavLink to = "/services" onClick={()=>setMenuOpen(false)}>Services</NavLink>

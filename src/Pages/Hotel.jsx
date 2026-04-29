@@ -16,7 +16,12 @@ const Hotel = () => {
     );
   }
   return (
-    <div className="text-3xl font-bold text-center mt-30">
+    <div 
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    
+    
+    className="text-3xl font-bold text-center mt-30">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-7xl mx-auto mt-10 px-5">
         {hotels.map((hotel) => (
           <HotelPages hotel={hotel} key={hotel.id} />

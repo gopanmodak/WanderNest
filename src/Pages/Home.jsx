@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import SliderImages from "../Components/SliderImages";
+import WhyChoice from "../Components/WhyChoice";
 
 const Home = () => {
   return (
@@ -32,9 +33,13 @@ const Home = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1 ,y:0}}
+        viewport={{once:true}}
         className="mt-20">
         <SliderImages />
       </motion.div>
+
+
+      <WhyChoice />
     </div>
   );
 };
