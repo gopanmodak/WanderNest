@@ -25,9 +25,13 @@ export const router = createBrowserRouter ([
                 path: "flights",
                 element: <Flight />
             },
-            {
+{
                 path: "hotels",
-                element: <Hotel />
+                element: <Hotel />,
+                loader:async ()=> {
+                    const response = await fetch('/hotels.json');
+                    return response.json();
+                }
             },
             {
                 path: "visa",

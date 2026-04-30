@@ -10,7 +10,7 @@ const HotelPages = ({ hotel }) => {
 
 
     <motion.div
-      initial={{ opacity: 0, y: 40 }}
+      initial={{ opacity: 0, y: 20 }}
       transition={{ duration: .8 ,  }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{once: true}}

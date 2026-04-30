@@ -13,8 +13,8 @@ import { IoBookmarksOutline } from "react-icons/io5";
 
 const WhyChoice = () => {
     return (
-        <div className='bg-linear-to-br from-gray-800 to-gray-600'>
-            <div className="max-w-7xl mx-auto mt-20 p-5 rounded-lg shadow-md">
+        
+            <div className="max-w-7xl mx-auto mt-20 p-5 rounded-lg ">
 
                 <motion.h1
                     initial={{ opacity: 0, y: -40 }}
@@ -97,7 +97,7 @@ const WhyChoice = () => {
                 </motion.div>
 
             </div>
-        </div>
+        
     )
 }
 

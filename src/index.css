@@ -1,8 +1,10 @@
 @import "tailwindcss";
+@import "daisyui/daisyui.css";
 
 body{
   font-family: 'Fira Code', monospace;
   scroll-behavior: smooth;
+  background: linear-gradient(135deg, #e0f7fa, #ffffff); 
 }
 
 a:hover{
