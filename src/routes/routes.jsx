@@ -9,6 +9,9 @@ import Services from "../Pages/Services";
 import Explore from "../Pages/Explore";
 import Login from "../Pages/Login";
 import Signup from "../Pages/Signup";
+import TermsConditions from "../Pages/TermsConditions";
+import PrivacyPolicy from "../Pages/PrivacyPolicy";
+import RefundsReturn from "../Pages/RefundsReturn";
 
 export const router = createBrowserRouter ([
 
@@ -25,13 +28,10 @@ export const router = createBrowserRouter ([
                 path: "flights",
                 element: <Flight />
             },
-{
+            {
                 path: "hotels",
                 element: <Hotel />,
-                loader:async ()=> {
-                    const response = await fetch('/hotels.json');
-                    return response.json();
-                }
+
             },
             {
                 path: "visa",
@@ -56,7 +56,20 @@ export const router = createBrowserRouter ([
             {
                 path: "signup",
                 element: <Signup />
+            },
+            {
+                path:"TermsConditions",
+                element: <TermsConditions />
+            },
+            {
+                path: "PrivacyPolicy",
+                element: <PrivacyPolicy />
+            },
+            {
+                path: "RefundsReturn",
+                element: <RefundsReturn />
             }
+            
         ]
     }
 ])

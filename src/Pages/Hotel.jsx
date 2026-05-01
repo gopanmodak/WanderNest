@@ -1,20 +1,28 @@
-import { useLoaderData, useNavigation,  } from "react-router-dom";
+import { PuffLoader } from "react-spinners";
+
 
 import HotelPages from "../Components/HotelPages";
 import { motion } from 'framer-motion';
+import { useContext } from "react";
+import { AuthProvider } from "../Context/AuthContext";
+
+
+
 
 const Hotel = () => {
+
+  const {hotels, loading} = useContext(AuthProvider)
   
 
-  const hotels = useLoaderData();
 
 
- const navigation = useNavigation();
 
-  if (navigation.state === "loading") {
+ 
+
+  if (loading) {
     return (
       <div className="h-screen flex justify-center items-center">
-        <p className="text-2xl font-bold text-gray-500">Loading...</p>
+        <PuffLoader color="#36d7b7" />
       </div>
     );
   }
