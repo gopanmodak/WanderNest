@@ -10,6 +10,9 @@ const AuthContext = ({ children }) => {
   
   const [visa, setVisa] = useState([]);
 
+  const [tour,setTour] = useState([]);
+  const [tourLoading, setTourLoading] = useState(true);
+
 
   useEffect(() => {
     fetch('/hotels.json')
@@ -49,12 +52,31 @@ useEffect(() => {
 
 
 
+useEffect(() => {
+
+  fetch('/tour.json')
+  .then(res =>{
+
+   return res.json()
+  })
+  .then(data =>{
+    setTour(data)
+    setTourLoading(false)
+  })
+
+
+},[])
+
+
+
+
   const authInfo = {
     hotels,
     visaLoading,
     visa,
     hotelLoading,
-    loading: visaLoading || hotelLoading,
+    tour,
+    loading: visaLoading || hotelLoading || tourLoading
   };
 
   return (

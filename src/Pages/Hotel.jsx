@@ -31,7 +31,7 @@ const Hotel = () => {
     transition={{ duration: 1}}
   
     viewport={{ once: true }}
-      className="text-3xl font-bold text-center mt-10 font-sans text-gray-700">Find Your Perfect Hotel</motion.h1>
+      className="text-3xl font-bold text-center mt-10 font-sans">Find Your Perfect Hotel</motion.h1>
       <motion.p
        initial={{ opacity: 0 , x: -20 }}
     animate={{ opacity: 1, x: 0 }}
