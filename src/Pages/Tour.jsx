@@ -20,7 +20,7 @@ const Tour = () => {
 
 
       <h1 className="text-center text-3xl font-sans font-bold">Curated Travel Packages</h1>
-      <p className="text-center text-lg my-5 mb-10 font-sans text-gray-600">Explore our handpicked tour packages across popular destinations</p>
+      <p className="text-center text-lg my-2 mb-10 font-sans p-3 text-gray-600">Explore our handpicked tour packages across popular destinations</p>
 
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 p-3 my-10">
