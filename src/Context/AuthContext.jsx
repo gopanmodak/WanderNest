@@ -4,17 +4,21 @@ import { createContext, useEffect, useState } from "react";
 export const AuthProvider = createContext();
 
 const AuthContext = ({ children }) => {
-  const [visaLoading, setVisaLoading] = useState(true);
+
   const [hotels, setHotels] = useState([]);
   const [hotelLoading, setHotelLoading] = useState(true);
-
+  
   const [visa, setVisa] = useState([]);
+  const [visaLoading, setVisaLoading] = useState(true);
 
   const [tour, setTour] = useState([]);
   const [tourLoading, setTourLoading] = useState(true);
 
   const [services, setServices] = useState([]);
   const [servicesLoading, setServicesLoading] = useState(true);
+
+  const [explore,setExplore] = useState([]);
+  const [exploreLoading,setExploreLoading] = useState(true);
 
 
   useEffect(() => {
@@ -32,6 +36,7 @@ const AuthContext = ({ children }) => {
         setHotelLoading(false);
       });
   }, []);
+
 
   useEffect(() => {
     fetch('/visa.json')
@@ -89,16 +94,31 @@ const AuthContext = ({ children }) => {
   },[])
 
 
+  useEffect(() => {
+
+    fetch('/explore.json')
+    .then(res=>res.json())
+    .then(data =>{
+      setExplore(data)
+      setExploreLoading(false)
+    })
+    .catch(err => {
+      console.error(err)
+      setExploreLoading(false)
+    })
+
+
+  },[])
+
 
 
   const authInfo = {
     hotels,
     visa,
     tour,
-    services,
-
-    
-    loading: visaLoading || hotelLoading || tourLoading || servicesLoading,
+    services, 
+    explore,
+    loading: visaLoading || hotelLoading || tourLoading || servicesLoading  || exploreLoading,
   };
 
   return (

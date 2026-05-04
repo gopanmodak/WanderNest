@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="bg-white shadow-md backdrop-blur-xl fixed top-0 left-0 w-full z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between  px-4">
-        <div>
+        <div className="flex items-center px-10">
           <img src={logo} alt="" className="h-25 object-cover rounded-2xl" />
         </div>
 
@@ -25,11 +25,18 @@ const Navbar = () => {
           <NavLink to = "/explore">Explore</NavLink>
         </div>
 
-        
-
-        <div className="md:hidden">
-            <button onClick={()=>setMenuOpen(!menuOpen)} > <RxHamburgerMenu className="text-3xl"/> </button>
+        <div className="hidden md:flex">
+          <Link to="/login" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
+            Login
+          </Link>
+         
         </div>
+
+        <div className="md:hidden p-10">
+            <button onClick={()=>setMenuOpen(!menuOpen)} > <RxHamburgerMenu className="text-4xl"/> </button>
+        </div>
+
+        
 
 
 
@@ -43,17 +50,13 @@ const Navbar = () => {
           <NavLink to = "/tours" onClick={()=>setMenuOpen(false)}>Tours</NavLink>
           <NavLink to = "/services" onClick={()=>setMenuOpen(false)}>Services</NavLink>
           <NavLink to = "/explore" onClick={()=>setMenuOpen(false)}>Explore</NavLink>
+           <Link to="/login" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
+            Login
+          </Link>
             
         </div>}
 
-        <div className="flex items-center gap-5">
-          <Link to="/login" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
-            Login
-          </Link>
-          <Link to="/signup" className="bg-black text-white py-2 px-4 rounded hover:bg-gray-800">
-            Sign Up
-          </Link>
-        </div>
+        
 
 
       </div>
