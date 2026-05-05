@@ -52,6 +52,8 @@ const TermsConditions = () => {
 
             <p>WanderNest - Best Travel Portal will fully cooperate with any court order or lawful request from a law enforcement or regulatory authority requiring the disclosure of the identity of any individual involved in posting such materials</p>
 
+            <div className='flex justify-center items-center bg-orange-600 w-40 h-1 my-10'></div>
+
         </div>
     </div>
   )

@@ -64,9 +64,7 @@ const HomeFooter = () => {
 
         <div>
 
-        
-
-
+      
         <Reasons />
       </div>
 

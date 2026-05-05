@@ -24,6 +24,8 @@ const RefundsReturn = () => {
             <p>Period: Claims for refund must be made as per the booking timeline</p>
 
             <p>If you have any further queries or require assistance, please do not hesitate to get in touch with us. You may contact us at <span className="text-orange-600">+8801709200099</span> Or email at <span className="text-orange-600"> info@wandernest.com</span> </p>
+
+            <div className='flex justify-center items-center bg-orange-600 w-40 h-1 my-10'></div>
         </div>
     </div>
   )

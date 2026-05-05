@@ -12,6 +12,9 @@ import Signup from "../Pages/Signup";
 import TermsConditions from "../Pages/TermsConditions";
 import PrivacyPolicy from "../Pages/PrivacyPolicy";
 import RefundsReturn from "../Pages/RefundsReturn";
+import About from "../Pages/About";
+import HajjAndUmrah from "../Pages/HajjAndUmrah";
+import EMIPage from "../Components/EMIPage";
 
 export const router = createBrowserRouter ([
 
@@ -68,7 +71,20 @@ export const router = createBrowserRouter ([
             {
                 path: "RefundsReturn",
                 element: <RefundsReturn />
-            }
+            },
+            {
+                path: "about",
+                element: <About />
+            },
+        {
+
+            path: "HajjAndUmrah",
+            element: <HajjAndUmrah />
+        },
+        {
+            path:"emi",
+            element: <EMIPage />
+        }
             
         ]
     }

@@ -93,8 +93,12 @@ const Reasons = () => {
             </div>
           </div>
 
-
+                 
         </div>
+
+        <h1 className='text-center font-sans text-3xl font-bold mt-15'>Join Us on Our Journey</h1>
+
+        <p className='text-center text-gray-200 font-sans text-lg mt-5 max-w-2xl mx-auto'>Become part of our journey to make travel simpler, smarter, and more accessible for everyone. Together, let’s build a better way to explore the world.</p>
 
         </div>
     )

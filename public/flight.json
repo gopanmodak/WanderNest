@@ -1,0 +1,182 @@
+[
+  {
+    "airline": "SkyLine Airways",
+    "baggage_policy": {
+      "cabin_bag": {
+        "dimensions_inches": "22\" x 14\" x 9\"",
+        "free_allowance": "1 bag",
+        "excess_fee_usd": "$35-50"
+      },
+      "checked_baggage": {
+        "dimensions_inches": "32\" x 21\" x 13\""
+      },
+      "full_policy_link": "Check Full Policy",
+      "full_policy_details": "SkyLine Airways allows 1 cabin bag (22x14x9 inches) up to 7 kg free of charge. Checked baggage dimensions must not exceed 32x21x13 inches with a maximum weight of 23 kg. Any extra or overweight bag incurs an excess fee between $35-$50 depending on route and season. Liquids over 100ml, power banks, and sharp objects are prohibited in cabin baggage. Sports equipment like golf clubs or skis require prior booking and may attract additional handling fees. Baggage fees are non-refundable unless the airline cancels the flight. For connecting flights, the most restrictive policy applies. Always label your bags with contact details. Damaged baggage must be reported within 4 hours of arrival. SkyLine is not liable for perishable or valuable items like jewelry, cash, or electronics in checked luggage. Passengers are encouraged to purchase travel insurance for full coverage."
+    }
+  },
+  {
+    "airline": "AirSpeed Connect",
+    "baggage_policy": {
+      "cabin_bag": {
+        "dimensions_inches": "18\" x 14\" x 8\"",
+        "free_allowance": "1 bag",
+        "excess_fee_usd": "$40-60"
+      },
+      "checked_baggage": {
+        "dimensions_inches": "30\" x 20\" x 12\""
+      },
+      "full_policy_link": "Check Full Policy",
+      "full_policy_details": "AirSpeed Connect permits one cabin bag not exceeding 18x14x8 inches and weighing up to 6 kg. Checked baggage allowance is one piece within 30x20x12 inches and max 20 kg. Excess baggage fees range $40-60 per extra piece or per additional 5 kg. Cabin baggage may contain laptops, medicines, and small umbrellas. Lithium batteries must be carried in cabin only. Checked baggage may not contain aerosols, flammable liquids, or compressed gases. The airline offers prepaid excess baggage online at 15% discount. Baggage delivery delay claims must be filed within 7 days. Items like musical instruments larger than cabin size require cargo shipment. AirSpeed does not cover wear and tear or minor scratches. For international routes, customs may inspect bags randomly. Always remove old baggage tags to avoid misrouting. Passengers requiring wheelchair or stroller assistance should declare at check-in."
+    }
+  },
+  {
+    "airline": "GlobalWings",
+    "baggage_policy": {
+      "cabin_bag": {
+        "dimensions_inches": "21\" x 15\" x 9\"",
+        "free_allowance": "1 bag + personal item",
+        "excess_fee_usd": "$30-45"
+      },
+      "checked_baggage": {
+        "dimensions_inches": "31\" x 22\" x 14\""
+      },
+      "full_policy_link": "Check Full Policy",
+      "full_policy_details": "GlobalWings offers generous cabin allowance: 1 bag (21x15x9 inches) plus a personal item like handbag or laptop sleeve. Total cabin weight limit is 10 kg. Checked baggage size max 31x22x14 inches with weight up to 25 kg. Excess fees range $30-$45 per extra 5 kg. Prohibited items in cabin include knives, scissors with blades over 6 cm, and any toy weapons. In checked baggage, no power banks, e-cigarettes, or loose lithium cells. GlobalWings allows one set of golf clubs or skis as checked baggage without extra fee only if within weight limit. Fragile items must be declared at check-in. The airline provides 24-hour baggage tracking via mobile app. Lost baggage compensation limited to $500 per bag. Baggage must be claimed within 30 minutes of flight arrival. For group bookings, pooling weight is allowed. Baby strollers and car seats travel free."
+    }
+  },
+  {
+    "airline": "Pacific Blue Air",
+    "baggage_policy": {
+      "cabin_bag": {
+        "dimensions_inches": "22\" x 14\" x 10\"",
+        "free_allowance": "1 bag",
+        "excess_fee_usd": "$25-40"
+      },
+      "checked_baggage": {
+        "dimensions_inches": "29\" x 20\" x 11\""
+      },
+      "full_policy_link": "Check Full Policy",
+      "full_policy_details": "Pacific Blue Air allows one cabin bag (22x14x10 inches) max 7 kg. Checked baggage not to exceed 29x20x11 inches and 20 kg. Excess baggage fee is $25-$40 depending on domestic or international sector. Items not allowed in cabin: any liquid over 100ml, gels, creams, and sharp objects including nail cutters. Checked baggage cannot contain marijuana or CBD products even in countries where legal unless medical prescription shown. Pacific Blue prohibits perishable food items like meat, cheese, or fresh fruits in checked luggage for flights over 6 hours. The airline provides free plastic wrapping for fragile baggage at select airports. For oversize baggage like surfboards, prior approval needed 48 hours before departure. Baggage claim issues must be reported immediately at baggage service desk. No refund for unused baggage allowance."
+    }
+  },
+  {
+    "airline": "EuroJet Express",
+    "baggage_policy": {
+      "cabin_bag": {
+        "dimensions_inches": "20\" x 13\" x 8\"",
+        "free_allowance": "1 bag",
+        "excess_fee_usd": "$45-70"
+      },
+      "checked_baggage": {
+        "dimensions_inches": "33\" x 23\" x 15\""
+      },
+      "full_policy_link": "Check Full Policy",
+      "full_policy_details": "EuroJet Express restricts cabin bag to 20x13x8 inches and 6 kg. Checked baggage up to 33x23x15 inches and 23 kg. Excess fees are higher ($45-$70) due to strict European weight restrictions. EuroJet enforces a strict 100ml liquid rule in cabin; all liquids must fit in a single 1L transparent bag per passenger. Power banks above 100Wh prohibited entirely. Checked baggage may contain up to 2 liters of alcoholic beverages under 70% proof. Items not permitted in any baggage: explosives, fireworks, gasoline, or any radioactive materials. The airline offers premium baggage service with priority handling for $25 extra. For delayed baggage over 24 hours, EuroJet provides a hygiene kit and $50 voucher. Baggage liability limited to 1000 SDR under Montreal Convention. Always keep medication and valuables in cabin."
+    }
+  },
+  {
+    "airline": "Desert Falcon Airways",
+    "baggage_policy": {
+      "cabin_bag": {
+        "dimensions_inches": "22\" x 16\" x 9\"",
+        "free_allowance": "2 bags",
+        "excess_fee_usd": "$35-55"
+      },
+      "checked_baggage": {
+        "dimensions_inches": "32\" x 22\" x 14\""
+      },
+      "full_policy_link": "Check Full Policy",
+      "full_policy_details": "Desert Falcon Airways is generous with 2 cabin bags (total dimensions combined 22x16x9 inches each) plus a personal item. Each cabin bag max 7 kg. Checked baggage one piece 32x22x14 inches up to 30 kg. Excess fee $35-$55 per additional 5 kg. Prohibited cabin items include any religious or cultural artifacts with sharp edges (ceremonial daggers). Checked baggage cannot contain pork products for flights to certain Middle Eastern destinations. The airline allows falcon transportation in cabin with prior permit ($150 fee). Fragile religious texts must be hand-carried. Desert Falcon offers free 48-hour storage for delayed baggage. Baggage with unknown content or unsealed packages will not be accepted. Passengers should remove all old barcode stickers. Excess baggage prepaid online gets 10% discount. No firearms allowed even in checked baggage without police NOC."
+    }
+  },
+  {
+    "airline": "Northern Star Air",
+    "baggage_policy": {
+      "cabin_bag": {
+        "dimensions_inches": "19\" x 13\" x 8\"",
+        "free_allowance": "1 bag",
+        "excess_fee_usd": "$50-80"
+      },
+      "checked_baggage": {
+        "dimensions_inches": "28\" x 19\" x 11\""
+      },
+      "full_policy_link": "Check Full Policy",
+      "full_policy_details": "Northern Star Air restricts cabin bag to small size (19x13x8 inches) due to regional aircraft. Weight limit 5 kg. Checked baggage max 28x19x11 inches and 18 kg. Excess fees highest ($50-$80) because of cold-weather gear bulk. Northern Star bans any heating devices or gas cartridges in checked luggage even if empty. Cabin baggage may contain essential medicines (doctor note required). The airline strongly recommends hard-shell cases for checked baggage to protect from extreme temperatures. Frozen food items must be declared and packed in insulated containers. Northern Star provides free stroller and car seat check-in. For baggage lost on connecting flights, the last carrier in itinerary is responsible. Claims for missing contents must be filed within 48 hours. No compensation for electronic device damage in checked bags. Passengers traveling with skis get 50% excess fee discount."
+    }
+  },
+  {
+    "airline": "Sunrise Caribbean",
+    "baggage_policy": {
+      "cabin_bag": {
+        "dimensions_inches": "22\" x 14\" x 9\"",
+        "free_allowance": "1 bag",
+        "excess_fee_usd": "$30-50"
+      },
+      "checked_baggage": {
+        "dimensions_inches": "34\" x 24\" x 16\""
+      },
+      "full_policy_link": "Check Full Policy",
+      "full_policy_details": "Sunrise Caribbean allows one cabin bag (22x14x9 inches) up to 8 kg. Checked baggage larger allowance: 34x24x16 inches and 23 kg. Excess fee $30-$50. Sunrise is beach-travel friendly: one surfboard or dive gear bag accepted as checked baggage for $25 flat. Prohibited in cabin: coral pieces, sea shells over 1 kg, or any sand in loose form (must be sealed). Checked baggage cannot contain pressurized scuba tanks. The airline provides free beach umbrella check-in for families. Wet swimwear or damp items must be in waterproof bags inside checked luggage. Sunrise offers 50% refund if baggage is delayed more than 12 hours to island destinations. For inter-island hops, baggage weight limit reduces to 15 kg. Passengers should arrive 2 hours early for baggage screening of agricultural products. No live animals except service dogs."
+    }
+  },
+  {
+    "airline": "AsiaLink Airlines",
+    "baggage_policy": {
+      "cabin_bag": {
+        "dimensions_inches": "21\" x 15\" x 8\"",
+        "free_allowance": "1 bag",
+        "excess_fee_usd": "$20-35"
+      },
+      "checked_baggage": {
+        "dimensions_inches": "30\" x 20\" x 13\""
+      },
+      "full_policy_link": "Check Full Policy",
+      "full_policy_details": "AsiaLink Airlines offers budget-friendly excess fees ($20-$35). Cabin bag size 21x15x8 inches, weight 7 kg. Checked bag 30x20x13 inches, weight 20 kg. AsiaLink prohibits durian fruit, mangosteens, or any strong-smelling items in cabin or checked baggage. Rice cookers, hot pots, or electric kettles cannot be in checked luggage due to heating elements. Cabin baggage cannot contain bamboo sticks, selfie sticks over 20 cm, or martial arts equipment. The airline allows one wheelchair free of charge. For connecting flights within Asia, baggage must meet the smallest carrier's limits. AsiaLink offers excess baggage subscription (annual pass) for frequent flyers at $199. Children under 2 get 10 kg checked baggage free. Baggage wrapping service available at most airports for $10. For delayed baggage over 8 hours, AsiaLink gives meal voucher worth $15. No refund for unclaimed baggage after 90 days."
+    }
+  },
+  {
+    "airline": "SwiftJet",
+    "baggage_policy": {
+      "cabin_bag": {
+        "dimensions_inches": "17\" x 13\" x 7\"",
+        "free_allowance": "0 bag (fee applies)",
+        "excess_fee_usd": "$60-90"
+      },
+      "checked_baggage": {
+        "dimensions_inches": "29\" x 21\" x 12\""
+      },
+      "full_policy_link": "Check Full Policy",
+      "full_policy_details": "SwiftJet is an ultra-low-cost carrier: no free cabin bag. Any cabin bag (17x13x7 inches) costs $20-30. Checked baggage one piece 29x21x12 inches, weight 15 kg. Excess fees highest ($60-$90) because of small aircraft. SwiftJet strictly enforces boarding gate bag sizing; any oversized cabin bag is checked with penalty of $75. Prohibited in any baggage: hoverboards, segways, or any self-balancing devices. Cabin baggage may only contain electronics, medication, and documents. The airline charges per bag, not per kg. Prepaid baggage online saves 40% compared to airport purchase. SwiftJet does not transfer baggage on separate tickets; passengers must recheck. Lost baggage investigation takes 14 days. Maximum compensation $300. No compensation for fragile items in checked bags even if labeled. Passengers advised to carry a change of clothes in tiny cabin bag. SwiftJet provides no free baggage storage for missed connections."
+    }
+  },
+  {
+    "airline": "Latin Sky",
+    "baggage_policy": {
+      "cabin_bag": {
+        "dimensions_inches": "22\" x 15\" x 10\"",
+        "free_allowance": "1 bag + purse/laptop",
+        "excess_fee_usd": "$35-65"
+      },
+      "checked_baggage": {
+        "dimensions_inches": "31\" x 21\" x 14\""
+      },
+      "full_policy_link": "Check Full Policy",
+      "full_policy_details": "Latin Sky permits one cabin bag (22x15x10 inches) plus purse or laptop bag, total weight 9 kg. Checked baggage max 31x21x14 inches, weight 23 kg. Excess fees $35-$65. Latin Sky bans any agricultural products (seeds, soil, fresh fruits) without phytosanitary certificate. Checked baggage may contain up to 2 liters of rum or tequila. Cabin baggage cannot contain any musical instruments larger than a violin. The airline provides free check-in for one musical instrument as second checked item. For flights to/from Brazil, baggage must comply with ANAC regulations. Latin Sky offers 15% excess baggage discount for online payment 24 hours before flight. Damaged baggage claims must be supported by photos taken at baggage claim. No liability for cash, jewelry, or electronics in checked luggage. Passengers should use TSA-approved locks. Baggage from code-share flights follows operating carrier's policy. Latin Sky gives priority baggage tags for $15."
+    }
+  },
+  {
+    "airline": "Oceania Air",
+    "baggage_policy": {
+      "cabin_bag": {
+        "dimensions_inches": "22\" x 14\" x 8\"",
+        "free_allowance": "1 bag",
+        "excess_fee_usd": "$40-55"
+      },
+      "checked_baggage": {
+        "dimensions_inches": "32\" x 23\" x 15\""
+      },
+      "full_policy_link": "Check Full Policy",
+      "full_policy_details": "Oceania Air allows cabin bag 22x14x8 inches up to 7 kg. Checked baggage 32x23x15 inches, weight 23 kg. Excess fee $40-$55. Oceania's unique rules: no sand, soil, or untreated wood in any baggage due to biosecurity. All sports equipment (cricket bats, hockey sticks) must be in hard cases. Cabin baggage cannot contain boomerangs, didgeridoos, or any indigenous cultural artifacts without export permit. The airline offers free baggage tracking via QR code on bag tag. For flights to New Zealand, all checked baggage is scanned for biosecurity. Oceania provides $200 voucher for baggage delayed over 48 hours to remote islands. No wet or damp items in checked luggage (swimwear must be dry). Passengers connecting from international flights must recheck bags on domestic sectors. Oceania does not accept firearms or ammunition even in checked bags without police approval. Consumable liquids in checked bags must be in original sealed containers. Baggage must be claimed within 20 minutes of belt arrival."
+    }
+  }
+]

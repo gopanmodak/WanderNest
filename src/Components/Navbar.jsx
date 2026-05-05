@@ -10,7 +10,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="bg-white shadow-md backdrop-blur-xl fixed top-0 left-0 w-full z-50">
-      <div className="max-w-7xl mx-auto flex items-center justify-between  px-4">
+      <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center px-10">
           <img src={logo} alt="" className="h-25 object-cover rounded-2xl" />
         </div>
@@ -22,6 +22,7 @@ const Navbar = () => {
           <NavLink to = "/visa">Visa</NavLink>
           <NavLink to = "/tours">Tours</NavLink>
           <NavLink to = "/services">Services</NavLink>
+          <NavLink to = "/HajjAndUmrah">Hajj And Umrah</NavLink>
           <NavLink to = "/explore">Explore</NavLink>
         </div>
 
@@ -49,6 +50,7 @@ const Navbar = () => {
           <NavLink to = "/visa" onClick={()=>setMenuOpen(false)}>Visa</NavLink>
           <NavLink to = "/tours" onClick={()=>setMenuOpen(false)}>Tours</NavLink>
           <NavLink to = "/services" onClick={()=>setMenuOpen(false)}>Services</NavLink>
+          <NavLink to = "/HajjAndUmrah" onClick={()=>setMenuOpen(false)}>Hajj And Umrah</NavLink>
           <NavLink to = "/explore" onClick={()=>setMenuOpen(false)}>Explore</NavLink>
            <Link to="/login" className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">
             Login

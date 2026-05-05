@@ -45,7 +45,8 @@ const PrivacyPolicy = () => {
 
                     <p>You may be provided access to third-party tools through our website. However, we do not monitor or exert any control over such tools. While using these tools, you acknowledge and agree that we provide access to these tools "as is" and "as available" without any warranties, endorsements, representations, or conditions of any type. We shall bear no responsibility for any liability arising from your use of optional third-party tools. You assume all risks and exercise your own discretion when using optional as well as third party tools available through our website, ensuring you are familiar with and approve of the terms provided by the relevant third-party provider(s). Furthermore, we may also introduce offers, promotions, and newer features through our website, including new tools and resources, which shall be subject to these Terms of Service.</p>
                 </div>
-
+  
+                <div className='flex justify-center items-center bg-orange-600 w-40 h-1 my-10'></div>
 
             </div>
         </div>
