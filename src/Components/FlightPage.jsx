@@ -1,5 +1,4 @@
 
-import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 const FlightPage = ({flight}) => {
   return (
@@ -22,7 +21,7 @@ const FlightPage = ({flight}) => {
         <p>Dimensions: {flight.baggage_policy.checked_baggage.dimensions_inches}</p>
       </div>
 
-      <Link className='border border-gray-400 p-2 rounded-2xl mt-2'> {flight.baggage_policy.full_policy_link}</Link>
+      <p className='border border-gray-400 p-2 rounded-2xl mt-2'> {flight.baggage_policy.full_policy_link}</p>
     </motion.div>
   )
 }
