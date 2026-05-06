@@ -21,6 +21,9 @@ const AuthContext = ({ children }) => {
   const [exploreLoading,setExploreLoading] = useState(true);
 
 
+  const [hajjData,setHajjData] = useState([]);
+  const [hajjLoading,setHajjLoading] = useState(true);
+
   useEffect(() => {
     fetch('/hotels.json')
       .then(res => {
@@ -112,13 +115,31 @@ const AuthContext = ({ children }) => {
 
 
 
+  useEffect(()=>{
+
+     fetch('/HajjUmrah.json')
+     .then(res=>res.json())
+     .then(data=>{
+      setHajjData(data)
+      setHajjLoading(false)
+     })
+     .catch(err=>{
+      console.error(err)
+      setHajjLoading(false)
+     })
+
+  })
+
+
+
   const authInfo = {
     hotels,
     visa,
     tour,
     services, 
     explore,
-    loading: visaLoading || hotelLoading || tourLoading || servicesLoading  || exploreLoading,
+    hajjData,
+    loading: visaLoading || hotelLoading || tourLoading || servicesLoading  || exploreLoading || hajjLoading,
   };
 
   return (

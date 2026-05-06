@@ -1,7 +1,8 @@
 [
     {
       "id": "HAJJ-2025-01",
-      "title": "Premium Hajj Package 2025",
+      "title": "Premium Hajj Package ",
+      "img": "https://cdn-bmkfm.nitrocdn.com/KjSXjNCPeuIbUQFOJrZAibaJvyDiQgwL/assets/images/optimized/rev-dac81ff/bakhlatours.com/wp-content/uploads/2025/08/08.webp",
       "duration": "25 days",
       "daily_schedule": [
         { "day": 1, "activity": "Arrival at King Abdulaziz International Airport in Jeddah. After completing immigration and baggage claim, you will be greeted by our representative and transferred directly to your 5-star hotel in Makkah, which is conveniently connected to the Haram. The rest of the day is dedicated to rest, freshening up, and performing Wudu. In the evening, a brief orientation session will be held in the hotel lobby to explain the upcoming Hajj rituals, daily schedules, and safety guidelines. Dinner will be served at the hotel. You may also visit the Haram for Isha prayer and spend time in individual worship and reflection." },
@@ -39,9 +40,11 @@
       ],
       "package_details": {
         "price_per_person": "$6,999",
-        "starting_date": "2025-06-01",
-        "ending_date": "2025-06-15",
+        "starting_date": "2026-06-01",
+        "ending_date": "2026-06-15",
         "room_type": "Quadruple sharing",
+        "makkah_hotel": "SNOOD AJYAD HOTEL Makkah",
+        "madinah_hotel": "The Ritz-Carlton Madinah",
         "flight_departure": "New York (JFK) → Jeddah (JED)",
         "vaccination_required": ["Meningitis", "COVID-19", "Flu"]
       }
@@ -49,6 +52,7 @@
     {
       "id": "UMRAH-2025-02",
       "title": "Economy Umrah Package - 14 Days",
+      "img": "https://cdn-bmkfm.nitrocdn.com/KjSXjNCPeuIbUQFOJrZAibaJvyDiQgwL/assets/images/optimized/rev-dac81ff/bakhlatours.com/wp-content/uploads/2026/01/01.webp",
       "duration": "14 days",
       "daily_schedule": [
         { "day": 1, "activity": "Arrival at King Abdulaziz International Airport in Jeddah. After completing passport control and collecting your luggage, you will be greeted by our representative holding a sign with your name. You will then be transferred by a comfortable air-conditioned bus directly to your 3-star hotel in Makkah, located approximately 2 kilometers from Masjid al-Haram. The journey from Jeddah to Makkah takes about 1.5 hours. Upon arrival at the hotel, you will complete check-in formalities and receive your room keys. The rest of the day is free for rest and recovery from your flight. A light dinner will be delivered to your room. You may also walk to the Haram to perform Isha prayer if you feel energetic. Our guide will brief you tomorrow morning about Umrah performance." },
@@ -87,6 +91,8 @@
         "starting_date": "2025-10-01",
         "ending_date": "2025-10-14",
         "room_type": "Triple sharing",
+        "makkah_hotel": "MIRA AL SUD HOTEL MAKKAH",
+        "madinah_hotel": " GRAND ZOWAR HOTEL MADINAH",
         "flight_departure": "London (LHR) → Jeddah (JED)",
         "vaccination_required": ["COVID-19", "Meningitis"]
       }
