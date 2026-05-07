@@ -1,8 +1,8 @@
-import { useContext } from "react"
-import { AuthProvider } from "../Context/AuthContext"
-import VisaPage from "../Components/VisaPage"
-import { PuffLoader } from "react-spinners"
 import { motion } from 'framer-motion';
+import { useContext } from "react";
+import { PuffLoader } from "react-spinners";
+import VisaPage from "../Components/VisaPage";
+import { AuthProvider } from "../Context/AuthContext";
 
 const Visa = () => {
 
@@ -19,6 +19,16 @@ const Visa = () => {
   }
   return (
     <div className="my-20 font-sans text-gray-700">
+
+
+    <motion.div 
+       initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+      
+      className="max-w-6xl mx-auto">
+        <img src="https://www.navyaimmigration.com/wp-content/uploads/2023/03/tourist-visa-banner.jpg" alt="" className="h-80 w-full  rounded-2xl"/>
+      </motion.div>
 
       <motion.h1
         initial={{ opacity: 0, x: -20 }}
@@ -39,6 +49,12 @@ const Visa = () => {
 
         {visa.map((visa) => <VisaPage visa={visa.visaService} key={visa.id} />)}
       </div>
+
+
+       <div className="flex justify-center items-center max-w-6xl mx-auto mt-10">
+      <video src="https://www.pexels.com/download/video/37084033/" autoPlay loop muted className="rounded-2xl opacity-80 h-80 w-full object-cover"></video>
+    </div>
+  
     </div>
   )
 }

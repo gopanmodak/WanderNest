@@ -57,6 +57,29 @@ const EMIPage = () => {
 
             <div>
                 <h1 className="text-start text-2xl font-sans font-bold mt-20">Available Banks</h1>
+
+                <ul className="list-disc pl-5 space-y-2">
+                    <li>Standard Chartered Bank</li>
+                    <li>City Bank (Amex only)</li>
+                    <li>Eastern Bank</li>
+                    <li>Brac Bank</li>
+                    <li>Dutch Bangla Bank</li>
+                    <li>Standard Bank</li>
+                    <li>Southeast Bank</li>
+                    <li>Mutual Trust Bank</li>
+                    <li>Jamuna Bank</li>
+                    <li>Meghna Bank</li>
+                    <li>NRB Bank Limited</li>
+                    <li>Bank Asia</li>
+                    <li>National Credit and Commerce Bank</li>
+                    <li>Midland Bank</li>
+                    <li>Dhaka Bank Limited</li>
+                    <li>South Bangla Agriculture Bank (SBAC)</li>
+                    <li>LankaBangla Financial Limited</li>
+                    <li>NRB Commercial Bank</li>
+                    <li>Shahjalal Islami Bank Limited (SJIBL)</li>
+                </ul>
+
             </div>
 
             <div className="my-10 space-y-3">

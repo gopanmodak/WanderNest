@@ -1,6 +1,14 @@
 import { IoMdTime } from "react-icons/io"
+import { useNavigate } from "react-router-dom"
 
 const HajjAndUmrahPage = ({ hajj }) => {
+
+    const navigate = useNavigate()
+
+    const handleOnHajjBook = () => {
+
+        navigate('/hajj-umrah/:id')
+    }
     return (
         <div>
 
@@ -10,6 +18,8 @@ const HajjAndUmrahPage = ({ hajj }) => {
                     <img
                         src={hajj.img}
                         alt={hajj.title} 
+                        height={300}
+                        
                         className=" w-full object-cover hover:scale-105 transition-all duration-300"
                         />
                 </figure>
@@ -37,7 +47,7 @@ const HajjAndUmrahPage = ({ hajj }) => {
                     </div>
                     <div className="card-actions justify-between items-center mt-2 px-3">
                         <p className="text-blue-600 cursor-pointer hover:underline hover:text-red-700 transition-all duration-300">Read More</p>
-                        <button className="btn btn-primary">Book Now</ button>
+                        <button className="btn btn-primary" onClick={handleOnHajjBook}>Book Now</ button>
                     </div>
                 </div>
             </div>

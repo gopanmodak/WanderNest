@@ -1,6 +1,12 @@
+import { useNavigate } from "react-router-dom"
 
 const VisaPage = ({ visa }) => {
+     
+    const navigate = useNavigate()
 
+    const handleOnVisa =()=>{
+        navigate('/visa/:id')
+    }
 
     return (
         <div className="bg-zinc-200 rounded-2xl font-sans hover:shadow-2xl transition-shadow duration-300">
@@ -20,7 +26,7 @@ const VisaPage = ({ visa }) => {
             </div>
 
             <div>
-                <button className="bg-green-500 text-white p-3 rounded-b-2xl w-full hover:bg-green-600 transition-all duration-300">{visa.cardSummary.buttonText}</button>
+                <button className="bg-green-500 text-white p-3 rounded-b-2xl w-full hover:bg-red-600 transition-all duration-300 cursor-pointer" onClick={handleOnVisa}>{visa.cardSummary.buttonText}</button>
             </div>
 
 

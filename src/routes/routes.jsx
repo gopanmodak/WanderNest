@@ -15,6 +15,12 @@ import RefundsReturn from "../Pages/RefundsReturn";
 import About from "../Pages/About";
 import HajjAndUmrah from "../Pages/HajjAndUmrah";
 import EMIPage from "../Components/EMIPage";
+import HotelDetailsPage from "../Pages/HotelDetailsPage";
+import TourDetailPages from "../Pages/TourDetailPages";
+import VisaDetailsPage from "../Pages/VisaDetailsPage";
+import ExploreDetailsPages from "../Pages/ExploreDetailsPages";
+import HajjAndUmrahDetailsPages from "../Pages/HajjAndUmrahDetailsPages";
+import FlightDetailsPages from "../Pages/FlightDetailsPages";
 
 export const router = createBrowserRouter ([
 
@@ -32,17 +38,32 @@ export const router = createBrowserRouter ([
                 element: <Flight />
             },
             {
+                path: "flight/:id",
+                element: <FlightDetailsPages />
+            },
+            {
                 path: "hotels",
                 element: <Hotel />,
-
+            },
+            {
+                path: "hotels/:id",
+                element: <HotelDetailsPage />
             },
             {
                 path: "visa",
                 element:<Visa />
             },
             {
+                path: "visa/:id",
+                element: <VisaDetailsPage />
+            },
+            {
                 path: "tours",
                 element: <Tour />
+            },
+            {
+                path: "tour/:id",
+                element: <TourDetailPages />
             },
             {
                 path: "services",
@@ -53,6 +74,10 @@ export const router = createBrowserRouter ([
                 element: <Explore />
             },
             {
+                path: "explore/:id",
+                element: <ExploreDetailsPages />
+            },
+            {
                 path: "login",
                 element: <Login />
             },
@@ -61,15 +86,15 @@ export const router = createBrowserRouter ([
                 element: <Signup />
             },
             {
-                path:"TermsConditions",
+                path:"terms-conditions",
                 element: <TermsConditions />
             },
             {
-                path: "PrivacyPolicy",
+                path: "privacy-policy",
                 element: <PrivacyPolicy />
             },
             {
-                path: "RefundsReturn",
+                path: "refunds-return",
                 element: <RefundsReturn />
             },
             {
@@ -78,8 +103,12 @@ export const router = createBrowserRouter ([
             },
         {
 
-            path: "HajjAndUmrah",
+            path: "hajj-umrah",
             element: <HajjAndUmrah />
+        },
+        {
+            path: "hajj-umrah/:id",
+            element: <HajjAndUmrahDetailsPages />
         },
         {
             path:"emi",

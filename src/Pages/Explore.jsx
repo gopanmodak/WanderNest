@@ -1,9 +1,9 @@
 
 import { motion } from 'framer-motion';
 import { useContext } from 'react';
-import { AuthProvider } from '../Context/AuthContext';
 import { PuffLoader } from 'react-spinners';
 import ExplorePage from '../Components/ExplorePage';
+import { AuthProvider } from '../Context/AuthContext';
 const Explore = () => {
 
   const {explore,loading} = useContext(AuthProvider);
@@ -19,6 +19,14 @@ const Explore = () => {
   return (
   <div className="my-20">
 
+       <motion.div 
+       initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+      
+      className="max-w-6xl mx-auto my-10">
+        <img src="https://images.unsplash.com/photo-1679279354236-9ad388e4246b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="h-80 w-full object-cover rounded-2xl"/>
+      </motion.div>
 
       <motion.h1 
       initial={{ opacity: 0, y: -20 }}
@@ -39,6 +47,7 @@ const Explore = () => {
         {explore.map((explore)=> <ExplorePage explore={explore} key={explore.id}/>)}
 
       </div>
+      
     </div>
   )
 }

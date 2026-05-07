@@ -1,8 +1,8 @@
-import { useContext } from "react"
-import { AuthProvider } from "../Context/AuthContext"
-import TourPage from "../Components/TourPage"
-import { PuffLoader } from "react-spinners"
 import { motion } from 'framer-motion';
+import { useContext } from "react";
+import { PuffLoader } from "react-spinners";
+import TourPage from "../Components/TourPage";
+import { AuthProvider } from "../Context/AuthContext";
 
 const Tour = () => {
 
@@ -18,6 +18,15 @@ const Tour = () => {
   }
   return (
     <div className="my-20">
+
+       <motion.div 
+      initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+      
+      className="max-w-6xl mx-auto my-10">
+        <img src="https://images.unsplash.com/photo-1615277716590-d87d101caa70?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRvdXJ8ZW58MHx8MHx8fDA%3D" alt="" className="h-80 w-full object- rounded-2xl"/>
+      </motion.div>
 
 
       <motion.h1
@@ -36,6 +45,8 @@ const Tour = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 p-3 my-10">
         {tour.map((tour) => <TourPage tour={tour} key={tour.id} />)}
       </div>
+
+      
     </div>
   )
 }

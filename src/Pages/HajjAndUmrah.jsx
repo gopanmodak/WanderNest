@@ -1,8 +1,8 @@
 import { useContext } from "react"
-import { AuthProvider } from "../Context/AuthContext"
 import { PuffLoader } from "react-spinners"
 import HajjAndUmrahPage from "../Components/HajjAndUmrahPage"
 import HajjAndUmrahPageFooter from "../Components/HajjAndUmrahPageFooter"
+import { AuthProvider } from "../Context/AuthContext"
 
 const HajjAndUmrah = () => {
 
@@ -19,7 +19,7 @@ const HajjAndUmrah = () => {
     <div className="my-20 font-sans max-w-5xl mx-auto ">
 
       <figure className="max-w-6xl mx-auto ">
-        <img src="https://cdn-bmkfm.nitrocdn.com/KjSXjNCPeuIbUQFOJrZAibaJvyDiQgwL/assets/images/optimized/rev-dac81ff/bakhlatours.com/wp-content/uploads/2022/06/06.webp" alt=""  className="rounded-2xl h-80 mb-10 w-full"/>
+        <img src="https://cdn-bmkfm.nitrocdn.com/KjSXjNCPeuIbUQFOJrZAibaJvyDiQgwL/assets/images/optimized/rev-dac81ff/bakhlatours.com/wp-content/uploads/2022/06/06.webp" height={400} alt=""  className="rounded-2xl h-80 mb-10 w-full"/>
       </figure>
 
         <h1 className="text-gray-700 text-2xl md:text-4xl font-bold text-center">#1 Hajj And Umrah Agency In Bangladesh</h1>
@@ -34,6 +34,8 @@ const HajjAndUmrah = () => {
         <section>
           <HajjAndUmrahPageFooter />
         </section>
+
+      
     </div>
   )
 }

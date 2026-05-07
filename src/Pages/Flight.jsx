@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react"
-import { toast } from "react-toastify"
-import FlightPage from "../Components/FlightPage"
 import { motion } from 'framer-motion';
+import { useEffect, useState } from "react";
+import { toast } from "react-toastify";
+import FlightPage from "../Components/FlightPage";
 
 const Flight = () => {
   const [flight, setflight] = useState([])
@@ -28,22 +28,14 @@ const Flight = () => {
       <p className="text-center text-lg my-3 mb-10 font-sans text-gray-600 max-w-2xl mx-auto">Check baggage policies and fees from airlines we partner with. Always verify the latest information directly with your airline.</p>
 
 
-          <div className="flex justify-center items-center my-10">
-            <span className="w-1/2 h-full p-5 bg-gray-500 flex justify-between px-10  ">
-
-            <p className="border border-gray-50 p-2">Hajj And Umrah</p>
-
-            <p className="border border-gray-50 p-2">Popular Destinations</p>
-
-            </span>
-          </div>
+         
 
       <motion.div
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-7xl mx-auto">
-        {flight.map((flight) => <FlightPage flight={flight} key={flight.id} />)}
+        {flight?.map((flight) => <FlightPage flight={flight} key={flight.id} />)}
       </motion.div>
 
       <div className="max-w-7xl mx-auto bg-orange-700 p-10 flex justify-between items-center rounded-2xl mt-20">
@@ -58,7 +50,7 @@ const Flight = () => {
 
 
 
-
+  
     </div>
   )
 }

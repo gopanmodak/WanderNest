@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 const HotelPages = ({ hotel }) => {
   const navigate = useNavigate()
@@ -9,17 +8,12 @@ const HotelPages = ({ hotel }) => {
   return (
 
 
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      transition={{ duration: .8 ,  }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{once: true}}
-      className="border-2 border-gray-300 rounded-lg p-3 shadow-md hover:shadow-lg transition-shadow duration-300 space-y-2"
+    <div className="border-2 border-gray-300 rounded-lg p-3 shadow-md hover:shadow-lg transition-shadow duration-300 space-y-2"
     >
       <img
         src={hotel.img}
         alt=""
-        loading="lazy"
+        
         className="max-h-60 w-full object-cover rounded-2xl "
       />
 
@@ -38,7 +32,7 @@ const HotelPages = ({ hotel }) => {
           Details
         </button>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
