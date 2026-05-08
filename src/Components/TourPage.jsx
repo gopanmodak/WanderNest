@@ -5,7 +5,7 @@ const TourPage = ({ tour }) => {
 
     const navigate = useNavigate()
     const handleOnBook =()=>{
-        navigate('/tour/:id')
+        navigate(`/tours/${tour.id}`)
 
     }
     return (

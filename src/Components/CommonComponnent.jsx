@@ -51,12 +51,12 @@ const CommonComponnent = () => {
         <div className="my-20">
 
 
-            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-5 space-y-5">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-5">
                 {features.map((fData) =>
-                    <div className="bg-mauve-100 p-5 rounded-2xl gap-5 items-center flex justify-center flex-col shadow-lg hover:shadow-2xl hover:shadow-zinc-400 transition-transform duration-300  ">
+                    <div className="bg-mauve-100 p-3 rounded-2xl gap-3 items-center flex justify-center flex-col shadow-lg hover:shadow-2xl hover:shadow-zinc-400 transition-transform duration-300  ">
 
                         <img src={fData.icon} alt="" className="h-20 w-40 object-cover rounded-2xl" />
-                        <h2 className="text-2xl font-bold text-zinc-700">{fData.title}</h2>
+                        <h2 className="text-xl font-bold text-zinc-700">{fData.title}</h2>
                         <p className="text-gray-600">{fData.description}</p>
                     </div>)}
             </div>

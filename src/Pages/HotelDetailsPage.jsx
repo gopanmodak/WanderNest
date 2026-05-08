@@ -8,6 +8,8 @@ import { FiZap } from "react-icons/fi";
 import { IoMdTime } from "react-icons/io";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import CommonComponnent from "../Components/CommonComponnent";
+import { CgShoppingCart } from "react-icons/cg";
+import { toast } from "react-toastify";
 
 const HotelDetailsPage = () => {
 
@@ -18,6 +20,13 @@ const HotelDetailsPage = () => {
   const hotelDetails = hotels?.find((hotel) => hotel.id == id)
 
   const navigate = useNavigate();
+
+
+  const handleOnCart =()=>{
+    toast.success('Added to Cart Successfully')
+    
+
+  }
 
   if (loading) {
     return (
@@ -30,8 +39,8 @@ const HotelDetailsPage = () => {
 
     <div className="my-20 font-sans mx-auto p-2">
 
-      <div className="max-w-5xl mx-auto my-20 font-sans text-gray-700">
-      <p className="btn btn-ghost p-5 font-bold my-2" onClick={() => navigate(-1)}> <span><FaArrowLeftLong className="text-md" /></span> Back</p>
+      <div className="max-w-5xl p-2 mx-auto my-20 font-sans text-gray-700">
+      <p className="btn btn-ghost p-5 font-bold my-2" onClick={() => navigate(-1)}> <span><FaArrowLeftLong className="text-md" /></span> Back to Hotel</p>
       <div className=" bg-zinc-50 border border-zinc-200 rounded-2xl  max-w-6xl mx-auto  shadow-md ">
 
         <div><img src={hotelDetails?.img} alt="" className="w-full h-120 object-cover rounded-t-2xl" /></div>
@@ -109,7 +118,7 @@ const HotelDetailsPage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-10">
 
                   <button></button>
-                  <button className="btn btn-primary my-5 font-bold rounded-2xl w-full">Add to Card</button>
+                  <button className="btn btn-primary my-5 font-bold rounded-2xl" onClick={handleOnCart}> <span><CgShoppingCart className="text-2xl font-bold" /></span>Add to Card</button>
                 </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ const HajjAndUmrahPage = ({ hajj }) => {
 
     const handleOnHajjBook = () => {
 
-        navigate('/hajj-umrah/:id')
+        navigate(`/hajj-umrah/${hajj.id}`)
     }
     return (
         <div>

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 const ExplorePage = ({ explore }) => {
   return (
-    <Link to={`/explore/:id`}>
+    <Link to={`/explore/${explore.id}`}>
       <div className="card bg-base-100 w-96 shadow-sm font-sans hover:shadow-lg transition-shadow duration-300 text-gray-600">
         <figure>
           <img

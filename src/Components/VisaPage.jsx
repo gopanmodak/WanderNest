@@ -5,7 +5,7 @@ const VisaPage = ({ visa }) => {
     const navigate = useNavigate()
 
     const handleOnVisa =()=>{
-        navigate('/visa/:id')
+        navigate(`/visa/${visa.id}`)
     }
 
     return (
