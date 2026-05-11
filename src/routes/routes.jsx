@@ -62,7 +62,7 @@ export const router = createBrowserRouter ([
                 element: <Tour />
             },
             {
-                path: "tour/:id",
+                path: "tours/:id",
                 element: <TourDetailPages />
             },
             {
