@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { PuffLoader } from "react-spinners";
 import VisaPage from "../Components/VisaPage";
 import { AuthProvider } from "../Context/AuthContext";
+import { FaArrowRight } from 'react-icons/fa';
 
 const Visa = () => {
 
@@ -54,7 +55,12 @@ const Visa = () => {
        <div className="flex justify-center items-center max-w-6xl mx-auto mt-10">
       <video src="https://www.pexels.com/download/video/37084033/" autoPlay loop muted className="rounded-2xl opacity-80 h-80 w-full object-cover"></video>
     </div>
-  
+          <div className="text-center mt-20 p-5 bg-gray-100 rounded-lg">
+                   <h1 className="text-2xl font-bold">Ready to Explore Our Services?</h1>
+          
+                   <p className="my-3">Start your journey with SkyWay Travel and experience world-class service</p>
+                        <button className="btn btn-primary my-2">Get Started <span><FaArrowRight /></span></button>
+                   </div>
     </div>
   )
 }

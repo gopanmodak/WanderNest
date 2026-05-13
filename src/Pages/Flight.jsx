@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import FlightPage from "../Components/FlightPage";
+import { FaArrowRight } from 'react-icons/fa';
 
 const Flight = () => {
   const [flight, setflight] = useState([])
@@ -48,7 +49,12 @@ const Flight = () => {
         <p className="text-white max-w-md text-center border border-white p-3 rounded-lg hover:bg-white hover:text-orange-700 transition-all duration-300">Find the best flight deals</p>
       </div>
 
+<div className="text-center mt-20 p-5 bg-gray-100 rounded-lg">
+         <h1 className="text-2xl font-bold">Ready to Explore Our Services?</h1>
 
+         <p className="my-3">Start your journey with SkyWay Travel and experience world-class service</p>
+              <button className="btn btn-primary my-2">Get Started <span><FaArrowRight /></span></button>
+         </div>
 
   
     </div>

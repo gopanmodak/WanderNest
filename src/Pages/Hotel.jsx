@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { PuffLoader } from "react-spinners";
 import HotelPages from "../Components/HotelPages";
 import { AuthProvider } from "../Context/AuthContext";
+import { FaArrowRight } from 'react-icons/fa';
 
 const Hotel = () => {
   const { hotels, loading } = useContext(AuthProvider);
@@ -66,7 +67,12 @@ const Hotel = () => {
           <HotelPages hotel={hotel} key={hotel.id} />
         ))}
       </motion.div>
-
+                <div className="text-center mt-20 p-5 bg-gray-100 rounded-lg">
+                         <h1 className="text-2xl font-bold">Ready to Explore Our Services?</h1>
+                
+                         <p className="my-3">Start your journey with SkyWay Travel and experience world-class service</p>
+                              <button className="btn btn-primary my-2">Get Started <span><FaArrowRight /></span></button>
+                         </div>
 
     </div>
   );
