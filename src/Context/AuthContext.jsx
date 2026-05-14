@@ -1,5 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useEffect, useState } from "react";
+import { toast } from "react-toastify";
 
 export const AuthProvider = createContext();
 
@@ -23,6 +24,9 @@ const AuthContext = ({ children }) => {
 
   const [hajjData,setHajjData] = useState([]);
   const [hajjLoading,setHajjLoading] = useState(true);
+
+  const [flight, setflight] = useState([])
+  const [flightLoading, setFlightLoading] = useState(true)
 
   useEffect(() => {
     fetch('/hotels.json')
@@ -128,8 +132,17 @@ const AuthContext = ({ children }) => {
       setHajjLoading(false)
      })
 
-  })
+  },[])
 
+
+  useEffect(() => {
+    fetch('/flight.json')
+      .then(res => res.json())
+      .then(data => setflight(data))
+      .then(() => setFlightLoading(false))
+      .catch(error => toast.error(error.message))
+
+  }, [])
 
 
   const authInfo = {
@@ -139,7 +152,8 @@ const AuthContext = ({ children }) => {
     services, 
     explore,
     hajjData,
-    loading: visaLoading || hotelLoading || tourLoading || servicesLoading  || exploreLoading || hajjLoading,
+    flight,
+    loading: visaLoading || hotelLoading || tourLoading || servicesLoading  || exploreLoading || hajjLoading || flightLoading
   };
 
   return (

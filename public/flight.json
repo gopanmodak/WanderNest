@@ -1,1820 +1,1819 @@
- [
-    {
-      "id": 1,
-      "name": "Biman Bangladesh Airlines",
-      "flight_code": "BG147",
-      "route": "DAC → LHR",
-      "aircraft": "Boeing 787-9 Dreamliner",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "09:30 AM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "8 May 2026",
-        "time": "03:45 PM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "In-flight meal",
-          "Seat-back entertainment",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary water / soft drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Lounge access",
-          "Flat / reclining seat",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection (free on some fares)",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (not always available)"
-      ],
-      "prices": {
-        "economy_saver": "৳85,000 – ৳120,000",
-        "economy_flex": "৳120,000 – ৳160,000",
-        "business_class": "৳250,000 – ৳450,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳8,000 – ৳15,000",
-        "extra_10kg": "৳15,000 – ৳25,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions",
-        "Excess liquid carry (>100ml)"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa mandatory",
-        "Online check-in opens 24–48 hours before"
-      ],
-      "wifi_available": false,
-      "image_url": "https://images.pexels.com/photos/11078249/pexels-photo-11078249.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking (if departure 7+ days away)",
-        "standard_cancellation_fee": "৳5,000 – ৳15,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "50% refund up to 48h before",
-          "business_class": "75% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
+[
+  {
+    "id": 1,
+    "name": "Biman Bangladesh Airlines",
+    "flight_code": "BG147",
+    "route": "DAC → DXB",
+    "aircraft": "Boeing 787-9 Dreamliner",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Hazrat Shahjalal International Airport (DAC)",
+      "date": "8 May 2026",
+      "time": "09:30 AM",
+      "timezone": "Bangladesh Time"
     },
-    {
-      "id": 2,
-      "name": "Qatar Airways",
-      "flight_code": "QR671",
-      "route": "DAC → DOH → LHR",
-      "aircraft": "Boeing 787-9 Dreamliner",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "10:00 AM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "8 May 2026",
-        "time": "04:30 PM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "In-flight meal",
-          "Oryx One entertainment",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Al Mourjan Lounge access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (free for first hour)"
-      ],
-      "prices": {
-        "economy_saver": "৳90,000 – ৳130,000",
-        "economy_flex": "৳130,000 – ৳170,000",
-        "business_class": "৳300,000 – ৳500,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳9,000 – ৳16,000",
-        "extra_10kg": "৳16,000 – ৳26,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat",
-        "Wi-Fi browsing"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions",
-        "Excess liquid carry"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa mandatory",
-        "Online check-in opens 48 hours before"
-      ],
-      "wifi_available": true,
-      "image_url": "https://images.pexels.com/photos/19946453/pexels-photo-19946453.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳6,000 – ৳18,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "60% refund up to 72h before",
-          "business_class": "80% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
+    "arrival": {
+      "airport": "Dubai International Airport (DXB)",
+      "date": "8 May 2026",
+      "time": "03:45 PM",
+      "timezone": "UK Time"
     },
-    {
-      "id": 3,
-      "name": "Emirates",
-      "flight_code": "EK583",
-      "route": "DAC → DXB → LHR",
-      "aircraft": "Airbus A380-800",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "07:15 PM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "9 May 2026",
-        "time": "06:30 AM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "In-flight meal",
-          "ICE entertainment system",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Lounge access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding",
-          "Chauffeur drive (select cities)"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (limited free)"
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "In-flight meal",
+        "Seat-back entertainment",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary water / soft drinks"
       ],
-      "prices": {
-        "economy_saver": "৳95,000 – ৳135,000",
-        "economy_flex": "৳135,000 – ৳175,000",
-        "business_class": "৳320,000 – ৳520,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳10,000 – ৳17,000",
-        "extra_10kg": "৳17,000 – ৳27,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat",
-        "Wi-Fi browsing"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required",
-        "Online check-in opens 48 hours before"
-      ],
-      "wifi_available": true,
-      "image_url": "https://images.pexels.com/photos/20277062/pexels-photo-20277062.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳7,000 – ৳20,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "50% refund up to 48h before",
-          "business_class": "85% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Lounge access",
+        "Flat / reclining seat",
+        "Premium meals",
+        "Fast boarding"
+      ]
     },
-    {
-      "id": 4,
-      "name": "Singapore Airlines",
-      "flight_code": "SQ321",
-      "route": "DAC → SIN → LHR",
-      "aircraft": "Airbus A350-900",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "11:45 PM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "9 May 2026",
-        "time": "07:15 AM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "Book the Cook meal",
-          "KrisWorld entertainment",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "SilverKris Lounge access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (free for KrisFlyer members)"
-      ],
-      "prices": {
-        "economy_saver": "৳100,000 – ৳140,000",
-        "economy_flex": "৳140,000 – ৳180,000",
-        "business_class": "৳350,000 – ৳550,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳11,000 – ৳18,000",
-        "extra_10kg": "৳18,000 – ৳28,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat",
-        "Wi-Fi browsing"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required",
-        "Online check-in opens 48 hours before"
-      ],
-      "wifi_available": true,
-      "image_url": "https://images.pexels.com/photos/20016305/pexels-photo-20016305.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳8,000 – ৳22,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "55% refund up to 48h before",
-          "business_class": "90% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection (free on some fares)",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (not always available)"
+    ],
+    "prices": {
+      "economy_saver": "৳85,000 – ৳120,000",
+      "economy_flex": "৳120,000 – ৳160,000",
+      "business_class": "৳250,000 – ৳450,000"
     },
-    {
-      "id": 5,
-      "name": "ANA All Nippon Airways",
-      "flight_code": "NH28",
-      "route": "DAC → HND → LHR",
-      "aircraft": "Boeing 787-9 Dreamliner",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "08:10 PM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "9 May 2026",
-        "time": "09:45 AM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "Japanese/Western meal",
-          "Touch screen entertainment",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "ANA Lounge access",
-          "Staggered flat bed",
-          "Premium Japanese meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (paid)"
-      ],
-      "prices": {
-        "economy_saver": "৳105,000 – ৳145,000",
-        "economy_flex": "৳145,000 – ৳185,000",
-        "business_class": "৳360,000 – ৳560,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳12,000 – ৳19,000",
-        "extra_10kg": "৳19,000 – ৳29,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required (Japan transit visa may apply)",
-        "Online check-in opens 24 hours before"
-      ],
-      "wifi_available": false,
-      "image_url": "https://images.pexels.com/photos/32008325/pexels-photo-32008325.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳6,000 – ৳16,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "50% refund up to 72h before",
-          "business_class": "80% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
+    "extra_baggage_charges": {
+      "extra_5kg": "৳8,000 – ৳15,000",
+      "extra_10kg": "৳15,000 – ৳25,000"
     },
-    {
-      "id": 6,
-      "name": "Cathay Pacific",
-      "flight_code": "CX662",
-      "route": "DAC → HKG → LHR",
-      "aircraft": "Airbus A350-1000",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "01:50 PM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "8 May 2026",
-        "time": "08:30 PM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "In-flight meal",
-          "Studio entertainment",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "The Pier Lounge access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (paid)"
-      ],
-      "prices": {
-        "economy_saver": "৳95,000 – ৳135,000",
-        "economy_flex": "৳135,000 – ৳175,000",
-        "business_class": "৳330,000 – ৳530,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳10,000 – ৳17,000",
-        "extra_10kg": "৳17,000 – ৳27,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required",
-        "Online check-in opens 48 hours before"
-      ],
-      "wifi_available": false,
-      "image_url": "https://images.pexels.com/photos/19655192/pexels-photo-19655192.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳7,000 – ৳19,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "55% refund up to 48h before",
-          "business_class": "85% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 7,
-      "name": "Japan Airlines",
-      "flight_code": "JL42",
-      "route": "DAC → NRT → LHR",
-      "aircraft": "Boeing 787-8 Dreamliner",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "10:55 PM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "9 May 2026",
-        "time": "10:30 AM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "Japanese meal",
-          "MAGIC entertainment",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Sakura Lounge access",
-          "Flat bed",
-          "Premium Japanese meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (free for JAL members)"
-      ],
-      "prices": {
-        "economy_saver": "৳108,000 – ৳148,000",
-        "economy_flex": "৳148,000 – ৳188,000",
-        "business_class": "৳370,000 – ৳570,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳12,000 – ৳20,000",
-        "extra_10kg": "৳20,000 – ৳30,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat",
-        "Wi-Fi browsing"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required (Japan transit visa may apply)",
-        "Online check-in opens 24 hours before"
-      ],
-      "wifi_available": true,
-      "image_url": "https://images.pexels.com/photos/34558329/pexels-photo-34558329.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳8,000 – ৳21,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "50% refund up to 72h before",
-          "business_class": "85% refund up to 48h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 8,
-      "name": "Turkish Airlines",
-      "flight_code": "TK713",
-      "route": "DAC → IST → LHR",
-      "aircraft": "Boeing 777-300ER",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "06:40 AM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "8 May 2026",
-        "time": "01:55 PM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "8kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "In-flight meal",
-          "Planet entertainment",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Turkish Airlines Lounge access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (free for business class)"
-      ],
-      "prices": {
-        "economy_saver": "৳88,000 – ৳128,000",
-        "economy_flex": "৳128,000 – ৳168,000",
-        "business_class": "৳310,000 – ৳510,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳9,000 – ৳16,000",
-        "extra_10kg": "৳16,000 – ৳26,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat",
-        "Wi-Fi browsing"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required",
-        "Online check-in opens 24 hours before"
-      ],
-      "wifi_available": true,
-      "image_url": "https://images.pexels.com/photos/8250524/pexels-photo-8250524.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳6,000 – ৳17,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "60% refund up to 48h before",
-          "business_class": "80% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 9,
-      "name": "Air France",
-      "flight_code": "AF173",
-      "route": "DAC → CDG → LHR",
-      "aircraft": "Airbus A350-900",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "09:20 PM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "9 May 2026",
-        "time": "08:45 AM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "French meal",
-          "Touch entertainment",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Air France Lounge access",
-          "Flat bed",
-          "Premium French meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (paid)"
-      ],
-      "prices": {
-        "economy_saver": "৳92,000 – ৳132,000",
-        "economy_flex": "৳132,000 – ৳172,000",
-        "business_class": "৳340,000 – ৳540,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳10,000 – ৳17,000",
-        "extra_10kg": "৳17,000 – ৳27,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required (Schengen transit may apply)",
-        "Online check-in opens 30 hours before"
-      ],
-      "wifi_available": false,
-      "image_url": "https://images.pexels.com/photos/12759005/pexels-photo-12759005.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳7,000 – ৳18,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "50% refund up to 48h before",
-          "business_class": "85% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 10,
-      "name": "Korean Air",
-      "flight_code": "KE496",
-      "route": "DAC → ICN → LHR",
-      "aircraft": "Boeing 787-9 Dreamliner",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "03:15 AM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "8 May 2026",
-        "time": "11:40 AM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "Korean meal",
-          "Entertainment system",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "KAL Lounge access",
-          "Flat bed",
-          "Premium Korean meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (paid)"
-      ],
-      "prices": {
-        "economy_saver": "৳102,000 – ৳142,000",
-        "economy_flex": "৳142,000 – ৳182,000",
-        "business_class": "৳355,000 – ৳555,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳11,000 – ৳18,000",
-        "extra_10kg": "৳18,000 – ৳28,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required",
-        "Online check-in opens 24 hours before"
-      ],
-      "wifi_available": false,
-      "image_url": "https://images.pexels.com/photos/35685173/pexels-photo-35685173.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳8,000 – ৳20,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "50% refund up to 72h before",
-          "business_class": "80% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 11,
-      "name": "Swiss International Air Lines",
-      "flight_code": "LX145",
-      "route": "DAC → ZRH → LHR",
-      "aircraft": "Airbus A330-300",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "07:55 PM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "9 May 2026",
-        "time": "07:20 AM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "8kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "Swiss meal",
-          "Entertainment system",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Swiss Lounge access",
-          "Flat bed",
-          "Premium Swiss meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (paid)"
-      ],
-      "prices": {
-        "economy_saver": "৳98,000 – ৳138,000",
-        "economy_flex": "৳138,000 – ৳178,000",
-        "business_class": "৳345,000 – ৳545,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳10,000 – ৳17,000",
-        "extra_10kg": "৳17,000 – ৳27,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required (Schengen transit may apply)",
-        "Online check-in opens 23 hours before"
-      ],
-      "wifi_available": false,
-      "image_url": "https://images.pexels.com/photos/28904491/pexels-photo-28904491.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳7,000 – ৳19,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "55% refund up to 48h before",
-          "business_class": "85% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 12,
-      "name": "British Airways",
-      "flight_code": "BA148",
-      "route": "DAC → LHR",
-      "aircraft": "Boeing 787-9 Dreamliner",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "11:25 AM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "8 May 2026",
-        "time": "05:20 PM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "In-flight meal",
-          "Highlife entertainment",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Galleries Lounge access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (paid)"
-      ],
-      "prices": {
-        "economy_saver": "৳92,000 – ৳132,000",
-        "economy_flex": "৳132,000 – ৳172,000",
-        "business_class": "৳325,000 – ৳525,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳9,000 – ৳16,000",
-        "extra_10kg": "৳16,000 – ৳26,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required",
-        "Online check-in opens 24 hours before"
-      ],
-      "wifi_available": false,
-      "image_url": "https://images.pexels.com/photos/36863379/pexels-photo-36863379.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳6,000 – ৳17,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "50% refund up to 48h before",
-          "business_class": "80% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 13,
-      "name": "China Southern Airlines",
-      "flight_code": "CZ394",
-      "route": "DAC → CAN → LHR",
-      "aircraft": "Boeing 787-8 Dreamliner",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "12:35 PM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "8 May 2026",
-        "time": "09:45 PM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "Chinese meal",
-          "Entertainment system",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Lounge access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (paid)"
-      ],
-      "prices": {
-        "economy_saver": "৳85,000 – ৳125,000",
-        "economy_flex": "৳125,000 – ৳165,000",
-        "business_class": "৳290,000 – ৳490,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳8,000 – ৳15,000",
-        "extra_10kg": "৳15,000 – ৳25,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required (China transit visa may apply)",
-        "Online check-in opens 24 hours before"
-      ],
-      "wifi_available": false,
-      "image_url": "https://images.pexels.com/photos/33837109/pexels-photo-33837109.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳5,000 – ৳14,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "50% refund up to 72h before",
-          "business_class": "75% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 14,
-      "name": "Air China",
-      "flight_code": "CA702",
-      "route": "DAC → PEK → LHR",
-      "aircraft": "Airbus A350-900",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "08:50 AM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "8 May 2026",
-        "time": "06:30 PM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "Chinese/Western meal",
-          "Entertainment system",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Lounge access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (free for business class)"
-      ],
-      "prices": {
-        "economy_saver": "৳87,000 – ৳127,000",
-        "economy_flex": "৳127,000 – ৳167,000",
-        "business_class": "৳300,000 – ৳500,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳8,500 – ৳15,500",
-        "extra_10kg": "৳15,500 – ৳25,500"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat",
-        "Wi-Fi browsing"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required (China transit visa may apply)",
-        "Online check-in opens 24 hours before"
-      ],
-      "wifi_available": true,
-      "image_url": "https://images.pexels.com/photos/36006608/pexels-photo-36006608/free-photo-of-air-china-aircraft-on-airport-runway.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳5,500 – ৳15,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "50% refund up to 48h before",
-          "business_class": "80% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 15,
-      "name": "Lufthansa",
-      "flight_code": "LH729",
-      "route": "DAC → FRA → LHR",
-      "aircraft": "Airbus A340-600",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "09:55 PM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "9 May 2026",
-        "time": "08:10 AM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "8kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "German meal",
-          "Entertainment system",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Lufthansa Lounge access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (paid)"
-      ],
-      "prices": {
-        "economy_saver": "৳95,000 – ৳135,000",
-        "economy_flex": "৳135,000 – ৳175,000",
-        "business_class": "৳335,000 – ৳535,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳10,000 – ৳17,000",
-        "extra_10kg": "৳17,000 – ৳27,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required (Schengen transit may apply)",
-        "Online check-in opens 23 hours before"
-      ],
-      "wifi_available": false,
-      "image_url": "https://images.pexels.com/photos/33106857/pexels-photo-33106857.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳7,000 – ৳19,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "55% refund up to 48h before",
-          "business_class": "85% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 16,
-      "name": "Delta Air Lines",
-      "flight_code": "DL247",
-      "route": "DAC → JFK → LHR",
-      "aircraft": "Airbus A330-900neo",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "11:20 PM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "9 May 2026",
-        "time": "01:45 PM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "In-flight meal",
-          "Delta Studio entertainment",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Delta Sky Club access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (free for SkyMiles members)"
-      ],
-      "prices": {
-        "economy_saver": "৳105,000 – ৳145,000",
-        "economy_flex": "৳145,000 – ৳185,000",
-        "business_class": "৳360,000 – ৳560,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳12,000 – ৳19,000",
-        "extra_10kg": "৳19,000 – ৳29,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat",
-        "Wi-Fi browsing"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required (US transit visa may apply)",
-        "Online check-in opens 24 hours before"
-      ],
-      "wifi_available": true,
-      "image_url": "https://images.pexels.com/photos/31387225/pexels-photo-31387225.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳8,000 – ৳22,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "50% refund up to 72h before",
-          "business_class": "80% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 17,
-      "name": "United Airlines",
-      "flight_code": "UA89",
-      "route": "DAC → EWR → LHR",
-      "aircraft": "Boeing 787-10 Dreamliner",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "01:15 AM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "8 May 2026",
-        "time": "12:30 PM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "In-flight meal",
-          "Personal device entertainment",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "United Polaris Lounge access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (paid)"
-      ],
-      "prices": {
-        "economy_saver": "৳100,000 – ৳140,000",
-        "economy_flex": "৳140,000 – ৳180,000",
-        "business_class": "৳350,000 – ৳550,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳11,000 – ৳18,000",
-        "extra_10kg": "৳18,000 – ৳28,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required (US transit visa may apply)",
-        "Online check-in opens 24 hours before"
-      ],
-      "wifi_available": false,
-      "image_url": "https://images.pexels.com/photos/10180157/pexels-photo-10180157.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳7,000 – ৳20,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "50% refund up to 48h before",
-          "business_class": "80% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 18,
-      "name": "American Airlines",
-      "flight_code": "AA292",
-      "route": "DAC → DFW → LHR",
-      "aircraft": "Boeing 777-300ER",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "03:45 PM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "9 May 2026",
-        "time": "08:15 AM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "In-flight meal",
-          "Flagship entertainment",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Admirals Club access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (paid)"
-      ],
-      "prices": {
-        "economy_saver": "৳108,000 – ৳148,000",
-        "economy_flex": "৳148,000 – ৳188,000",
-        "business_class": "৳370,000 – ৳570,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳12,000 – ৳20,000",
-        "extra_10kg": "৳20,000 – ৳30,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required (US transit visa may apply)",
-        "Online check-in opens 24 hours before"
-      ],
-      "wifi_available": false,
-      "image_url": "https://images.pexels.com/photos/19906315/pexels-photo-19906315.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳8,000 – ৳21,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "50% refund up to 72h before",
-          "business_class": "80% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 19,
-      "name": "Etihad Airways",
-      "flight_code": "EY1271",
-      "route": "DAC → AUH → LHR",
-      "aircraft": "Boeing 787-9 Dreamliner",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "08:40 PM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "9 May 2026",
-        "time": "07:55 AM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "In-flight meal",
-          "E-BOX entertainment",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Etihad Lounge access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (limited free)"
-      ],
-      "prices": {
-        "economy_saver": "৳93,000 – ৳133,000",
-        "economy_flex": "৳133,000 – ৳173,000",
-        "business_class": "৳340,000 – ৳540,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳10,000 – ৳17,000",
-        "extra_10kg": "৳17,000 – ৳27,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat",
-        "Wi-Fi browsing"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required",
-        "Online check-in opens 48 hours before"
-      ],
-      "wifi_available": true,
-      "image_url": "https://images.pexels.com/photos/11937612/pexels-photo-11937612.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳7,000 – ৳19,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "55% refund up to 48h before",
-          "business_class": "85% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 20,
-      "name": "Vistara",
-      "flight_code": "UK126",
-      "route": "DAC → DEL → LHR",
-      "aircraft": "Boeing 787-9 Dreamliner",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "01:30 PM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "8 May 2026",
-        "time": "08:45 PM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "Indian/International meal",
-          "Entertainment system",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Vistara Lounge access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (limited)"
-      ],
-      "prices": {
-        "economy_saver": "৳88,000 – ৳128,000",
-        "economy_flex": "৳128,000 – ৳168,000",
-        "business_class": "৳310,000 – ৳510,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳9,000 – ৳16,000",
-        "extra_10kg": "৳16,000 – ৳26,000"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Arrive 4 hours before departure",
-        "Passport + visa required",
-        "Online check-in opens 48 hours before"
-      ],
-      "wifi_available": false,
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Vistara%2C_VT-TSD%2C_Boeing_787-9_Dreamliner.jpg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳6,000 – ৳16,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "50% refund up to 48h before",
-          "business_class": "80% refund up to 48h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
-    },
-    {
-      "id": 21,
-      "name": "Malaysia Airlines",
-      "flight_code": "MH197",
-      "route": "DAC → KUL → LHR",
-      "aircraft": "Airbus A350-900",
-      "status": "Scheduled",
-      "departure": {
-        "airport": "Hazrat Shahjalal International Airport (DAC)",
-        "date": "8 May 2026",
-        "time": "04:10 AM",
-        "timezone": "Bangladesh Time"
-      },
-      "arrival": {
-        "airport": "London Heathrow Airport (LHR)",
-        "date": "8 May 2026",
-        "time": "12:35 PM",
-        "timezone": "UK Time"
-      },
-      "included": {
-        "economy_class": [
-          "7kg Cabin baggage",
-          "2 × 23kg Checked baggage",
-          "Malaysian meal",
-          "Entertainment system",
-          "USB charging / power outlet",
-          "Blanket & pillow",
-          "Complimentary drinks"
-        ],
-        "business_class": [
-          "Priority check-in",
-          "Extra baggage allowance",
-          "Golden Lounge access",
-          "Flat bed",
-          "Premium meals",
-          "Fast boarding"
-        ]
-      },
-      "not_included": [
-        "Extra baggage fee",
-        "Paid seat selection",
-        "Travel insurance",
-        "Airport hotel",
-        "Wi-Fi (paid)"
-      ],
-      "prices": {
-        "economy_saver": "৳90,000 – ৳130,000",
-        "economy_flex": "৳130,000 – ৳170,000",
-        "business_class": "৳325,000 – ৳525,000"
-      },
-      "extra_baggage_charges": {
-        "extra_5kg": "৳9,500 – ৳16,500",
-        "extra_10kg": "৳16,500 – ৳26,500"
-      },
-      "allowed_activities": [
-        "Movies / TV watching",
-        "Mobile charging",
-        "Meal service",
-        "Duty free shopping",
-        "Window seat request",
-        "Sleep / recline seat"
-      ],
-      "prohibited_activities": [
-        "Smoking",
-        "Carrying sharp objects",
-        "Power bank in checked baggage",
-        "Ignoring cabin crew instructions"
-      ],
-      "important_notes": [
-        "Since it is an international flight, it is best to arrive at the airport at                              least 4 hours before departure.",
-        "Passport + visa required",
-        "Online check-in usually opens 24–48 hours before departure."
-      ],
-      "wifi_available": false,
-      "image_url": "https://images.pexels.com/photos/20600915/pexels-photo-20600915.jpeg",
-      "ticket_cancellation_policy": {
-        "free_cancellation_period": "Within 24 hours of booking",
-        "standard_cancellation_fee": "৳6,500 – ৳17,000",
-        "refund_percentage": {
-          "economy_saver": "0% refund after 24h",
-          "economy_flex": "50% refund up to 72h before",
-          "business_class": "80% refund up to 24h before"
-        },
-        "no_show_penalty": "100% of ticket price"
-      }
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions",
+      "Excess liquid carry (>100ml)"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa mandatory",
+      "Online check-in opens 24–48 hours before"
+    ],
+    "wifi_available": false,
+    "image_url": "https://images.pexels.com/photos/11078249/pexels-photo-11078249.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking (if departure 7+ days away)",
+      "standard_cancellation_fee": "৳5,000 – ৳15,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "50% refund up to 48h before",
+        "business_class": "75% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
     }
-  ]
-  
+  },
+  {
+    "id": 2,
+    "name": "Qatar Airways",
+    "flight_code": "QR671",
+    "route": "CGP → SIN",
+    "aircraft": "Boeing 787-9 Dreamliner",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Shah Amanat International Airport (CGP)",
+      "date": "8 May 2026",
+      "time": "10:00 AM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Singapore Changi Airport (SIN)",
+      "date": "8 May 2026",
+      "time": "04:30 PM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "In-flight meal",
+        "Oryx One entertainment",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Al Mourjan Lounge access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (free for first hour)"
+    ],
+    "prices": {
+      "economy_saver": "৳90,000 – ৳130,000",
+      "economy_flex": "৳130,000 – ৳170,000",
+      "business_class": "৳300,000 – ৳500,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳9,000 – ৳16,000",
+      "extra_10kg": "৳16,000 – ৳26,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat",
+      "Wi-Fi browsing"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions",
+      "Excess liquid carry"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa mandatory",
+      "Online check-in opens 48 hours before"
+    ],
+    "wifi_available": true,
+    "image_url": "https://images.pexels.com/photos/19946453/pexels-photo-19946453.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳6,000 – ৳18,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "60% refund up to 72h before",
+        "business_class": "80% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Emirates",
+    "flight_code": "EK583",
+    "route": "ZYL → KUL",
+    "aircraft": "Airbus A380-800",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Osmani International Airport (ZYL)",
+      "date": "8 May 2026",
+      "time": "07:15 PM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Kuala Lumpur International Airport (KUL)",
+      "date": "9 May 2026",
+      "time": "06:30 AM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "In-flight meal",
+        "ICE entertainment system",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Lounge access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding",
+        "Chauffeur drive (select cities)"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (limited free)"
+    ],
+    "prices": {
+      "economy_saver": "৳95,000 – ৳135,000",
+      "economy_flex": "৳135,000 – ৳175,000",
+      "business_class": "৳320,000 – ৳520,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳10,000 – ৳17,000",
+      "extra_10kg": "৳17,000 – ৳27,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat",
+      "Wi-Fi browsing"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required",
+      "Online check-in opens 48 hours before"
+    ],
+    "wifi_available": true,
+    "image_url": "https://images.pexels.com/photos/20277062/pexels-photo-20277062.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳7,000 – ৳20,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "50% refund up to 48h before",
+        "business_class": "85% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Singapore Airlines",
+    "flight_code": "SQ321",
+    "route": "JSR → BKK",
+    "aircraft": "Airbus A350-900",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Jessore Airport (JSR)",
+      "date": "8 May 2026",
+      "time": "11:45 PM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Suvarnabhumi Airport (BKK)",
+      "date": "9 May 2026",
+      "time": "07:15 AM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "Book the Cook meal",
+        "KrisWorld entertainment",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "SilverKris Lounge access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (free for KrisFlyer members)"
+    ],
+    "prices": {
+      "economy_saver": "৳100,000 – ৳140,000",
+      "economy_flex": "৳140,000 – ৳180,000",
+      "business_class": "৳350,000 – ৳550,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳11,000 – ৳18,000",
+      "extra_10kg": "৳18,000 – ৳28,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat",
+      "Wi-Fi browsing"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required",
+      "Online check-in opens 48 hours before"
+    ],
+    "wifi_available": true,
+    "image_url": "https://images.pexels.com/photos/20016305/pexels-photo-20016305.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳8,000 – ৳22,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "55% refund up to 48h before",
+        "business_class": "90% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 5,
+    "name": "ANA All Nippon Airways",
+    "flight_code": "NH28",
+    "route": "CXB → DEL",
+    "aircraft": "Boeing 787-9 Dreamliner",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Cox's Bazar Airport (CXB)",
+      "date": "8 May 2026",
+      "time": "08:10 PM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Indira Gandhi International Airport (DEL)",
+      "date": "9 May 2026",
+      "time": "09:45 AM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "Japanese/Western meal",
+        "Touch screen entertainment",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "ANA Lounge access",
+        "Staggered flat bed",
+        "Premium Japanese meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (paid)"
+    ],
+    "prices": {
+      "economy_saver": "৳105,000 – ৳145,000",
+      "economy_flex": "৳145,000 – ৳185,000",
+      "business_class": "৳360,000 – ৳560,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳12,000 – ৳19,000",
+      "extra_10kg": "৳19,000 – ৳29,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required (Japan transit visa may apply)",
+      "Online check-in opens 24 hours before"
+    ],
+    "wifi_available": false,
+    "image_url": "https://images.pexels.com/photos/32008325/pexels-photo-32008325.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳6,000 – ৳16,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "50% refund up to 72h before",
+        "business_class": "80% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Cathay Pacific",
+    "flight_code": "CX662",
+    "route": "SPD → IST",
+    "aircraft": "Airbus A350-1000",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Saidpur Airport (SPD)",
+      "date": "8 May 2026",
+      "time": "01:50 PM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Istanbul Airport (IST)",
+      "date": "8 May 2026",
+      "time": "08:30 PM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "In-flight meal",
+        "Studio entertainment",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "The Pier Lounge access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (paid)"
+    ],
+    "prices": {
+      "economy_saver": "৳95,000 – ৳135,000",
+      "economy_flex": "৳135,000 – ৳175,000",
+      "business_class": "৳330,000 – ৳530,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳10,000 – ৳17,000",
+      "extra_10kg": "৳17,000 – ৳27,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required",
+      "Online check-in opens 48 hours before"
+    ],
+    "wifi_available": false,
+    "image_url": "https://images.pexels.com/photos/19655192/pexels-photo-19655192.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳7,000 – ৳19,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "55% refund up to 48h before",
+        "business_class": "85% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Japan Airlines",
+    "flight_code": "JL42",
+    "route": "BZL → DOH",
+    "aircraft": "Boeing 787-8 Dreamliner",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Barisal Airport (BZL)",
+      "date": "8 May 2026",
+      "time": "10:55 PM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Hamad International Airport (DOH)",
+      "date": "9 May 2026",
+      "time": "10:30 AM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "Japanese meal",
+        "MAGIC entertainment",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Sakura Lounge access",
+        "Flat bed",
+        "Premium Japanese meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (free for JAL members)"
+    ],
+    "prices": {
+      "economy_saver": "৳108,000 – ৳148,000",
+      "economy_flex": "৳148,000 – ৳188,000",
+      "business_class": "৳370,000 – ৳570,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳12,000 – ৳20,000",
+      "extra_10kg": "৳20,000 – ৳30,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat",
+      "Wi-Fi browsing"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required (Japan transit visa may apply)",
+      "Online check-in opens 24 hours before"
+    ],
+    "wifi_available": true,
+    "image_url": "https://images.pexels.com/photos/34558329/pexels-photo-34558329.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳8,000 – ৳21,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "50% refund up to 72h before",
+        "business_class": "85% refund up to 48h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Turkish Airlines",
+    "flight_code": "TK713",
+    "route": "RJH → JED",
+    "aircraft": "Boeing 777-300ER",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Rajshahi Airport (RJH)",
+      "date": "8 May 2026",
+      "time": "06:40 AM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "King Abdulaziz International Airport (JED)",
+      "date": "8 May 2026",
+      "time": "01:55 PM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "8kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "In-flight meal",
+        "Planet entertainment",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Turkish Airlines Lounge access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (free for business class)"
+    ],
+    "prices": {
+      "economy_saver": "৳88,000 – ৳128,000",
+      "economy_flex": "৳128,000 – ৳168,000",
+      "business_class": "৳310,000 – ৳510,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳9,000 – ৳16,000",
+      "extra_10kg": "৳16,000 – ৳26,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat",
+      "Wi-Fi browsing"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required",
+      "Online check-in opens 24 hours before"
+    ],
+    "wifi_available": true,
+    "image_url": "https://images.pexels.com/photos/8250524/pexels-photo-8250524.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳6,000 – ৳17,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "60% refund up to 48h before",
+        "business_class": "80% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Air France",
+    "flight_code": "AF173",
+    "route": "ZYL → CDG",
+    "aircraft": "Airbus A350-900",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Sylhet Osmani International Airport (ZYL)",
+      "date": "8 May 2026",
+      "time": "09:20 PM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Charles de Gaulle Airport (CDG)",
+      "date": "9 May 2026",
+      "time": "08:45 AM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "French meal",
+        "Touch entertainment",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Air France Lounge access",
+        "Flat bed",
+        "Premium French meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (paid)"
+    ],
+    "prices": {
+      "economy_saver": "৳92,000 – ৳132,000",
+      "economy_flex": "৳132,000 – ৳172,000",
+      "business_class": "৳340,000 – ৳540,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳10,000 – ৳17,000",
+      "extra_10kg": "৳17,000 – ৳27,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required (Schengen transit may apply)",
+      "Online check-in opens 30 hours before"
+    ],
+    "wifi_available": false,
+    "image_url": "https://images.pexels.com/photos/12759005/pexels-photo-12759005.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳7,000 – ৳18,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "50% refund up to 48h before",
+        "business_class": "85% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Korean Air",
+    "flight_code": "KE496",
+    "route": "DAC → FRA",
+    "aircraft": "Boeing 787-9 Dreamliner",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Dhaka Airport (DAC)",
+      "date": "8 May 2026",
+      "time": "03:15 AM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Frankfurt Airport (FRA)",
+      "date": "8 May 2026",
+      "time": "11:40 AM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "Korean meal",
+        "Entertainment system",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "KAL Lounge access",
+        "Flat bed",
+        "Premium Korean meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (paid)"
+    ],
+    "prices": {
+      "economy_saver": "৳102,000 – ৳142,000",
+      "economy_flex": "৳142,000 – ৳182,000",
+      "business_class": "৳355,000 – ৳555,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳11,000 – ৳18,000",
+      "extra_10kg": "৳18,000 – ৳28,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required",
+      "Online check-in opens 24 hours before"
+    ],
+    "wifi_available": false,
+    "image_url": "https://images.pexels.com/photos/35685173/pexels-photo-35685173.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳8,000 – ৳20,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "50% refund up to 72h before",
+        "business_class": "80% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Swiss International Air Lines",
+    "flight_code": "LX145",
+    "route": "CGP → YYZ",
+    "aircraft": "Airbus A330-300",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Chattogram Airport (CGP)",
+      "date": "8 May 2026",
+      "time": "07:55 PM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Toronto Pearson International Airport (YYZ)",
+      "date": "9 May 2026",
+      "time": "07:20 AM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "8kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "Swiss meal",
+        "Entertainment system",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Swiss Lounge access",
+        "Flat bed",
+        "Premium Swiss meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (paid)"
+    ],
+    "prices": {
+      "economy_saver": "৳98,000 – ৳138,000",
+      "economy_flex": "৳138,000 – ৳178,000",
+      "business_class": "৳345,000 – ৳545,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳10,000 – ৳17,000",
+      "extra_10kg": "৳17,000 – ৳27,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required (Schengen transit may apply)",
+      "Online check-in opens 23 hours before"
+    ],
+    "wifi_available": false,
+    "image_url": "https://images.pexels.com/photos/28904491/pexels-photo-28904491.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳7,000 – ৳19,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "55% refund up to 48h before",
+        "business_class": "85% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 12,
+    "name": "British Airways",
+    "flight_code": "BA148",
+    "route": "CXB → SYD",
+    "aircraft": "Boeing 787-9 Dreamliner",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Cox's Bazar Airport (CXB)",
+      "date": "8 May 2026",
+      "time": "11:25 AM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Sydney Kingsford Smith Airport (SYD)",
+      "date": "8 May 2026",
+      "time": "05:20 PM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "In-flight meal",
+        "Highlife entertainment",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Galleries Lounge access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (paid)"
+    ],
+    "prices": {
+      "economy_saver": "৳92,000 – ৳132,000",
+      "economy_flex": "৳132,000 – ৳172,000",
+      "business_class": "৳325,000 – ৳525,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳9,000 – ৳16,000",
+      "extra_10kg": "৳16,000 – ৳26,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required",
+      "Online check-in opens 24 hours before"
+    ],
+    "wifi_available": false,
+    "image_url": "https://images.pexels.com/photos/36863379/pexels-photo-36863379.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳6,000 – ৳17,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "50% refund up to 48h before",
+        "business_class": "80% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 13,
+    "name": "China Southern Airlines",
+    "flight_code": "CZ394",
+    "route": "RJH → HND",
+    "aircraft": "Boeing 787-8 Dreamliner",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Rajshahi Airport (RJH)",
+      "date": "8 May 2026",
+      "time": "12:35 PM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Tokyo Haneda Airport (HND)",
+      "date": "8 May 2026",
+      "time": "09:45 PM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "Chinese meal",
+        "Entertainment system",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Lounge access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (paid)"
+    ],
+    "prices": {
+      "economy_saver": "৳85,000 – ৳125,000",
+      "economy_flex": "৳125,000 – ৳165,000",
+      "business_class": "৳290,000 – ৳490,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳8,000 – ৳15,000",
+      "extra_10kg": "৳15,000 – ৳25,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required (China transit visa may apply)",
+      "Online check-in opens 24 hours before"
+    ],
+    "wifi_available": false,
+    "image_url": "https://images.pexels.com/photos/33837109/pexels-photo-33837109.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳5,000 – ৳14,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "50% refund up to 72h before",
+        "business_class": "75% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Air China",
+    "flight_code": "CA702",
+    "route": "BZL → ICN",
+    "aircraft": "Airbus A350-900",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Barisal Airport (BZL)",
+      "date": "8 May 2026",
+      "time": "08:50 AM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Seoul Incheon International Airport (ICN)",
+      "date": "8 May 2026",
+      "time": "06:30 PM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "Chinese/Western meal",
+        "Entertainment system",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Lounge access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (free for business class)"
+    ],
+    "prices": {
+      "economy_saver": "৳87,000 – ৳127,000",
+      "economy_flex": "৳127,000 – ৳167,000",
+      "business_class": "৳300,000 – ৳500,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳8,500 – ৳15,500",
+      "extra_10kg": "৳15,500 – ৳25,500"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat",
+      "Wi-Fi browsing"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required (China transit visa may apply)",
+      "Online check-in opens 24 hours before"
+    ],
+    "wifi_available": true,
+    "image_url": "https://images.pexels.com/photos/36006608/pexels-photo-36006608/free-photo-of-air-china-aircraft-on-airport-runway.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳5,500 – ৳15,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "50% refund up to 48h before",
+        "business_class": "80% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Lufthansa",
+    "flight_code": "LH729",
+    "route": "JSR → PEK",
+    "aircraft": "Airbus A340-600",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Jessore Airport (JSR)",
+      "date": "8 May 2026",
+      "time": "09:55 PM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Beijing Capital International Airport (PEK)",
+      "date": "9 May 2026",
+      "time": "08:10 AM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "8kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "German meal",
+        "Entertainment system",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Lufthansa Lounge access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (paid)"
+    ],
+    "prices": {
+      "economy_saver": "৳95,000 – ৳135,000",
+      "economy_flex": "৳135,000 – ৳175,000",
+      "business_class": "৳335,000 – ৳535,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳10,000 – ৳17,000",
+      "extra_10kg": "৳17,000 – ৳27,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required (Schengen transit may apply)",
+      "Online check-in opens 23 hours before"
+    ],
+    "wifi_available": false,
+    "image_url": "https://images.pexels.com/photos/33106857/pexels-photo-33106857.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳7,000 – ৳19,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "55% refund up to 48h before",
+        "business_class": "85% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Delta Air Lines",
+    "flight_code": "DL247",
+    "route": "SPD → LAX",
+    "aircraft": "Airbus A330-900neo",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Saidpur Airport (SPD)",
+      "date": "8 May 2026",
+      "time": "11:20 PM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Los Angeles International Airport (LAX)",
+      "date": "9 May 2026",
+      "time": "01:45 PM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "In-flight meal",
+        "Delta Studio entertainment",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Delta Sky Club access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (free for SkyMiles members)"
+    ],
+    "prices": {
+      "economy_saver": "৳105,000 – ৳145,000",
+      "economy_flex": "৳145,000 – ৳185,000",
+      "business_class": "৳360,000 – ৳560,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳12,000 – ৳19,000",
+      "extra_10kg": "৳19,000 – ৳29,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat",
+      "Wi-Fi browsing"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required (US transit visa may apply)",
+      "Online check-in opens 24 hours before"
+    ],
+    "wifi_available": true,
+    "image_url": "https://images.pexels.com/photos/31387225/pexels-photo-31387225.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳8,000 – ৳22,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "50% refund up to 72h before",
+        "business_class": "80% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 17,
+    "name": "United Airlines",
+    "flight_code": "UA89",
+    "route": "DAC → AMS",
+    "aircraft": "Boeing 787-10 Dreamliner",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Hazrat Shahjalal International Airport (DAC)",
+      "date": "8 May 2026",
+      "time": "01:15 AM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Amsterdam Schiphol Airport (AMS)",
+      "date": "8 May 2026",
+      "time": "12:30 PM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "In-flight meal",
+        "Personal device entertainment",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "United Polaris Lounge access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (paid)"
+    ],
+    "prices": {
+      "economy_saver": "৳100,000 – ৳140,000",
+      "economy_flex": "৳140,000 – ৳180,000",
+      "business_class": "৳350,000 – ৳550,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳11,000 – ৳18,000",
+      "extra_10kg": "৳18,000 – ৳28,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required (US transit visa may apply)",
+      "Online check-in opens 24 hours before"
+    ],
+    "wifi_available": false,
+    "image_url": "https://images.pexels.com/photos/10180157/pexels-photo-10180157.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳7,000 – ৳20,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "50% refund up to 48h before",
+        "business_class": "80% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 18,
+    "name": "American Airlines",
+    "flight_code": "AA292",
+    "route": "CGP → FCO",
+    "aircraft": "Boeing 777-300ER",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Shah Amanat International Airport (CGP)",
+      "date": "8 May 2026",
+      "time": "03:45 PM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Rome Fiumicino Airport (FCO)",
+      "date": "9 May 2026",
+      "time": "08:15 AM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "In-flight meal",
+        "Flagship entertainment",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Admirals Club access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (paid)"
+    ],
+    "prices": {
+      "economy_saver": "৳108,000 – ৳148,000",
+      "economy_flex": "৳148,000 – ৳188,000",
+      "business_class": "৳370,000 – ৳570,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳12,000 – ৳20,000",
+      "extra_10kg": "৳20,000 – ৳30,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required (US transit visa may apply)",
+      "Online check-in opens 24 hours before"
+    ],
+    "wifi_available": false,
+    "image_url": "https://images.pexels.com/photos/19906315/pexels-photo-19906315.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳8,000 – ৳21,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "50% refund up to 72h before",
+        "business_class": "80% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Etihad Airways",
+    "flight_code": "EY1271",
+    "route": "ZYL → MAD",
+    "aircraft": "Boeing 787-9 Dreamliner",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Osmani International Airport (ZYL)",
+      "date": "8 May 2026",
+      "time": "08:40 PM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Madrid-Barajas Airport (MAD)",
+      "date": "9 May 2026",
+      "time": "07:55 AM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "In-flight meal",
+        "E-BOX entertainment",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Etihad Lounge access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (limited free)"
+    ],
+    "prices": {
+      "economy_saver": "৳93,000 – ৳133,000",
+      "economy_flex": "৳133,000 – ৳173,000",
+      "business_class": "৳340,000 – ৳540,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳10,000 – ৳17,000",
+      "extra_10kg": "৳17,000 – ৳27,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat",
+      "Wi-Fi browsing"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required",
+      "Online check-in opens 48 hours before"
+    ],
+    "wifi_available": true,
+    "image_url": "https://images.pexels.com/photos/11937612/pexels-photo-11937612.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳7,000 – ৳19,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "55% refund up to 48h before",
+        "business_class": "85% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Vistara",
+    "flight_code": "UK126",
+    "route": "DAC → JFK",
+    "aircraft": "Boeing 787-9 Dreamliner",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Dhaka Airport (DAC)",
+      "date": "8 May 2026",
+      "time": "01:30 PM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "John F. Kennedy International Airport (JFK)",
+      "date": "8 May 2026",
+      "time": "08:45 PM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "Indian/International meal",
+        "Entertainment system",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Vistara Lounge access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (limited)"
+    ],
+    "prices": {
+      "economy_saver": "৳88,000 – ৳128,000",
+      "economy_flex": "৳128,000 – ৳168,000",
+      "business_class": "৳310,000 – ৳510,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳9,000 – ৳16,000",
+      "extra_10kg": "৳16,000 – ৳26,000"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Arrive 4 hours before departure",
+      "Passport + visa required",
+      "Online check-in opens 48 hours before"
+    ],
+    "wifi_available": false,
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Vistara%2C_VT-TSD%2C_Boeing_787-9_Dreamliner.jpg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳6,000 – ৳16,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "50% refund up to 48h before",
+        "business_class": "80% refund up to 48h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Malaysia Airlines",
+    "flight_code": "MH197",
+    "route": "CGP → VIE",
+    "aircraft": "Airbus A350-900",
+    "status": "Scheduled",
+    "departure": {
+      "airport": "Chattogram Airport (CGP)",
+      "date": "8 May 2026",
+      "time": "04:10 AM",
+      "timezone": "Bangladesh Time"
+    },
+    "arrival": {
+      "airport": "Vienna International Airport (VIE)",
+      "date": "8 May 2026",
+      "time": "12:35 PM",
+      "timezone": "UK Time"
+    },
+    "included": {
+      "economy_class": [
+        "7kg Cabin baggage",
+        "2 × 23kg Checked baggage",
+        "Malaysian meal",
+        "Entertainment system",
+        "USB charging / power outlet",
+        "Blanket & pillow",
+        "Complimentary drinks"
+      ],
+      "business_class": [
+        "Priority check-in",
+        "Extra baggage allowance",
+        "Golden Lounge access",
+        "Flat bed",
+        "Premium meals",
+        "Fast boarding"
+      ]
+    },
+    "not_included": [
+      "Extra baggage fee",
+      "Paid seat selection",
+      "Travel insurance",
+      "Airport hotel",
+      "Wi-Fi (paid)"
+    ],
+    "prices": {
+      "economy_saver": "৳90,000 – ৳130,000",
+      "economy_flex": "৳130,000 – ৳170,000",
+      "business_class": "৳325,000 – ৳525,000"
+    },
+    "extra_baggage_charges": {
+      "extra_5kg": "৳9,500 – ৳16,500",
+      "extra_10kg": "৳16,500 – ৳26,500"
+    },
+    "allowed_activities": [
+      "Movies / TV watching",
+      "Mobile charging",
+      "Meal service",
+      "Duty free shopping",
+      "Window seat request",
+      "Sleep / recline seat"
+    ],
+    "prohibited_activities": [
+      "Smoking",
+      "Carrying sharp objects",
+      "Power bank in checked baggage",
+      "Ignoring cabin crew instructions"
+    ],
+    "important_notes": [
+      "Since it is an international flight, it is best to arrive at the airport at                              least 4 hours before departure.",
+      "Passport + visa required",
+      "Online check-in usually opens 24–48 hours before departure."
+    ],
+    "wifi_available": false,
+    "image_url": "https://images.pexels.com/photos/20600915/pexels-photo-20600915.jpeg",
+    "ticket_cancellation_policy": {
+      "free_cancellation_period": "Within 24 hours of booking",
+      "standard_cancellation_fee": "৳6,500 – ৳17,000",
+      "refund_percentage": {
+        "economy_saver": "0% refund after 24h",
+        "economy_flex": "50% refund up to 72h before",
+        "business_class": "80% refund up to 24h before"
+      },
+      "no_show_penalty": "100% of ticket price"
+    }
+  }
+]

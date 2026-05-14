@@ -1,20 +1,22 @@
 import { motion } from 'framer-motion';
-import { useEffect, useState } from "react";
-import { toast } from "react-toastify";
-import FlightPage from "../Components/FlightPage";
+import { useContext } from "react";
 import { FaArrowRight } from 'react-icons/fa';
+import { PuffLoader } from 'react-spinners';
+import FlightPage from "../Components/FlightPage";
+import { AuthProvider } from '../Context/AuthContext';
 
 const Flight = () => {
-  const [flight, setflight] = useState([])
 
+const {flight,loading} = useContext(AuthProvider)
 
-  useEffect(() => {
-    fetch('/flight.json')
-      .then(res => res.json())
-      .then(data => setflight(data))
-      .catch(error => toast.error(error.message))
-
-  }, [])
+if(loading){  
+  return (
+    <div className="h-screen flex justify-center items-center">
+      <PuffLoader color="#36d7b7" />
+    </div>
+  )
+}
+  
 
 
   return (

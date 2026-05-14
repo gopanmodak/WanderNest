@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 const FlightPage = ({ flight }) => {
   return (
     <motion.div
@@ -7,7 +8,7 @@ const FlightPage = ({ flight }) => {
       transition={{ duration: 1 }}
       className="bg-white p-2 rounded-lg shadow-md border border-gray-300 mb-4 hover:shadow-lg transition-shadow duration-300 text-gray-700 hover:border-blue-700"
     >
-      <div className=" text-start">
+      <Link  to={`/flight/${flight.id}`} className=" text-start">
         <figure>
           <img src={flight.image_url} alt={flight.name}  className="max-h-60 w-full object-cover hover:scale-105 transition-all duration-300 rounded-2xl"/>
         </figure>
@@ -23,7 +24,7 @@ const FlightPage = ({ flight }) => {
           <p> <span className="font-bold mr-1">Aircraft :</span> {flight.aircraft}</p>
           
         </div>
-      </div>
+      </Link>
     </motion.div>
   );
 };
