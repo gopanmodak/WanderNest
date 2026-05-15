@@ -9,6 +9,11 @@ const HajjAndUmrahPage = ({ hajj }) => {
 
         navigate(`/hajj-umrah/${hajj.id}`)
     }
+
+
+    const handleOnReadMore = () => {
+        navigate(`/hajj-umrah/${hajj.id}`)
+    }
     return (
         <div>
 
@@ -20,7 +25,7 @@ const HajjAndUmrahPage = ({ hajj }) => {
                         alt={hajj.title} 
                         height={300}
                         
-                        className=" w-full object-cover hover:scale-105 transition-all duration-300"
+                        className=" h-70 w-full object-cover hover:scale-105 transition-all duration-300"
                         />
                 </figure>
                 <div className="card-body">
@@ -46,7 +51,7 @@ const HajjAndUmrahPage = ({ hajj }) => {
 
                     </div>
                     <div className="card-actions justify-between items-center mt-2 px-3">
-                        <p className="text-blue-600 cursor-pointer hover:underline hover:text-red-700 transition-all duration-300">Read More</p>
+                        <p className="text-blue-600 cursor-pointer hover:underline hover:text-red-700 transition-all duration-300" onClick={handleOnReadMore}>Read More</p>
                         <button className="btn btn-primary" onClick={handleOnHajjBook}>Book Now</ button>
                     </div>
                 </div>

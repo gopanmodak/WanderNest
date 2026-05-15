@@ -19,7 +19,7 @@ const HajjAndUmrah = () => {
     <div className="my-20 font-sans max-w-5xl mx-auto ">
 
       <figure className="max-w-6xl mx-auto ">
-        <img src="https://cdn-bmkfm.nitrocdn.com/KjSXjNCPeuIbUQFOJrZAibaJvyDiQgwL/assets/images/optimized/rev-dac81ff/bakhlatours.com/wp-content/uploads/2022/06/06.webp" height={400} alt=""  className="rounded-2xl h-80 mb-10 w-full"/>
+        <img src="https://images.unsplash.com/photo-1590108589108-3600131de843?q=80&w=2124&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height={400} alt=""  className="rounded-2xl object-cover   h-80 mb-10 w-full"/>
       </figure>
 
         <h1 className="text-gray-700 text-2xl md:text-4xl font-bold text-center">#1 Hajj And Umrah Agency In Bangladesh</h1>
