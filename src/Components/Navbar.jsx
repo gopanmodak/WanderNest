@@ -1,11 +1,14 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { RxHamburgerMenu } from 'react-icons/rx'
 
 import logo from '../assets/logo.webp'
 import { Link, NavLink } from 'react-router-dom'
+import { PiShoppingCartSimpleLight } from 'react-icons/pi'
+import { AuthProvider } from '../Context/AuthContext'
 
 const Navbar = () => {
+  const {user,signOut} = useContext(AuthProvider)
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="bg-white shadow-md backdrop-blur-xl fixed top-0 left-0 w-full z-50">
@@ -24,14 +27,24 @@ const Navbar = () => {
           <NavLink to="/hajj-umrah">Hajj And Umrah</NavLink>
           <NavLink to="/explore">Explore</NavLink>
         </div>
+           
+           <NavLink to="/cart" className=''>
+            <PiShoppingCartSimpleLight className='text-4xl text-pink-800 cursor-pointer' />
+
+           </NavLink>
 
         <div className="hidden md:flex">
+          {user ? (<div>
+            <p>{user.displayName}</p>
+            <button onClick={signOut} className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Sign Out</button>
+          </div>) : 
           <Link
             to="/login"
             className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
           >
             Login
           </Link>
+          }
         </div>
 
         <div className="md:hidden px-4">

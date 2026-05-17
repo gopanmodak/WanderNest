@@ -21,6 +21,7 @@ import VisaDetailsPage from "../Pages/VisaDetailsPage";
 import ExploreDetailsPages from "../Pages/ExploreDetailsPages";
 import HajjAndUmrahDetailsPages from "../Pages/HajjAndUmrahDetailsPages";
 import FlightDetailsPages from "../Pages/FlightDetailsPages";
+import Cart from "../Pages/Cart";
 
 export const router = createBrowserRouter ([
 
@@ -113,6 +114,10 @@ export const router = createBrowserRouter ([
         {
             path:"emi",
             element: <EMIPage />
+        },
+        {
+            path: "cart",
+            element: <Cart/>
         }
             
         ]

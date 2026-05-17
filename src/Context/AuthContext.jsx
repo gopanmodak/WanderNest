@@ -1,6 +1,8 @@
 /* eslint-disable react-refresh/only-export-components */
+import { GoogleAuthProvider, onAuthStateChanged, signInWithPopup } from "firebase/auth";
 import { createContext, useEffect, useState } from "react";
 import { toast } from "react-toastify";
+import auth from "../_firebase_Auth/firebaseAuth";
 
 export const AuthProvider = createContext();
 
@@ -21,12 +23,56 @@ const AuthContext = ({ children }) => {
   const [explore,setExplore] = useState([]);
   const [exploreLoading,setExploreLoading] = useState(true);
 
-
   const [hajjData,setHajjData] = useState([]);
   const [hajjLoading,setHajjLoading] = useState(true);
 
   const [flight, setflight] = useState([])
   const [flightLoading, setFlightLoading] = useState(true)
+
+  const [user, setUser] = useState()
+  const [loading, setLoading] = useState(true)
+
+  const googleProvider = new GoogleAuthProvider();
+  
+
+
+
+  useEffect(()=>{
+     const unsubscribe = onAuthStateChanged(auth,(currentUser)=>{
+
+      setUser(currentUser)
+      setLoading(false)
+     })
+      return () => unsubscribe()
+  },[])
+
+
+  
+ const loginWithGoogle = () =>{
+
+ return signInWithPopup(auth,googleProvider)
+  .then(result=>{
+    console.log(result.user)
+    toast.success('Login successful')
+  })
+  .catch(err=>{
+    console.error(err)
+    toast.error('Login failed')
+  })
+ }
+
+ const signOut = () =>{
+
+  return auth.signOut()
+  .then(()=>{
+    toast.success('Logout successful')
+  })
+  .catch(err=>{
+    console.error(err)
+    toast.error('Logout failed')
+  })
+ }
+
 
   useEffect(() => {
     fetch('/hotels.json')
@@ -57,7 +103,6 @@ const AuthContext = ({ children }) => {
       })
       .catch(err => {
         console.error(err);
-
       })
       .finally(() => {
         setVisaLoading(false);
@@ -153,7 +198,11 @@ const AuthContext = ({ children }) => {
     explore,
     hajjData,
     flight,
-    loading: visaLoading || hotelLoading || tourLoading || servicesLoading  || exploreLoading || hajjLoading || flightLoading
+    user,
+    signOut,
+    
+    loginWithGoogle,
+    loading: visaLoading || hotelLoading || tourLoading || servicesLoading  || exploreLoading || hajjLoading || flightLoading || loading
   };
 
   return (
