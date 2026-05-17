@@ -189,18 +189,18 @@ const AuthContext = ({ children }) => {
 
   }, [])
 
+  
 
   const authInfo = {
     hotels,
     visa,
     tour,
-    services, 
+    services,
     explore,
     hajjData,
     flight,
     user,
     signOut,
-    
     loginWithGoogle,
     loading: visaLoading || hotelLoading || tourLoading || servicesLoading  || exploreLoading || hajjLoading || flightLoading || loading
   };
