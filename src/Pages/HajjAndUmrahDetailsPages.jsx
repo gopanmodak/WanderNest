@@ -49,61 +49,89 @@ const HajjAndUmrahDetailsPages = () => {
      <div className="my-10 flex flex-col gap-2  p-5 rounded-lg max-w-3xl mx-auto">
         {hajjUmrah.daily_schedule.map((item)=>
         
-        <div className="collapse bg-base-100 border border-base-300">
+        <div className="collapse bg-base-100 border border-base-300 w-3xl">
            <input type="checkbox" />
-               <div className="collapse-title font-semibold justify-center items-center flex">Day {item.day}</div>
+               <div className="collapse-title font-semibold justify-center items-center flex">Day  {item.day} <span className="px-5 text-zinc-300">(Click to view Details)</span></div>
              <div className="collapse-content text-sm">
-                  <p className="font-normal ">{item.activity}</p>
+                  <p className="font-normal p-2 border-l-4 border-blue-500 pl-4 bg-blue-50 rounded-lg">{item.activity}</p>
             </div>
             </div>
         )}
      </div>
                
 
-               <div className="mb-10 max-w-3xl mx-auto border p-3 rounded-lg flex flex-row gap-2 border-green-800">  
+    <div className="my-10 max-w-3xl mx-auto px-4">
 
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-              <div className="mb-10 max-w-3xl mx-auto border p-5 rounded-lg">
-              <h4 className="text-2xl font-bold my-3"> Include </h4>
-                <ul className="list-disc list-inside">
-                  {hajjUmrah.includes.map((item)=><li>{item}</li>)}
-                </ul>
+   
+    <div className="border border-green-200 bg-green-50 rounded-2xl p-6 shadow-sm hover:shadow-md transition">
 
-              </div>
+      <h4 className="text-2xl font-bold mb-4 text-green-700">
+        ✔ Include
+      </h4>
 
+      <ul className="space-y-2">
+        {hajjUmrah.includes.map((item, index) => (
+          <li
+            key={index}
+            className="flex items-start gap-2 text-gray-700"
+          >
+            <span className="text-green-600 mt-1">✓</span>
+            <span>{item}</span>
+          </li>
+        ))}
+      </ul>
 
+    </div>
 
-              <div className="mb-10 max-w-7xl mx-auto border p-5 rounded-lg">
-              <h4 className="text-2xl font-bold my-3"> Exclude </h4>
-                <ul className="list-disc list-inside">
-                  {hajjUmrah.excludes.map((item)=><li className="text-red-600">{item}</li>)}
-                </ul>
+    {/* EXCLUDE */}
+    <div className="border border-red-200 bg-red-50 rounded-2xl p-6 shadow-sm hover:shadow-md transition">
 
-              </div>
- </div>
+      <h4 className="text-2xl font-bold mb-4 text-red-600">
+        ✖ Exclude
+      </h4>
+
+      <ul className="space-y-2">
+        {hajjUmrah.excludes.map((item, index) => (
+          <li
+            key={index}
+            className="flex items-start gap-2 text-gray-700"
+          >
+            <span className="text-red-500 mt-1">✕</span>
+            <span>{item}</span>
+          </li>
+        ))}
+      </ul>
+
+    </div>
+
+  </div>
+
+</div>
 
 
 
    <div className="my-10 max-w-3xl mx-auto  p-5 rounded-lg">
     <h1 className="text-2xl font-bold  text-black"> Cancellation Policy</h1>
 
-    <p className="text-gray-600 text-md"> The package is fully Non-refundable, Non-changeable, and non-transferable as per Saudi & Bangladesh Hajj package policies.</p>
+    <p className="text-gray-600 text-md font-normal mt-5"> The package is fully Non-refundable, Non-changeable, and non-transferable as per Saudi & Bangladesh Hajj package policies.</p>
    </div>
 
 
        <div className="max-w-3xl mx-auto  p-5 rounded-lg space-y-5 gap-10">
         <h1 className="text-2xl font-bold text-black"> Passport Policies: </h1>
 
-        <p>Upon arrival at KSA (Airport), the Saudi authorities will collect your passport, and the passport will be returned to you on the day of your return flight from KSA.</p>
+        <p className="font-normal">Upon arrival at KSA (Airport), the Saudi authorities will collect your passport, and the passport will be returned to you on the day of your return flight from KSA.</p>
       
        <h4 className="text-2xl font-bold my-3 text-black">Moyallen Activities:</h4>
-       <p>.Moyallem will be available at the time of performing umrah and it is only for one time only. For ziyarah, a driver cum guide/any other tour guide will be available. The Guide / Driver is not liable to carry luggage to/from the hotel.</p>
+       <p className="font-normal">.Moyallem will be available at the time of performing umrah and it is only for one time only. For ziyarah, a driver cum guide/any other tour guide will be available. The Guide / Driver is not liable to carry luggage to/from the hotel.</p>
 
 <h4 className="text-2xl font-bold my-3 text-black">Food Policies:</h4>
-<p>Subject to permission from Saudi authorities three times meals will be served under the supervision of Bangladeshi local chefs. Note that, if the superior and premium package’s hotel authorities do not allow food delivery inside the hotel, alternative arrangements will be made.</p>
+<p className="font-normal">Subject to permission from Saudi authorities three times meals will be served under the supervision of Bangladeshi local chefs. Note that, if the superior and premium package’s hotel authorities do not allow food delivery inside the hotel, alternative arrangements will be made.</p>
 
 <h4 className="text-2xl font-bold my-3 text-black">Ziyarah Timing:</h4>
-<p>Usually, we provide all ziyarah service for Makkah or Madinah at 7 AM and the duration is 2-3 hours (maximum).</p>
+<p className="font-normal">Usually, we provide all ziyarah service for Makkah or Madinah at 7 AM and the duration is 2-3 hours (maximum).</p>
        </div>
 
 

@@ -6,7 +6,6 @@ import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineDateRange } from "react-icons/md";
 import { useNavigate, useParams } from "react-router-dom";
 import { PuffLoader } from "react-spinners";
-import { toast } from "react-toastify";
 import { AuthProvider } from "../Context/AuthContext";
 import CommonComponent from './../Components/CommonComponnent';
 
@@ -14,7 +13,7 @@ const TourDetailPages = () => {
 
   const navigate = useNavigate()
   const {id} =useParams()
-  const {tour,loading} = useContext(AuthProvider)
+  const {tour,loading,addToCart} = useContext(AuthProvider)
 
   if(loading){
     return (
@@ -29,7 +28,7 @@ const TourDetailPages = () => {
   
 
   const handleOnCart =()=>{
-    toast.success("Added to cart successfully")
+    addToCart(tourDetails)
   }
   return (
     <div>

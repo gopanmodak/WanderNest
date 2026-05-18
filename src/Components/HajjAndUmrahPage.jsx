@@ -1,13 +1,17 @@
+import { useContext } from "react"
 import { IoMdTime } from "react-icons/io"
 import { useNavigate } from "react-router-dom"
+import { AuthProvider } from "../Context/AuthContext"
 
 const HajjAndUmrahPage = ({ hajj }) => {
 
+    const {addToCart} =useContext(AuthProvider)
+
     const navigate = useNavigate()
-
+           
     const handleOnHajjBook = () => {
-
-        navigate(`/hajj-umrah/${hajj.id}`)
+         addToCart(hajj)
+        
     }
 
 

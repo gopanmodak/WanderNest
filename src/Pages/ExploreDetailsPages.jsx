@@ -1,21 +1,20 @@
 import { useContext } from "react";
-import { useNavigate, useParams } from "react-router-dom";
-import { PuffLoader } from "react-spinners";
-import { AuthProvider } from "../Context/AuthContext";
-import { FaArrowLeft, FaCheck, FaStar } from "react-icons/fa";
 import { CgShoppingCart } from "react-icons/cg";
-import { toast } from "react-toastify";
-import CommonComponnent from "../Components/CommonComponnent";
 import { CiCircleInfo } from "react-icons/ci";
+import { FaArrowLeft, FaCheck, FaStar } from "react-icons/fa";
+import { FcProcess } from "react-icons/fc";
 import { GrCommand } from "react-icons/gr";
 import { PiMedalLight } from "react-icons/pi";
-import { FcProcess } from "react-icons/fc";
+import { useNavigate, useParams } from "react-router-dom";
+import { PuffLoader } from "react-spinners";
+import CommonComponnent from "../Components/CommonComponnent";
+import { AuthProvider } from "../Context/AuthContext";
 
 const ExploreDetailsPages = () => {
   const navigate = useNavigate()
   const { id } = useParams();
 
-  const { explore, loading } = useContext(AuthProvider);
+  const { explore, loading ,addToCart } = useContext(AuthProvider);
 
   if (loading || !explore || explore.length === 0) {
     return (
@@ -31,7 +30,7 @@ const ExploreDetailsPages = () => {
 
   const handleOnCart = () => {
 
-    toast.success('Added to Cart Successfully')
+    addToCart(exploreDetails)
   }
 
   return (

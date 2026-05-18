@@ -1,14 +1,20 @@
 import { useContext } from "react"
-import { Link } from "react-router-dom"
+import { Link, useLocation, useNavigate } from "react-router-dom"
 import { AuthProvider } from "../Context/AuthContext"
 
 const Login = () => {
 
+	const location =useLocation()
+	const navigate = useNavigate()
+
+	const from =location.state?.from?.pathname || "/"
+
 	const {loginWithGoogle} =useContext(AuthProvider);
    
-	const handleWithGoogle =()=>{
-
-		loginWithGoogle()
+	const handleWithGoogle = async ()=>{
+		
+		 await loginWithGoogle()
+		navigate(from, {replace:true})
 	}
 
 	return (

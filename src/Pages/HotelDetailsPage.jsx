@@ -1,21 +1,20 @@
 import { useContext } from "react";
-import { useNavigate, useParams } from "react-router-dom";
-import { PuffLoader } from "react-spinners";
-import { AuthProvider } from './../Context/AuthContext';
-import { FaCheck, FaGift } from "react-icons/fa";
+import { CgShoppingCart } from "react-icons/cg";
 import { CiCircleCheck, CiCircleInfo, CiHeart } from "react-icons/ci";
+import { FaCheck, FaGift } from "react-icons/fa";
+import { FaArrowLeftLong } from "react-icons/fa6";
 import { FiZap } from "react-icons/fi";
 import { IoMdTime } from "react-icons/io";
-import { FaArrowLeftLong } from "react-icons/fa6";
+import { useNavigate, useParams } from "react-router-dom";
+import { PuffLoader } from "react-spinners";
 import CommonComponnent from "../Components/CommonComponnent";
-import { CgShoppingCart } from "react-icons/cg";
-import { toast } from "react-toastify";
+import { AuthProvider } from './../Context/AuthContext';
 
 const HotelDetailsPage = () => {
 
   const { id } = useParams();
 
-  const { hotels, loading } = useContext(AuthProvider);
+  const { hotels, loading, addToCart } = useContext(AuthProvider);
 
   const hotelDetails = hotels?.find((hotel) => hotel.id == id)
 
@@ -23,9 +22,8 @@ const HotelDetailsPage = () => {
 
 
   const handleOnCart =()=>{
-    toast.success('Added to Cart Successfully')
-    
-
+    addToCart(hotelDetails)
+ 
   }
 
   if (loading) {

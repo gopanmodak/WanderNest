@@ -22,6 +22,8 @@ import ExploreDetailsPages from "../Pages/ExploreDetailsPages";
 import HajjAndUmrahDetailsPages from "../Pages/HajjAndUmrahDetailsPages";
 import FlightDetailsPages from "../Pages/FlightDetailsPages";
 import Cart from "../Pages/Cart";
+import CartDetailPages from "../Pages/CheckedOut";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 export const router = createBrowserRouter ([
 
@@ -103,7 +105,6 @@ export const router = createBrowserRouter ([
                 element: <About />
             },
         {
-
             path: "hajj-umrah",
             element: <HajjAndUmrah />
         },
@@ -118,6 +119,10 @@ export const router = createBrowserRouter ([
         {
             path: "cart",
             element: <Cart/>
+        },
+        {
+            path: "checkout",
+            element: <PrivateRoute> <CartDetailPages /></PrivateRoute>
         }
             
         ]

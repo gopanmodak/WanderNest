@@ -8,7 +8,7 @@ import { PiShoppingCartSimpleLight } from 'react-icons/pi'
 import { AuthProvider } from '../Context/AuthContext'
 
 const Navbar = () => {
-  const {user,signOut} = useContext(AuthProvider)
+  const {user,signOut,cart} = useContext(AuthProvider)
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="bg-white shadow-md backdrop-blur-xl fixed top-0 left-0 w-full z-50">
@@ -28,8 +28,9 @@ const Navbar = () => {
           <NavLink to="/explore">Explore</NavLink>
         </div>
            
-           <NavLink to="/cart" className=''>
+           <NavLink to="/cart" className='flex items-center gap-2 relative '>
             <PiShoppingCartSimpleLight className='text-4xl text-pink-800 cursor-pointer' />
+            {cart.length >0 && <p className='badge badge-accent absolute top-0 left-9'>{cart.length}</p>}
 
            </NavLink>
 

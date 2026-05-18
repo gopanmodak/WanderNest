@@ -8,7 +8,6 @@ import { IoMdTime } from "react-icons/io";
 import { MdOutlineDateRange } from "react-icons/md";
 import { useNavigate, useParams } from "react-router-dom";
 import { PuffLoader } from "react-spinners";
-import { toast } from "react-toastify";
 import CommonComponnent from "./../Components/CommonComponnent";
 import { AuthProvider } from "./../Context/AuthContext";
 
@@ -16,7 +15,7 @@ const VisaDetailsPage = () => {
   const navigate = useNavigate();
   const { id } = useParams();
 
-  const { visa, loading } = useContext(AuthProvider);
+  const { visa, loading, addToCart } = useContext(AuthProvider);
 
 
 
@@ -34,7 +33,7 @@ const VisaDetailsPage = () => {
   console.log(visaDetails + "visaDetails");
 
   const handleOnCart = () => {
-    toast.success("Visa added to cart successfully!");
+    addToCart(visaDetails)
   };
   return (
     <div className="my-20 font-sans p-4 mx-auto">

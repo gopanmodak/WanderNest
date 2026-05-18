@@ -183,7 +183,7 @@ const FlightDetailsPages = () => {
       <p className="flex gap-2"><span className="font-bold text-gray-600 flex items-center gap-2"> <span><RiRefund2Fill className="text-yellow-400 text-2xl" /></span> Economy Flex : </span> {flightDetails.ticket_cancellation_policy.refund_percentage.economy_flex}</p>
       <p className="flex gap-2"><span className="font-bold text-gray-600 flex items-center gap-2"> <span><RiRefund2Fill className="text-yellow-400 text-2xl" /></span> Business Class : </span> {flightDetails.ticket_cancellation_policy.refund_percentage.business_class}</p>
      <div className="card-actions justify-end">
-      <button className="btn btn-primary" onClick={()=>navigate(-1)}> <span><FaArrowLeftLong /></span>Back To Flight</button>
+      <button className="btn btn-primary" onClick={()=>navigate(-1)}> <span><FaArrowLeftLong /></span>Back To Hajj</button>
     </div>
     </div>
 
